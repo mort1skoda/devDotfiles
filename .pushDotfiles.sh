@@ -4,7 +4,7 @@
 #git add .a* .b* .c* .g* .l* .p* .t* .v* .z*
 #git rm .viminfo .bash_history
 git add -u
-git commit -m "update"
+git commit -m "Update"
 git push -u origin master
 git status
 
