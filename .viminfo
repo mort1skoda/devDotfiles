@@ -21,7 +21,7 @@ $$(CC) $(CFLAGS)
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1647829845,,"wq"
+|2,0,1647877112,,"wq"
 :map
 |2,0,1647829740,,"map"
 :!m c
@@ -286,245 +286,255 @@ $$(CC) $(CFLAGS)
 |3,0,10,0,1,0,1647518716,"i\"ji\"j"
 "c	CHAR	0
 	I//---> j
-|3,0,12,0,1,0,1647829736,"I//---> j"
-"f@	CHAR	0
+|3,0,12,0,1,0,1647877104,"I//---> j"
+"f	CHAR	0
 	I	for(int i = 0; i < 10; i++){
-|3,2,15,0,1,0,1647829736,"I	for(int i = 0; i < 10; i++){"
+|3,0,15,0,1,0,1647877104,"I	for(int i = 0; i < 10; i++){"
 "p	CHAR	0
 	Iprintf("
-|3,0,25,0,1,0,1647829736,"Iprintf(\""
+|3,0,25,0,1,0,1647877104,"Iprintf(\""
 "u	CHAR	0
 	I€kD€kD€kD€kD€kD€kD€kDj
-|3,0,30,0,1,0,1647829736,"I€kD€kD€kD€kD€kD€kD€kDj"
+|3,0,30,0,1,0,1647877104,"I€kD€kD€kD€kD€kD€kD€kDj"
 ""-	CHAR	0
 	$(CC) $(CFLAGS)
 |3,1,36,0,1,0,1647829332,"$(CC) $(CFLAGS)"
 
 # File marks:
-'0  6  0  ~/dev/c/00template/func1.c
-|4,48,6,0,1647829846,"~/dev/c/00template/func1.c"
-'1  10  0  ~/dev/c/00template/main.c
-|4,49,10,0,1647829433,"~/dev/c/00template/main.c"
-'2  16  0  ~/dev/c/00template/Makefile
-|4,50,16,0,1647829398,"~/dev/c/00template/Makefile"
-'3  9  0  ~/dev/c/00template/main.c
-|4,51,9,0,1647828739,"~/dev/c/00template/main.c"
-'4  9  0  ~/dev/c/00template/main.c
-|4,52,9,0,1647828739,"~/dev/c/00template/main.c"
-'5  5  8  ~/dev/c/00template/Makefile
-|4,53,5,8,1647828662,"~/dev/c/00template/Makefile"
-'6  1  8  ~/dev/c/00template/Makefile
-|4,54,1,8,1647828662,"~/dev/c/00template/Makefile"
-'7  12  0  ~/dev/c/00template/wf.sh
-|4,55,12,0,1647828641,"~/dev/c/00template/wf.sh"
-'8  8  0  ~/dev/c/00template/main.c
-|4,56,8,0,1647828463,"~/dev/c/00template/main.c"
-'9  8  0  ~/dev/c/00template/main.c
-|4,57,8,0,1647828463,"~/dev/c/00template/main.c"
+'0  3  38  ~/.pushDotfiles.sh
+|4,48,3,38,1647877112,"~/.pushDotfiles.sh"
+'1  7  0  ~/.pushDotfiles.sh
+|4,49,7,0,1647877095,"~/.pushDotfiles.sh"
+'2  7  0  ~/.pushDotfiles.sh
+|4,50,7,0,1647877095,"~/.pushDotfiles.sh"
+'3  5  0  ~/.pushDotfiles.sh
+|4,51,5,0,1647877061,"~/.pushDotfiles.sh"
+'4  5  0  ~/.pushDotfiles.sh
+|4,52,5,0,1647877061,"~/.pushDotfiles.sh"
+'5  5  0  ~/.pushDotfiles.sh
+|4,53,5,0,1647877061,"~/.pushDotfiles.sh"
+'6  5  0  ~/.pushDotfiles.sh
+|4,54,5,0,1647877061,"~/.pushDotfiles.sh"
+'7  3  35  ~/.pushDotfiles.sh
+|4,55,3,35,1647877007,"~/.pushDotfiles.sh"
+'8  3  35  ~/.pushDotfiles.sh
+|4,56,3,35,1647877007,"~/.pushDotfiles.sh"
+'9  3  35  ~/.pushDotfiles.sh
+|4,57,3,35,1647877007,"~/.pushDotfiles.sh"
 
 # Jumplist (newest first):
+-'  3  38  ~/.pushDotfiles.sh
+|4,39,3,38,1647877112,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877104,"~/.pushDotfiles.sh"
+-'  7  0  ~/.pushDotfiles.sh
+|4,39,7,0,1647877095,"~/.pushDotfiles.sh"
+-'  7  0  ~/.pushDotfiles.sh
+|4,39,7,0,1647877095,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877092,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647877061,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647877061,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647877061,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877045,"~/.pushDotfiles.sh"
+-'  3  35  ~/.pushDotfiles.sh
+|4,39,3,35,1647877007,"~/.pushDotfiles.sh"
+-'  3  35  ~/.pushDotfiles.sh
+|4,39,3,35,1647877007,"~/.pushDotfiles.sh"
+-'  3  35  ~/.pushDotfiles.sh
+|4,39,3,35,1647877007,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877000,"~/.pushDotfiles.sh"
+-'  3  32  ~/.pushDotfiles.sh
+|4,39,3,32,1647876996,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647876985,"~/.pushDotfiles.sh"
+-'  3  30  ~/.pushDotfiles.sh
+|4,39,3,30,1647876980,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647876971,"~/.pushDotfiles.sh"
+-'  3  28  ~/.pushDotfiles.sh
+|4,39,3,28,1647876964,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647876951,"~/.pushDotfiles.sh"
+-'  3  22  ~/.pushDotfiles.sh
+|4,39,3,22,1647876944,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647876936,"~/.pushDotfiles.sh"
+-'  7  0  ~/.pushDotfiles.sh
+|4,39,7,0,1647876902,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647876902,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647876902,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647876902,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647876902,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647876902,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647876902,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647876856,"~/.pushDotfiles.sh"
 -'  6  0  ~/dev/c/00template/func1.c
 |4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  1  0  ~/dev/c/00template/func1.c
-|4,39,1,0,1647829736,"~/dev/c/00template/func1.c"
--'  10  0  ~/dev/c/00template/main.c
-|4,39,10,0,1647829433,"~/dev/c/00template/main.c"
--'  10  0  ~/dev/c/00template/main.c
-|4,39,10,0,1647829433,"~/dev/c/00template/main.c"
--'  1  0  ~/dev/c/00template/main.c
-|4,39,1,0,1647829415,"~/dev/c/00template/main.c"
--'  1  0  ~/dev/c/00template/main.c
-|4,39,1,0,1647829415,"~/dev/c/00template/main.c"
--'  16  0  ~/dev/c/00template/Makefile
-|4,39,16,0,1647829398,"~/dev/c/00template/Makefile"
--'  16  0  ~/dev/c/00template/Makefile
-|4,39,16,0,1647829398,"~/dev/c/00template/Makefile"
--'  16  0  ~/dev/c/00template/Makefile
-|4,39,16,0,1647829398,"~/dev/c/00template/Makefile"
--'  16  0  ~/dev/c/00template/Makefile
-|4,39,16,0,1647829398,"~/dev/c/00template/Makefile"
--'  10  10  ~/dev/c/00template/Makefile
-|4,39,10,10,1647829136,"~/dev/c/00template/Makefile"
--'  10  10  ~/dev/c/00template/Makefile
-|4,39,10,10,1647829136,"~/dev/c/00template/Makefile"
--'  10  10  ~/dev/c/00template/Makefile
-|4,39,10,10,1647829136,"~/dev/c/00template/Makefile"
--'  10  10  ~/dev/c/00template/Makefile
-|4,39,10,10,1647829136,"~/dev/c/00template/Makefile"
--'  15  0  ~/dev/c/00template/Makefile
-|4,39,15,0,1647829065,"~/dev/c/00template/Makefile"
--'  15  0  ~/dev/c/00template/Makefile
-|4,39,15,0,1647829065,"~/dev/c/00template/Makefile"
--'  15  0  ~/dev/c/00template/Makefile
-|4,39,15,0,1647829065,"~/dev/c/00template/Makefile"
--'  15  0  ~/dev/c/00template/Makefile
-|4,39,15,0,1647829065,"~/dev/c/00template/Makefile"
--'  4  0  ~/dev/c/00template/Makefile
-|4,39,4,0,1647829019,"~/dev/c/00template/Makefile"
--'  4  0  ~/dev/c/00template/Makefile
-|4,39,4,0,1647829019,"~/dev/c/00template/Makefile"
--'  4  0  ~/dev/c/00template/Makefile
-|4,39,4,0,1647829019,"~/dev/c/00template/Makefile"
--'  4  0  ~/dev/c/00template/Makefile
-|4,39,4,0,1647829019,"~/dev/c/00template/Makefile"
--'  5  0  ~/dev/c/00template/Makefile
-|4,39,5,0,1647828801,"~/dev/c/00template/Makefile"
--'  5  0  ~/dev/c/00template/Makefile
-|4,39,5,0,1647828801,"~/dev/c/00template/Makefile"
--'  5  0  ~/dev/c/00template/Makefile
-|4,39,5,0,1647828801,"~/dev/c/00template/Makefile"
--'  5  0  ~/dev/c/00template/Makefile
-|4,39,5,0,1647828801,"~/dev/c/00template/Makefile"
--'  9  0  ~/dev/c/00template/main.c
-|4,39,9,0,1647828739,"~/dev/c/00template/main.c"
--'  9  0  ~/dev/c/00template/main.c
-|4,39,9,0,1647828739,"~/dev/c/00template/main.c"
--'  9  0  ~/dev/c/00template/main.c
-|4,39,9,0,1647828739,"~/dev/c/00template/main.c"
--'  9  0  ~/dev/c/00template/main.c
-|4,39,9,0,1647828739,"~/dev/c/00template/main.c"
--'  9  0  ~/dev/c/00template/main.c
-|4,39,9,0,1647828739,"~/dev/c/00template/main.c"
--'  9  0  ~/dev/c/00template/main.c
-|4,39,9,0,1647828739,"~/dev/c/00template/main.c"
--'  1  0  ~/dev/c/00template/main.c
-|4,39,1,0,1647828720,"~/dev/c/00template/main.c"
--'  1  0  ~/dev/c/00template/main.c
-|4,39,1,0,1647828720,"~/dev/c/00template/main.c"
--'  1  0  ~/dev/c/00template/main.c
-|4,39,1,0,1647828720,"~/dev/c/00template/main.c"
--'  1  0  ~/dev/c/00template/main.c
-|4,39,1,0,1647828720,"~/dev/c/00template/main.c"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  1  8  ~/dev/c/00template/Makefile
-|4,39,1,8,1647828662,"~/dev/c/00template/Makefile"
--'  7  0  ~/dev/c/00template/Makefile
-|4,39,7,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  7  0  ~/dev/c/00template/Makefile
-|4,39,7,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  7  0  ~/dev/c/00template/Makefile
-|4,39,7,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  7  0  ~/dev/c/00template/Makefile
-|4,39,7,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  3  0  ~/dev/c/00template/Makefile
-|4,39,3,0,1647828645,"~/dev/c/00template/Makefile"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  12  0  ~/dev/c/00template/wf.sh
-|4,39,12,0,1647828641,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
--'  1  0  ~/dev/c/00template/wf.sh
-|4,39,1,0,1647828634,"~/dev/c/00template/wf.sh"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
+-'  6  0  ~/dev/c/00template/func1.c
+|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/.pushDotfiles.sh
+	*	1647877112	0
+	"	3	38
+	^	3	39
+	.	3	38
+	+	6	0
+	+	3	35
+	+	4	10
+	+	3	38
 
 > ~/dev/c/00template/func1.c
 	*	1647829843	0
@@ -1927,12 +1937,3 @@ $$(CC) $(CFLAGS)
 	+	11	14
 	+	4	26
 	+	5	26
-
-> ~/c/testing/220316_2215/.gdbinit
-	*	1647473343	0
-	"	33	0
-	^	30	6
-	.	30	5
-	+	22	0
-	+	23	0
-	+	30	5
