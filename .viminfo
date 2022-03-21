@@ -21,7 +21,7 @@ $$(CC) $(CFLAGS)
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1647877112,,"wq"
+|2,0,1647877280,,"wq"
 :map
 |2,0,1647829740,,"map"
 :!m c
@@ -253,86 +253,108 @@ $$(CC) $(CFLAGS)
 "0	CHAR	0
 	#444444
 |3,0,0,0,1,0,1647649698,"#444444"
-"1	LINE	0
+""1	LINE	0
 	
-|3,0,1,1,1,0,1647828874,""
+|3,1,1,1,1,0,1647877272,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1647828873,""
+|3,0,2,1,1,0,1647877271,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1647828872,""
+|3,0,3,1,1,0,1647828874,""
 "4	LINE	0
+	
+|3,0,4,1,1,0,1647828873,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1647828872,""
+"6	LINE	0
 	./main
 	
-|3,0,4,1,2,0,1647828424,"./main",""
-"5	LINE	0
-	make clean
-|3,0,5,1,1,0,1647828423,"make clean"
-"6	LINE	0
-	
-|3,0,6,1,1,0,1647827817,""
+|3,0,6,1,2,0,1647828424,"./main",""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1647824972,""
+	make clean
+|3,0,7,1,1,0,1647828423,"make clean"
 "8	LINE	0
-		email = mort1skoda@gmail.com
-|3,0,8,1,1,0,1647824965,"	email = mort1skoda@gmail.com"
+	
+|3,0,8,1,1,0,1647827817,""
 "9	LINE	0
-		email = mort1skoda@gmail.com
-|3,0,9,1,1,0,1647824092,"	email = mort1skoda@gmail.com"
+	
+|3,0,9,1,1,0,1647824972,""
 "a	CHAR	0
 	i"ji"j
 |3,0,10,0,1,0,1647518716,"i\"ji\"j"
 "c	CHAR	0
 	I//---> j
-|3,0,12,0,1,0,1647877104,"I//---> j"
+|3,0,12,0,1,0,1647877252,"I//---> j"
 "f	CHAR	0
 	I	for(int i = 0; i < 10; i++){
-|3,0,15,0,1,0,1647877104,"I	for(int i = 0; i < 10; i++){"
+|3,0,15,0,1,0,1647877252,"I	for(int i = 0; i < 10; i++){"
 "p	CHAR	0
 	Iprintf("
-|3,0,25,0,1,0,1647877104,"Iprintf(\""
+|3,0,25,0,1,0,1647877252,"Iprintf(\""
 "u	CHAR	0
 	I€kD€kD€kD€kD€kD€kD€kDj
-|3,0,30,0,1,0,1647877104,"I€kD€kD€kD€kD€kD€kD€kDj"
-""-	CHAR	0
+|3,0,30,0,1,0,1647877252,"I€kD€kD€kD€kD€kD€kD€kDj"
+"-	CHAR	0
 	$(CC) $(CFLAGS)
-|3,1,36,0,1,0,1647829332,"$(CC) $(CFLAGS)"
+|3,0,36,0,1,0,1647829332,"$(CC) $(CFLAGS)"
 
 # File marks:
-'0  3  38  ~/.pushDotfiles.sh
-|4,48,3,38,1647877112,"~/.pushDotfiles.sh"
-'1  7  0  ~/.pushDotfiles.sh
-|4,49,7,0,1647877095,"~/.pushDotfiles.sh"
-'2  7  0  ~/.pushDotfiles.sh
-|4,50,7,0,1647877095,"~/.pushDotfiles.sh"
-'3  5  0  ~/.pushDotfiles.sh
-|4,51,5,0,1647877061,"~/.pushDotfiles.sh"
-'4  5  0  ~/.pushDotfiles.sh
-|4,52,5,0,1647877061,"~/.pushDotfiles.sh"
-'5  5  0  ~/.pushDotfiles.sh
-|4,53,5,0,1647877061,"~/.pushDotfiles.sh"
-'6  5  0  ~/.pushDotfiles.sh
-|4,54,5,0,1647877061,"~/.pushDotfiles.sh"
-'7  3  35  ~/.pushDotfiles.sh
-|4,55,3,35,1647877007,"~/.pushDotfiles.sh"
-'8  3  35  ~/.pushDotfiles.sh
-|4,56,3,35,1647877007,"~/.pushDotfiles.sh"
-'9  3  35  ~/.pushDotfiles.sh
-|4,57,3,35,1647877007,"~/.pushDotfiles.sh"
+'0  9  0  ~/.pushDotfiles.sh
+|4,48,9,0,1647877280,"~/.pushDotfiles.sh"
+'1  9  0  ~/.pushDotfiles.sh
+|4,49,9,0,1647877194,"~/.pushDotfiles.sh"
+'2  3  38  ~/.pushDotfiles.sh
+|4,50,3,38,1647877112,"~/.pushDotfiles.sh"
+'3  3  38  ~/.pushDotfiles.sh
+|4,51,3,38,1647877112,"~/.pushDotfiles.sh"
+'4  3  38  ~/.pushDotfiles.sh
+|4,52,3,38,1647877112,"~/.pushDotfiles.sh"
+'5  3  38  ~/.pushDotfiles.sh
+|4,53,3,38,1647877112,"~/.pushDotfiles.sh"
+'6  10  0  ~/.pushDotfiles.sh
+|4,54,10,0,1647877095,"~/.pushDotfiles.sh"
+'7  10  0  ~/.pushDotfiles.sh
+|4,55,10,0,1647877095,"~/.pushDotfiles.sh"
+'8  7  0  ~/.pushDotfiles.sh
+|4,56,7,0,1647877095,"~/.pushDotfiles.sh"
+'9  7  0  ~/.pushDotfiles.sh
+|4,57,7,0,1647877095,"~/.pushDotfiles.sh"
 
 # Jumplist (newest first):
+-'  9  0  ~/.pushDotfiles.sh
+|4,39,9,0,1647877280,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877252,"~/.pushDotfiles.sh"
+-'  9  0  ~/.pushDotfiles.sh
+|4,39,9,0,1647877194,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877135,"~/.pushDotfiles.sh"
+-'  3  38  ~/.pushDotfiles.sh
+|4,39,3,38,1647877112,"~/.pushDotfiles.sh"
+-'  3  38  ~/.pushDotfiles.sh
+|4,39,3,38,1647877112,"~/.pushDotfiles.sh"
 -'  3  38  ~/.pushDotfiles.sh
 |4,39,3,38,1647877112,"~/.pushDotfiles.sh"
 -'  1  0  ~/.pushDotfiles.sh
 |4,39,1,0,1647877104,"~/.pushDotfiles.sh"
+-'  10  0  ~/.pushDotfiles.sh
+|4,39,10,0,1647877095,"~/.pushDotfiles.sh"
+-'  7  0  ~/.pushDotfiles.sh
+|4,39,7,0,1647877095,"~/.pushDotfiles.sh"
+-'  11  0  ~/.pushDotfiles.sh
+|4,39,11,0,1647877095,"~/.pushDotfiles.sh"
 -'  7  0  ~/.pushDotfiles.sh
 |4,39,7,0,1647877095,"~/.pushDotfiles.sh"
 -'  7  0  ~/.pushDotfiles.sh
 |4,39,7,0,1647877095,"~/.pushDotfiles.sh"
 -'  1  0  ~/.pushDotfiles.sh
 |4,39,1,0,1647877092,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647877061,"~/.pushDotfiles.sh"
+-'  5  0  ~/.pushDotfiles.sh
+|4,39,5,0,1647877061,"~/.pushDotfiles.sh"
 -'  5  0  ~/.pushDotfiles.sh
 |4,39,5,0,1647877061,"~/.pushDotfiles.sh"
 -'  5  0  ~/.pushDotfiles.sh
@@ -501,40 +523,23 @@ $$(CC) $(CFLAGS)
 |4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
 -'  6  0  ~/dev/c/00template/func1.c
 |4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
--'  6  0  ~/dev/c/00template/func1.c
-|4,39,6,0,1647829846,"~/dev/c/00template/func1.c"
 
 # History of marks within files (newest to oldest):
 
 > ~/.pushDotfiles.sh
-	*	1647877112	0
-	"	3	38
-	^	3	39
-	.	3	38
-	+	6	0
+	*	1647877277	0
+	"	9	0
+	^	8	1
+	.	10	0
+	+	10	0
 	+	3	35
 	+	4	10
-	+	3	38
+	+	3	43
+	+	8	10
+	+	4	0
+	+	6	0
+	+	8	0
+	+	10	0
 
 > ~/dev/c/00template/func1.c
 	*	1647829843	0
