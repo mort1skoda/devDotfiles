@@ -1767,3 +1767,103 @@ git push
 l
 cat .git/config
 l
+l
+cd getStr
+l
+touch main.c
+touch getStr.c
+touch getStr.h
+l
+touch Makefile
+l
+m
+l
+touch .gitPush.sh
+l
+sudo chmod +x .git*
+l
+echo "# devCgetStr" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mort1skoda/devCgetStr.git
+git push -u origin master
+v main.c
+l
+m
+..
+l
+cd 01*
+l
+..
+l
+cd 01*
+l
+..
+l
+cd 00*
+l
+cp .push* getStr/.
+øl
+l
+cp .push* ../getStr/.
+l
+..
+l
+cd getStr
+l
+rm .gitPush*
+l
+cp ~/dev/c/00/Make* .
+l ~/dev/c/00/
+l ~/dev/c/00*/
+cp ~/dev/c/00*/Make* .
+l
+v Make*
+m v
+l
+v .push*
+l
+cat main.c
+l
+gp
+l
+v RE*
+gp
+v .push*
+gp
+v Make*
+m
+l
+m v
+m
+m c
+m v
+m
+v Ma*
+m
+m c && m 
+m v
+v Ma*
+l
+m
+m c
+l
+m
+l
+m c
+v main.c
+m
+l
+v getStr.h
+l
+gp
+v getStr.c
+l
+m c
+m r
+l
+m v
+l
+gp
