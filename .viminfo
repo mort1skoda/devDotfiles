@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1647887740,,"wq"
+|2,0,1647887827,,"wq"
 :!m
 |2,0,1647887651,,"!m"
 :!
@@ -86,51 +86,97 @@
 |3,0,9,1,1,0,1647884412,"	printf(\"update: \\n\");"
 "c	CHAR	0
 	I//---> j
-|3,0,12,0,1,0,1647887718,"I//---> j"
+|3,0,12,0,1,0,1647887810,"I//---> j"
 "f	CHAR	0
 	I	for(int i = 0; i < 10; i++){
-|3,0,15,0,1,0,1647887718,"I	for(int i = 0; i < 10; i++){"
+|3,0,15,0,1,0,1647887810,"I	for(int i = 0; i < 10; i++){"
 "p	CHAR	0
 	Iprintf("
-|3,0,25,0,1,0,1647887718,"Iprintf(\""
+|3,0,25,0,1,0,1647887810,"Iprintf(\""
 "u	CHAR	0
 	I€kD€kD€kD€kD€kD€kD€kDj
-|3,0,30,0,1,0,1647887718,"I€kD€kD€kD€kD€kD€kD€kDj"
+|3,0,30,0,1,0,1647887810,"I€kD€kD€kD€kD€kD€kD€kDj"
 ""-	CHAR	0
 	func1
 |3,1,36,0,1,0,1647887300,"func1"
 
 # File marks:
-'0  28  0  ~/.aliases
-|4,48,28,0,1647887740,"~/.aliases"
-'1  10  0  ~/dev/c/getStr/getStr.c
-|4,49,10,0,1647887655,"~/dev/c/getStr/getStr.c"
-'2  7  0  ~/dev/c/getStr/getStr.h
-|4,50,7,0,1647887447,"~/dev/c/getStr/getStr.h"
-'3  3  0  ~/dev/c/getStr/main.c
-|4,51,3,0,1647887369,"~/dev/c/getStr/main.c"
-'4  34  0  ~/dev/c/getStr/Makefile
-|4,52,34,0,1647887312,"~/dev/c/getStr/Makefile"
-'5  23  0  ~/dev/c/getStr/Makefile
-|4,53,23,0,1647887235,"~/dev/c/getStr/Makefile"
-'6  23  0  ~/dev/c/getStr/Makefile
-|4,54,23,0,1647887235,"~/dev/c/getStr/Makefile"
-'7  3  9  ~/dev/c/getStr/Makefile
-|4,55,3,9,1647887176,"~/dev/c/getStr/Makefile"
-'8  3  9  ~/dev/c/getStr/Makefile
-|4,56,3,9,1647887176,"~/dev/c/getStr/Makefile"
-'9  3  9  ~/dev/c/getStr/Makefile
-|4,57,3,9,1647887176,"~/dev/c/getStr/Makefile"
+'0  5  28  ~/.pushDotfiles.sh
+|4,48,5,28,1647887827,"~/.pushDotfiles.sh"
+'1  9  0  ~/.pushDotfiles.sh
+|4,49,9,0,1647887776,"~/.pushDotfiles.sh"
+'2  9  0  ~/.pushDotfiles.sh
+|4,50,9,0,1647887776,"~/.pushDotfiles.sh"
+'3  28  0  ~/.aliases
+|4,51,28,0,1647887740,"~/.aliases"
+'4  10  0  ~/dev/c/getStr/getStr.c
+|4,52,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+'5  7  0  ~/dev/c/getStr/getStr.h
+|4,53,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+'6  3  0  ~/dev/c/getStr/main.c
+|4,54,3,0,1647887369,"~/dev/c/getStr/main.c"
+'7  34  0  ~/dev/c/getStr/Makefile
+|4,55,34,0,1647887312,"~/dev/c/getStr/Makefile"
+'8  23  0  ~/dev/c/getStr/Makefile
+|4,56,23,0,1647887235,"~/dev/c/getStr/Makefile"
+'9  23  0  ~/dev/c/getStr/Makefile
+|4,57,23,0,1647887235,"~/dev/c/getStr/Makefile"
 
 # Jumplist (newest first):
+-'  5  28  ~/.pushDotfiles.sh
+|4,39,5,28,1647887827,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647887810,"~/.pushDotfiles.sh"
+-'  9  0  ~/.pushDotfiles.sh
+|4,39,9,0,1647887776,"~/.pushDotfiles.sh"
+-'  9  0  ~/.pushDotfiles.sh
+|4,39,9,0,1647887776,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647887762,"~/.pushDotfiles.sh"
 -'  28  0  ~/.aliases
 |4,39,28,0,1647887740,"~/.aliases"
+-'  28  0  ~/.aliases
+|4,39,28,0,1647887740,"~/.aliases"
+-'  28  0  ~/.aliases
+|4,39,28,0,1647887740,"~/.aliases"
+-'  28  0  ~/.aliases
+|4,39,28,0,1647887740,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1647887723,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1647887723,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1647887723,"~/.aliases"
 -'  1  0  ~/.aliases
 |4,39,1,0,1647887723,"~/.aliases"
 -'  10  0  ~/dev/c/getStr/getStr.c
 |4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
 -'  10  0  ~/dev/c/getStr/getStr.c
 |4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+-'  10  0  ~/dev/c/getStr/getStr.c
+|4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+-'  10  0  ~/dev/c/getStr/getStr.c
+|4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+-'  10  0  ~/dev/c/getStr/getStr.c
+|4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+-'  10  0  ~/dev/c/getStr/getStr.c
+|4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+-'  10  0  ~/dev/c/getStr/getStr.c
+|4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+-'  10  0  ~/dev/c/getStr/getStr.c
+|4,39,10,0,1647887655,"~/dev/c/getStr/getStr.c"
+-'  1  0  ~/dev/c/getStr/getStr.c
+|4,39,1,0,1647887540,"~/dev/c/getStr/getStr.c"
+-'  1  0  ~/dev/c/getStr/getStr.c
+|4,39,1,0,1647887540,"~/dev/c/getStr/getStr.c"
+-'  1  0  ~/dev/c/getStr/getStr.c
+|4,39,1,0,1647887540,"~/dev/c/getStr/getStr.c"
+-'  1  0  ~/dev/c/getStr/getStr.c
+|4,39,1,0,1647887540,"~/dev/c/getStr/getStr.c"
+-'  1  0  ~/dev/c/getStr/getStr.c
+|4,39,1,0,1647887540,"~/dev/c/getStr/getStr.c"
+-'  1  0  ~/dev/c/getStr/getStr.c
+|4,39,1,0,1647887540,"~/dev/c/getStr/getStr.c"
 -'  1  0  ~/dev/c/getStr/getStr.c
 |4,39,1,0,1647887540,"~/dev/c/getStr/getStr.c"
 -'  1  0  ~/dev/c/getStr/getStr.c
@@ -143,6 +189,54 @@
 |4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
 -'  7  0  ~/dev/c/getStr/getStr.h
 |4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  7  0  ~/dev/c/getStr/getStr.h
+|4,39,7,0,1647887447,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
+-'  1  0  ~/dev/c/getStr/getStr.h
+|4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
 -'  1  0  ~/dev/c/getStr/getStr.h
 |4,39,1,0,1647887384,"~/dev/c/getStr/getStr.h"
 -'  1  0  ~/dev/c/getStr/getStr.h
@@ -167,6 +261,54 @@
 |4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
 -'  3  0  ~/dev/c/getStr/main.c
 |4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
+-'  3  0  ~/dev/c/getStr/main.c
+|4,39,3,0,1647887369,"~/dev/c/getStr/main.c"
 -'  1  0  ~/dev/c/getStr/main.c
 |4,39,1,0,1647887352,"~/dev/c/getStr/main.c"
 -'  1  0  ~/dev/c/getStr/main.c
@@ -181,150 +323,15 @@
 |4,39,1,0,1647887352,"~/dev/c/getStr/main.c"
 -'  1  0  ~/dev/c/getStr/main.c
 |4,39,1,0,1647887352,"~/dev/c/getStr/main.c"
--'  1  0  ~/dev/c/getStr/main.c
-|4,39,1,0,1647887352,"~/dev/c/getStr/main.c"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  34  0  ~/dev/c/getStr/Makefile
-|4,39,34,0,1647887312,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887270,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  23  0  ~/dev/c/getStr/Makefile
-|4,39,23,0,1647887235,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887207,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887207,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887207,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887207,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887207,"~/dev/c/getStr/Makefile"
--'  1  0  ~/dev/c/getStr/Makefile
-|4,39,1,0,1647887207,"~/dev/c/getStr/Makefile"
 
 # History of marks within files (newest to oldest):
+
+> ~/.pushDotfiles.sh
+	*	1647887824	0
+	"	5	28
+	^	5	29
+	.	5	28
+	+	5	28
 
 > ~/.aliases
 	*	1647887739	0
