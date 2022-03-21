@@ -23,4 +23,5 @@ alias vt='vim ~/.tmux.conf'
 
 alias e='exit'
 alias a='clear && alias'
+alias gp='./.pushDotfiles.sh'
 

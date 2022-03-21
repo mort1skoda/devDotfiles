@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1647877599,,"wq"
+|2,0,1647877780,,"wq"
 :q
 |2,0,1647877579,,"q"
 :Q
@@ -29,37 +29,84 @@
 # Registers:
 "c	CHAR	0
 	I//---> j
-|3,0,12,0,1,0,1647877587,"I//---> j"
+|3,0,12,0,1,0,1647877767,"I//---> j"
 "f	CHAR	0
 	I	for(int i = 0; i < 10; i++){
-|3,0,15,0,1,0,1647877587,"I	for(int i = 0; i < 10; i++){"
+|3,0,15,0,1,0,1647877767,"I	for(int i = 0; i < 10; i++){"
 "p	CHAR	0
 	Iprintf("
-|3,0,25,0,1,0,1647877587,"Iprintf(\""
+|3,0,25,0,1,0,1647877767,"Iprintf(\""
 "u	CHAR	0
 	I€kD€kD€kD€kD€kD€kD€kDj
-|3,0,30,0,1,0,1647877587,"I€kD€kD€kD€kD€kD€kD€kDj"
+|3,0,30,0,1,0,1647877767,"I€kD€kD€kD€kD€kD€kD€kDj"
 ""-	CHAR	0
 	 
 |3,1,36,0,1,0,1647877593," "
 
 # File marks:
-'0  4  0  ~/.pushDotfiles.sh
-|4,48,4,0,1647877599,"~/.pushDotfiles.sh"
-'1  1  0  /tmp/bash-fc.Np7ksm
-|4,49,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
+'0  26  27  ~/.aliases
+|4,48,26,27,1647877780,"~/.aliases"
+'1  27  0  ~/.aliases
+|4,49,27,0,1647877753,"~/.aliases"
+'2  27  0  ~/.aliases
+|4,50,27,0,1647877753,"~/.aliases"
+'3  4  0  ~/.pushDotfiles.sh
+|4,51,4,0,1647877599,"~/.pushDotfiles.sh"
+'4  1  0  /tmp/bash-fc.Np7ksm
+|4,52,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
 
 # Jumplist (newest first):
+-'  26  27  ~/.aliases
+|4,39,26,27,1647877780,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1647877767,"~/.aliases"
+-'  27  0  ~/.aliases
+|4,39,27,0,1647877753,"~/.aliases"
+-'  27  0  ~/.aliases
+|4,39,27,0,1647877753,"~/.aliases"
+-'  1  0  ~/.aliases
+|4,39,1,0,1647877714,"~/.aliases"
 -'  4  0  ~/.pushDotfiles.sh
 |4,39,4,0,1647877599,"~/.pushDotfiles.sh"
+-'  4  0  ~/.pushDotfiles.sh
+|4,39,4,0,1647877599,"~/.pushDotfiles.sh"
+-'  4  0  ~/.pushDotfiles.sh
+|4,39,4,0,1647877599,"~/.pushDotfiles.sh"
+-'  4  0  ~/.pushDotfiles.sh
+|4,39,4,0,1647877599,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877587,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877587,"~/.pushDotfiles.sh"
+-'  1  0  ~/.pushDotfiles.sh
+|4,39,1,0,1647877587,"~/.pushDotfiles.sh"
 -'  1  0  ~/.pushDotfiles.sh
 |4,39,1,0,1647877587,"~/.pushDotfiles.sh"
 -'  1  0  /tmp/bash-fc.Np7ksm
 |4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
 -'  1  0  /tmp/bash-fc.Np7ksm
 |4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
+-'  1  0  /tmp/bash-fc.Np7ksm
+|4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
+-'  1  0  /tmp/bash-fc.Np7ksm
+|4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
+-'  1  0  /tmp/bash-fc.Np7ksm
+|4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
+-'  1  0  /tmp/bash-fc.Np7ksm
+|4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
+-'  1  0  /tmp/bash-fc.Np7ksm
+|4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
+-'  1  0  /tmp/bash-fc.Np7ksm
+|4,39,1,0,1647877579,"/tmp/bash-fc.Np7ksm"
 
 # History of marks within files (newest to oldest):
+
+> ~/.aliases
+	*	1647877779	0
+	"	26	27
+	^	26	28
+	.	26	27
+	+	26	27
 
 > ~/.pushDotfiles.sh
 	*	1647877599	0
