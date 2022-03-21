@@ -1,0 +1,22 @@
+colorscheme molokai
+
+" show hidden files by default
+windo normal! zo
+
+" ctrl + q = quit
+nnoremap <c-q> :q
+
+" ctrl+l and ctrl+h = toggle panes
+nnoremap <c-l> <c-w><c-w>
+nnoremap <c-h> <c-w><c-w>
+
+" <space> = :!
+nnoremap <space> :!
+
+" Mappings for faster renaming
+nnoremap I cw<c-a>
+"nnoremap i cw<c-a>
+nnoremap cc cw<c-u>
+nnoremap A cw
+
+

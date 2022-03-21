@@ -1,0 +1,67 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/m/
+	..
+1647508231
+'a
+	/home/m/c/00templates
+	main.c
+1647520083
+'b
+	/home/m/bin/
+	..
+1647508231
+'c
+	/home/m/c
+	main.c
+1647520083
+'h
+	/home/m/
+	..
+1647508231
+
+# Bookmarks:
+
+# Trash content:
+t/home/m/.local/share/vifm/Trash/000_ls.txt
+	/home/m/c/01testing/220317_1647/ls.txt
+t/home/m/.local/share/vifm/Trash/000_func1.c
+	/home/m/c/getStr/func1.c
+t/home/m/.local/share/vifm/Trash/000_func1.h
+	/home/m/c/getStr/func1.h
+t/home/m/.local/share/vifm/Trash/000_tmux-client-2486.log
+	/home/m/tmux-client-2486.log
+t/home/m/.local/share/vifm/Trash/000_tmux-server-2488.log
+	/home/m/tmux-server-2488.log
+t/home/m/.local/share/vifm/Trash/000_strace.out
+	/home/m/strace.out
+t/home/m/.local/share/vifm/Trash/000_powerlevel10k
+	/home/m/powerlevel10k
+t/home/m/.local/share/vifm/Trash/000_.oh-my-zsh
+	/home/m/.oh-my-zsh
+t/home/m/.local/share/vifm/Trash/000_.zshrc.pre-oh-my-zsh
+	/home/m/.zshrc.pre-oh-my-zsh
+t/home/m/.local/share/vifm/Trash/000_.zshrc_Backup
+	/home/m/.zshrc_Backup
+t/home/m/.local/share/vifm/Trash/000_.zshrc_oh-my-zsh
+	/home/m/.zshrc_oh-my-zsh
+t/home/m/.local/share/vifm/Trash/000_zsh
+	/home/m/zsh
+t/home/m/.local/share/vifm/Trash/000_zshhistory
+	/home/m/.cache/zshhistory
+t/home/m/.local/share/vifm/Trash/000_.cache
+	/home/m/.cache
+t/home/m/.local/share/vifm/Trash/000_vifmrc_original
+	/home/m/.vifm/vifmrc_original
+t/home/m/.local/share/vifm/Trash/000_test1.txt
+	/home/m/c/test1.txt
+t/home/m/.local/share/vifm/Trash/000_test2.txt
+	/home/m/c/test2.txt
+t/home/m/.local/share/vifm/Trash/000_test3.txt
+	/home/m/c/test3.txt
+t/home/m/.local/share/vifm/Trash/000_my_vimtutor(2)
+	/home/m/my_vimtutor(2)
+t/home/m/.local/share/vifm/Trash/000_my_vimtutor(1)
+	/home/m/my_vimtutor(1)

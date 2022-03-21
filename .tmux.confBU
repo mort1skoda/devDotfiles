@@ -1,0 +1,39 @@
+#set-window-option -g mode-keys vi
+#set -g status-keys vi
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+#Setting the prefix from C-b to C-a
+unbind C-b
+set -g prefix C-c
+
+#setting the delay between prefix and command
+set -s escape-time 5
+
+# Set the base index for windows to 1 instead of 0
+set -g base-index 1
+
+# Set the base index for panes to 1 instead of 0
+set -g pane-base-index 1
+
+# set the status line's colors
+set -g status-style fg=white,bg=blue
+
+# Set different background color for active window
+set -g window-status-current-bg magenta
+
+# Set bind key to reload configuration file
+bind r source-file ~/.tmux.conf \; display "Reloaded!"
+
+#setting split-window to prefix v and prefix \
+ubunbind '"'
+unbind %
+bind v split-window -h -c "#{pane_current_path}"
+bind \ split-window -v -c "#{pane_current_path}"
+
+# remap ctrl+d to ctrl+q
+#set-option detach-client C-q
+#unbind C-d
+

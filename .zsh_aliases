@@ -1,0 +1,5 @@
+#! /bin/zsh
+echo "in ~/.zsh_aliases -> sourcing ~/.aliases"
+source ~/.aliases
+#shopt -s expand_aliases
+
