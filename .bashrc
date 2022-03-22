@@ -134,3 +134,5 @@ echo "TERM  = $TERM"
 echo "SHELL = $SHELL"
 #sau
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

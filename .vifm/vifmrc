@@ -1,4 +1,5 @@
 colorscheme molokai
+let $BASH_ENV = "~/.bash_aliases"
 
 " show hidden files by default
 windo normal! zo
@@ -9,6 +10,11 @@ nnoremap <c-q> :q
 " ctrl+l and ctrl+h = toggle panes
 nnoremap <c-l> <c-w><c-w>
 nnoremap <c-h> <c-w><c-w>
+
+" vsplit and split
+nnoremap <c-v> <c-w>v
+nnoremap <c-s> <c-w>s
+
 
 " <space> = :!
 nnoremap <space> :!

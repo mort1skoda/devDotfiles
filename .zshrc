@@ -23,3 +23,5 @@ alias
 #source ~/powerlevel10k/powerlevel11k.zsh-theme
 
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
