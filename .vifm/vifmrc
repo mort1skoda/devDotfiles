@@ -1,5 +1,6 @@
 colorscheme molokai
-let $BASH_ENV = "~/.bash_aliases"
+let $BASH_ENV = "~/.bash_aliases.sh"
+set syscalls
 
 " show hidden files by default
 windo normal! zo
@@ -7,14 +8,19 @@ windo normal! zo
 " ctrl + q = quit
 nnoremap <c-q> :q
 
-" ctrl+l and ctrl+h = toggle panes
-nnoremap <c-l> <c-w><c-w>
-nnoremap <c-h> <c-w><c-w>
+" ctrl-s = save and source ~/.vifm/vifmrc
+nnoremap <c-s> <ESC>:source ~/.vifm/vifmrc<CR>
+cnoremap <c-s> <ESC>:source ~/.vifm/vifmrc<CR>
 
-" vsplit and split
+" TAB toggle panes
+"nnoremap <c-l> <c-w><c-w>
+"nnoremap <c-h> <c-w><c-w>
+nnoremap <TAB> <c-w><c-w>
+
+" vsplit, hor_split and one pane
 nnoremap <c-v> <c-w>v
-nnoremap <c-s> <c-w>s
-
+"nnoremap <c-s> <c-w>s
+nnoremap <c-o> <c-w>o
 
 " <space> = :!
 nnoremap <space> :!
