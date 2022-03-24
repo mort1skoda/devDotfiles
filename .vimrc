@@ -1,4 +1,6 @@
-
+""""""""""""""""""""""""""""""""""""""""
+""""    ~/.vimrc    """"
+""""""""""""""""""""""""
 
 " cheatSheet---------------------------------Display insert mode maps-{{{
 
@@ -110,7 +112,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 
 " MAPPINGS -----------------------------------------------------{{{
-let mapleader = "-"
+let mapleader = ","
 
 "--------PANES----------------------------------
 " -v for vertical split, -h for horizonal split
@@ -144,6 +146,21 @@ nnoremap <Leader>mm :!make<CR>
 nnoremap <Leader>mr :!make run<CR>
 nnoremap <Leader>md :!make dbg<CR>
 "-----------------------------------------------
+" ,va = edit ~/.aliases.sh
+nnoremap <Leader>va :vs ~/.aliases.sh<CR>
+nnoremap <Leader>vb :vs ~/.bashrc<CR>
+nnoremap <Leader>vf :vs ~/.vifm/vifmrc.vim<CR>
+nnoremap <Leader>vt :vs ~/.tmux.conf<CR>
+nnoremap <Leader>vv :vs ~/.vimrc<CR>
+
+
+
+
+
+
+
+
+
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
@@ -180,6 +197,11 @@ nnoremap <C-x> :%s/
 
 
 nnoremap <Leader>e :Lexplore<CR>7<C-w><
+
+
+
+
+
 
 "--------MACROS---------------------------------
 "nnoremap <Leader>t <ESC>:!PWD=$(pwd)<CR><CR>:r ~/c/00templates/main.c<CR>ggdd:w $PWD/main.c<CR>

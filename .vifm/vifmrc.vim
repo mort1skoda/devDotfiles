@@ -1,3 +1,7 @@
+""""""""""""""""""""""""""""""""""""""""
+""""    ~/.vifm/vifmrc.vim    """"
+""""""""""""""""""""""""""""""""""
+"
 " ////////////// SETTINGS //////////////////
 " choose a nice colorscheme
 colorscheme molokai

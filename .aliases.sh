@@ -13,17 +13,15 @@ alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 
 # tl=tmux list-sessions
 alias tl='tmux ls'
-# ta=tmux attach -t [session-name]
+# ta=tmux attach -t [enter session-name from tl]
 alias ta='tmux a -t '
 
 alias v='vim'
-alias va='vim ~/.aliases.sh && source ~/.bashrc'
-alias vb='vim ~/.bashrc && source ~/.bashrc'
+alias ,va='vim ~/.aliases.sh && source ~/.bashrc'
+alias ,vb='vim ~/.bashrc && source ~/.bashrc'
 
-alias vf='vim ~/.vifm/vifmrc.vim'
-alias vt='vim ~/.tmux.conf'
-alias vv='vim ~/.vimrc'
+alias ,vf='vim ~/.vifm/vifmrc.vim'
+alias ,vt='vim ~/.tmux.conf'
+alias ,vv='vim ~/.vimrc'
 
-#alias vz='vim .zshrc && source ~/.zshrc'
-#alias .z='source ~/.zshrc'
 
