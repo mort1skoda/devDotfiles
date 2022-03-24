@@ -122,7 +122,7 @@ set -o vi
 #    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 PS1="\[\033[01;32m\]\w\[\033[00m\]\n"
 
-source ~/.aliases
+source ~/.aliases.sh
 shopt -s expand_aliases
 
 clear
@@ -130,8 +130,11 @@ clear
 #uname -a
 #echo
 alias
-echo "TERM  = $TERM"
-echo "SHELL = $SHELL"
+
+BASH_ENV="bash_env_from_.bashrc"
+echo "TERM      = $TERM"
+echo "SHELL     = $SHELL"
+echo "BASH_ENV  = $BASH_ENV"
 #sau
 
 

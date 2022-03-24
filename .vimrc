@@ -110,21 +110,54 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 
 " MAPPINGS -----------------------------------------------------{{{
-
 let mapleader = "-"
+
+"--------PANES----------------------------------
+" -v for vertical split, -h for horizonal split
+nnoremap <Leader>v :vs<CR>
+nnoremap <Leader>h :sp<CR>
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+" Resize panes: SHIFT-L and SHIFT-H
+nnoremap <S-L> 2<c-w>>
+nnoremap <S-H> 2<c-w><
+nnoremap <S-J> <c-w>+
+nnoremap <S-K> <c-w>-
+"-----------------------------------------------
+
+"--------COMPILATION----------------------------
+" Funcion-key shortcuts to make different targets:
+nnoremap <F2> :!make help<CR>
+nnoremap <F3> :!make vars<CR>
+nnoremap <F4> :!make clean<CR>
+nnoremap <F5> :!make<CR>
+nnoremap <F6> :!make run<CR>
+nnoremap <F7> :!make dbg<CR>
+
+" -mh=make help,  -mv=make vars,  mr=make run,  md=make debug,  mm=make
+nnoremap <Leader>mh :!make help<CR>
+nnoremap <Leader>mv :!make vars<CR>
+nnoremap <Leader>mc :!make clean<CR>
+nnoremap <Leader>mm :!make<CR>
+nnoremap <Leader>mr :!make run<CR>
+nnoremap <Leader>md :!make dbg<CR>
+"-----------------------------------------------
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
 nnoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>
-inoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>
+inoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>l
 vnoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>
 cnoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>
 
 " ctrl-q write and quit
-" in normal, insert and visual mode.
+" in normal, insert, visual and command mode.
 nnoremap <c-q> :wq
-"inoremap <c-q> <ESC>:wq
+inoremap <c-q> <ESC>:wq
 vnoremap <c-q> <ESC>:wq
+cnoremap <c-q> <ESC>:wq
 
 " O = insert line above
 nnoremap o o<esc>
@@ -146,48 +179,12 @@ nnoremap <SPACE> :!
 nnoremap <C-x> :%s/
 
 
-"--------PANES----------------------------------
-" -v for vertical split, -h for horizonal split
-nnoremap <Leader>v :vs<CR>
-nnoremap <Leader>\ :sp<CR>
-nnoremap <C-l> <C-w>l
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-" TAB to jump between split view panes
-nnoremap <TAB> <c-w><c-w>
-
-" Resize split view panes in vim
-nnoremap <C-m> <c-w>>
-"inoremap <C-m> <ESC><c-w>>
-nnoremap <C-n> <c-w><
-"inoremap <C-n> <ESC><c-w><
-"-----------------------------------------------
-
-
-"--------COMPILATION----------------------------
-" Funcion-key shortcuts to make different targets:
-nnoremap <F2> :!make help<CR>
-nnoremap <F3> :!make vars<CR>
-nnoremap <F4> :!make clean<CR>
-nnoremap <F5> :!make<CR>
-nnoremap <F6> :!make run<CR>
-nnoremap <F7> :!make dbg<CR>
-
-" -mh=make help,  -mv=make vars,  mr=make run,  md=make debug,  mm=make
-nnoremap <Leader>mh :!make help<CR>
-nnoremap <Leader>mv :!make vars<CR>
-nnoremap <Leader>mc :!make clean<CR>
-nnoremap <Leader>mm :!make<CR>
-nnoremap <Leader>mr :!make run<CR>
-nnoremap <Leader>md :!make dbg<CR>
-"-----------------------------------------------
-
+nnoremap <Leader>e :Lexplore<CR>7<C-w><
 
 "--------MACROS---------------------------------
-nnoremap <Leader>t <ESC>:!PWD=$(pwd)<CR><CR>:r ~/c/00templates/main.c<CR>ggdd:w $PWD/main.c<CR>
-nnoremap <Leader>h <Esc>:r ~/c/00templates/func1.h<CR>ggdd:w<CR>
-nnoremap <Leader>f <Esc>:r ~/c/00templates/func1.c<CR>ggdd:w<CR>
+"nnoremap <Leader>t <ESC>:!PWD=$(pwd)<CR><CR>:r ~/c/00templates/main.c<CR>ggdd:w $PWD/main.c<CR>
+"nnoremap <Leader>h <Esc>:r ~/c/00templates/func1.h<CR>ggdd:w<CR>
+"nnoremap <Leader>f <Esc>:r ~/c/00templates/func1.c<CR>ggdd:w<CR>
 
 " @c in normal mode to comment one line.
 let @c = "I//---> \<Esc>j"
@@ -212,6 +209,15 @@ augroup filetype_vim
     autocmd!
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
+
+" Display cursorline and cursorcolumn ONLY in active window.
+augroup cursor_off
+	autocmd!
+	autocmd WinLeave * set nocursorline nocursorcolumn
+	autocmd WinEnter * set cursorline cursorcolumn
+augroup END
+
+
 
 " }}}
 
