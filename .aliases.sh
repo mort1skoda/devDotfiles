@@ -1,27 +1,29 @@
+alias ..='cd ..'
+alias .b='source ~/.bashrc'
+alias e='exit'
+alias f='vifm ~ ~/dev'
+
+# gp=git push
+alias gp='./.push*'
 alias l='ls -la --color'
 alias m='make'
-alias ..='cd ..'
-
-alias v='vim'
-alias f='vifm ~ ~/dev'
-alias tl='tmux ls'
-alias ta='tmux a -t 0'
 
 alias sai='sudo apt install'
 alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 
+# tl=tmux list-sessions
+alias tl='tmux ls'
+# ta=tmux attach -t [session-name]
+alias ta='tmux a -t '
+
+alias v='vim'
 alias va='vim ~/.aliases.sh && source ~/.bashrc'
 alias vb='vim ~/.bashrc && source ~/.bashrc'
-alias .b='source ~/.bashrc'
 
-alias vz='vim .zshrc && source ~/.zshrc'
-alias .z='source ~/.zshrc'
-
-alias vv='vim ~/.vimrc'
 alias vf='vim ~/.vifm/vifmrc.vim'
 alias vt='vim ~/.tmux.conf'
+alias vv='vim ~/.vimrc'
 
-alias e='exit'
-#alias a='clear && alias'
-alias gp='./.push*'
+#alias vz='vim .zshrc && source ~/.zshrc'
+#alias .z='source ~/.zshrc'
 
