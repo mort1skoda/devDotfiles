@@ -2,7 +2,7 @@
 """"    ~/.vimrc    """"
 """"""""""""""""""""""""
 
-" cheatSheet---------------------------------Display insert mode maps-{{{
+" cheatSheet---------------------------------Display insert mode maps-{{
 
 ".  = repeat last command
 "
@@ -17,6 +17,7 @@
 "de 	= delete to end of current word
 "diw 	= delete inner word
 "daw 	= delete outer word, includes whitespace
+
 "D   	= delete to end of line
 "
 "yw		= yank to start of next word
@@ -39,7 +40,7 @@
 " }}}
 
 
-" SETTINGS -----------------------------------------------------{{{
+" SETTINGS -----------------------------------------------------{{
 
 " Expand aliases.
 let $BASH_ENV = "~/.bash_aliases.sh"
@@ -111,23 +112,44 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " }}}
 
 
-" MAPPINGS -----------------------------------------------------{{{
+" MAPPINGS -----------------------------------------------------{{
+
+nnoremap r r
+" go to end of line
+nnoremap å $:echo'å=$=go to end of line'<CR>
+nnoremap 0 0:echo'0=0=go to beginning of line'<CR>
+
+nnoremap h h:echo'-- NORMAL --   h-left'<CR>
+nnoremap j j:echo'-- NORMAL --   j-dwn'<CR>
+nnoremap k k:echo'-- NORMAL --   k-up'<CR>
+nnoremap l l:echo'-- NORMAL --   l-right'<CR>
+
+" speed up scrolling
+nnoremap <C-e> 2<C-e>:echo 'scroll dwn'<CR>
+nnoremap <C-y> 2<C-y>:echo 'scroll up'<CR>
+
 let mapleader = ","
 
 "--------PANES----------------------------------
-" -v for vertical split, -h for horizonal split
+" ,v for vertical split ,h for horizonal split
 nnoremap <Leader>v :vs<CR>
 nnoremap <Leader>h :sp<CR>
-nnoremap <C-l> <C-w>l
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
+" ctrl-hjkl navigate panes
+nnoremap <C-l> <C-w>l:echo 'nav pane right :'@%<CR>
+nnoremap <C-h> <C-w>h:echo 'nav pane left :'@%<CR>
+nnoremap <C-j> <C-w>j:echo 'nav pane dwn:'@%<CR>
+nnoremap <C-k> <C-w>k:echo 'nav pane up:'@%<CR>
 " Resize panes: SHIFT-L and SHIFT-H
-nnoremap <S-L> 2<c-w>>
-nnoremap <S-H> 2<c-w><
-nnoremap <S-J> <c-w>+
-nnoremap <S-K> <c-w>-
+nnoremap <S-L> 2<c-w>>:echo 'Resize pane SHIFT-L=>'<CR>
+nnoremap <S-H> 2<c-w><:echo 'Resize pane SHIFT-H=<'<CR>
+nnoremap <S-J> <c-w>+:echo 'Resize pane SHIFT-J=dwn'<CR>
+nnoremap <S-K> <c-w>-:echo 'Resize pane SHIFT-K=up'<CR>
 "-----------------------------------------------
+" move cursor in insert mode with shift hjkl
+"inoremap <S-L> <ESC>lli
+"inoremap <S-H> <ESC>i
+"inoremap <S-J> <ESC>jli
+"inoremap <S-K> <ESC>kli
 
 "-------- C COMPILATION using Makefile ---------
 " F2 F3 ...
@@ -152,27 +174,22 @@ let $VIFMRC  = '~/.vifm/vifmrc.vim'
 let $TMUX    = '~/.tmux.conf'
 let $VIMRC   = '~/.vimrc'
 set splitright
-nnoremap <Leader>va :vs $ALIASES<CR>:set cursorline cursorcolumn<CR><ESC>
-nnoremap <Leader>vb :vs $BASHRC <CR>
-nnoremap <Leader>vf :vs $VIFMRC <CR>
-nnoremap <Leader>vt :vs $TMUX   <CR>
-nnoremap <Leader>vv :vs $VIMRC  <CR>
-
-
-
-
-
-
+":set cursorline cursorcolumn<CR><ESC>
+nnoremap <Leader>va :vs $ALIASES<CR>:echo @%<CR>
+nnoremap <Leader>vb :vs $BASHRC <CR>:echo @%<CR>
+nnoremap <Leader>vf :vs $VIFMRC <CR>:echo @%<CR>
+nnoremap <Leader>vt :vs $TMUX   <CR>:echo @%<CR>
+nnoremap <Leader>vv :vs $VIMRC  <CR>:echo @%<CR>
 
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
-nnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>
+nnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
 " NB!!! ::: Do NOT remove the l after <CR> ::: !!!
 " It adjusts the position of the coursor!!
-inoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>l
-vnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>
-cnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>
+inoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR><ESC>l:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
+vnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
+cnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
 
 " ctrl-q write and quit
 " in normal, insert, visual and command mode.
@@ -187,7 +204,7 @@ nnoremap o o<esc>
 nnoremap O O<esc>
 
 " Y,D,C = Yank, Delete, Change from cursor to the end of line.
-nnoremap Y y$
+nnoremap Y y$:echo'Y = Yanked from cursor to end of line'<CR>
 nnoremap D d$
 nnoremap C c$
 
@@ -196,9 +213,12 @@ nnoremap X i<space><esc>
 
 " Space to type :!  to enter shell comands.
 nnoremap <SPACE> :!
+nnoremap <TAB> :
 
 " ctrl-x to search and replace.
 nnoremap <C-x> :%s/
+" ctrl-f find
+nnoremap <C-f> /
 
 
 nnoremap <Leader>e :Lexplore<CR>7<C-w><
@@ -228,7 +248,7 @@ let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
 " }}}
 
 
-" SCRIPTS ------------------------------------------------------{{{
+" SCRIPTS ------------------------------------------------------{{
 "
 " This will enable code folding.
 " Use the marker method of folding.
@@ -249,7 +269,7 @@ augroup END
 " }}}
 
 
-" PLUGINS ------------------------------------------------------{{{
+" PLUGINS ------------------------------------------------------{{
 
 "call plug#begin('~/.vim/plugged')
 
@@ -259,7 +279,7 @@ augroup END
 " }}}
 
 
-" STATUS LINE --------------------------------------------------{{{
+" STATUS LINE --------------------------------------------------{{
 
 " Clear status line when vimrc is reloaded.
 set statusline=

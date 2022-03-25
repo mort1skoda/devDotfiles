@@ -11,7 +11,7 @@ set syscalls
 " show hidden files by default
 windo normal! zo
 " no suported
-" let mapleader "-"
+" let mapleader ","
 
 
 " ////////////// MAPPINGS //////////////////
