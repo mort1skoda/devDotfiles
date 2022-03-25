@@ -2,7 +2,7 @@
 """"    ~/.vifm/vifmrc.vim    """"
 """"""""""""""""""""""""""""""""""
 "
-" ////////////// SETTINGS //////////////////
+"""""""""""  SETTINGS  """""""""""
 " choose a nice colorscheme
 colorscheme molokai
 " make it posible for aliases to function within vifm :!m r

@@ -129,16 +129,15 @@ nnoremap <S-J> <c-w>+
 nnoremap <S-K> <c-w>-
 "-----------------------------------------------
 
-"--------COMPILATION----------------------------
-" Funcion-key shortcuts to make different targets:
+"-------- C COMPILATION using Makefile ---------
+" F2 F3 ...
 nnoremap <F2> :!make help<CR>
 nnoremap <F3> :!make vars<CR>
 nnoremap <F4> :!make clean<CR>
 nnoremap <F5> :!make<CR>
 nnoremap <F6> :!make run<CR>
 nnoremap <F7> :!make dbg<CR>
-
-" -mh=make help,  -mv=make vars,  mr=make run,  md=make debug,  mm=make
+" ,mh ,mv ...
 nnoremap <Leader>mh :!make help<CR>
 nnoremap <Leader>mv :!make vars<CR>
 nnoremap <Leader>mc :!make clean<CR>
@@ -146,14 +145,18 @@ nnoremap <Leader>mm :!make<CR>
 nnoremap <Leader>mr :!make run<CR>
 nnoremap <Leader>md :!make dbg<CR>
 "-----------------------------------------------
-" ,va = edit ~/.aliases.sh
-nnoremap <Leader>va :vs ~/.aliases.sh<CR>
-nnoremap <Leader>vb :vs ~/.bashrc<CR>
-nnoremap <Leader>vf :vs ~/.vifm/vifmrc.vim<CR>
-nnoremap <Leader>vt :vs ~/.tmux.conf<CR>
-nnoremap <Leader>vv :vs ~/.vimrc<CR>
-
-
+" ,va ,vb ... edit dotfiles
+let $ALIASES = '~/.aliases.sh'
+let $BASHRC  = '~/.bashrc'
+let $VIFMRC  = '~/.vifm/vifmrc.vim' 
+let $TMUX    = '~/.tmux.conf'
+let $VIMRC   = '~/.vimrc'
+set splitright
+nnoremap <Leader>va :vs $ALIASES<CR>:set cursorline cursorcolumn<CR><ESC>
+nnoremap <Leader>vb :vs $BASHRC <CR>
+nnoremap <Leader>vf :vs $VIFMRC <CR>
+nnoremap <Leader>vt :vs $TMUX   <CR>
+nnoremap <Leader>vv :vs $VIMRC  <CR>
 
 
 
@@ -164,10 +167,12 @@ nnoremap <Leader>vv :vs ~/.vimrc<CR>
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
-nnoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>
-inoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>l
-vnoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>
-cnoremap <C-s> <ESC><ESC>:w<CR>:source ~/.vimrc<CR>
+nnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>
+" NB!!! ::: Do NOT remove the l after <CR> ::: !!!
+" It adjusts the position of the coursor!!
+inoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>l
+vnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>
+cnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>
 
 " ctrl-q write and quit
 " in normal, insert, visual and command mode.

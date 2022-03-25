@@ -1,7 +1,15 @@
+########################################
+####    .aliases.sh    ####
+###########################
+
 alias ..='cd ..'
+alias a='alias'
 alias .b='source ~/.bashrc'
+alias .h='cd ~ && ls -la --color'
 alias e='exit'
 alias f='vifm ~ ~/dev'
+
+alias grep='grep --color=auto'
 
 # gp=git push
 alias gp='./.push*'
