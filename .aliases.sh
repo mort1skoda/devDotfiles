@@ -1,6 +1,7 @@
 ########################################
 ####    .aliases.sh    ####
 ###########################
+echo 'start of: '$ALIASES
 
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -39,4 +40,4 @@ alias ,vf='vim ~/.vifm/vifmrc.vim'
 alias ,vt='vim ~/.tmux.conf'
 alias ,vv='vim ~/.vimrc'
 
-
+echo 'end of: $ALIASES'

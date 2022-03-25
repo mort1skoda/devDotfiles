@@ -1,12 +1,8 @@
 #######################################
 ##    ~/.bashrc    ##
 #####################
+echo 'start of ~/.bashrc'
 
-
-
-########################################
-####    MY STUFF    ####
-########################
 # Turn Off Software Flow Control (XON/XOFF)
 # to fix keybindings in vim CTRL+s and CTRL+q
 stty -ixon
@@ -31,9 +27,11 @@ export VIMRC='~/.vimrc'
 
 
 ####  Print variables info ####
-clear
+#clear
 alias
 echo "exported variables:"
 echo "SHELL=$SHELL  TERM=$TERM  BASH_ENV=$BASH_ENV"
 echo "ALIASES=$ALIASES   BASRC=$BASHRC   VIMRC=$VIMRC   VIFMRC=$VIFMRC   TMUXCONF=$TMUXCONF"
+
+echo 'end of ~/.bashrc'
 

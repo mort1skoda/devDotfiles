@@ -135,10 +135,10 @@ let mapleader = ","
 nnoremap <Leader>v :vs<CR>
 nnoremap <Leader>h :sp<CR>
 " ctrl-hjkl navigate panes
-nnoremap <C-l> <C-w>l:echo 'nav pane right :'@%<CR>
-nnoremap <C-h> <C-w>h:echo 'nav pane left :'@%<CR>
-nnoremap <C-j> <C-w>j:echo 'nav pane dwn:'@%<CR>
-nnoremap <C-k> <C-w>k:echo 'nav pane up:'@%<CR>
+nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
+nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>
+nnoremap <C-j> <C-w>j:echo 'nav pane dwn:' expand('%:p')<CR>
+nnoremap <C-k> <C-w>k:echo 'nav pane up:' expand('%:p')<CR>
 " Resize panes: SHIFT-L and SHIFT-H
 nnoremap <S-L> 2<c-w>>:echo 'Resize pane SHIFT-L=>'<CR>
 nnoremap <S-H> 2<c-w><:echo 'Resize pane SHIFT-H=<'<CR>
@@ -175,11 +175,11 @@ let $TMUX    = '~/.tmux.conf'
 let $VIMRC   = '~/.vimrc'
 set splitright
 ":set cursorline cursorcolumn<CR><ESC>
-nnoremap <Leader>va :vs $ALIASES<CR>:echo @%<CR>
-nnoremap <Leader>vb :vs $BASHRC <CR>:echo @%<CR>
-nnoremap <Leader>vf :vs $VIFMRC <CR>:echo @%<CR>
-nnoremap <Leader>vt :vs $TMUX   <CR>:echo @%<CR>
-nnoremap <Leader>vv :vs $VIMRC  <CR>:echo @%<CR>
+nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
 
 
 " ctrl-s write (save) and source ~/.vimrc
