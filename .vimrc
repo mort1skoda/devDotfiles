@@ -184,12 +184,12 @@ nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
-nnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
+nnoremap <C-s> :w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
 " NB!!! ::: Do NOT remove the l after <CR> ::: !!!
 " It adjusts the position of the coursor!!
-inoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR><ESC>l:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
-vnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
-cnoremap <C-s> <ESC><ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'@%'  -   sourced:'$VIMRC<CR>
+inoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>l:echo'-- NORMAL -- saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
+vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
+cnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'-- NORMAL -- saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
 
 " ctrl-q write and quit
 " in normal, insert, visual and command mode.

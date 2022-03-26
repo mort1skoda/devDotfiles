@@ -20,6 +20,7 @@ alias gp='./.push*'
 alias gs='git status'
 alias gc='git commit'
 alias ga='git add -u'
+
 alias l='ls -la --color'
 
 alias m='make'
