@@ -1,8 +1,8 @@
 ########################################
 ####    .aliases.sh    ####
 ###########################
-echo 'start of: '$ALIASES
-
+echo '    start --- '$ALIASES
+echo '        setting aliases...'
 alias ..='cd ..'
 alias ...='cd ../..'
 
@@ -14,9 +14,12 @@ alias f='vifm ~ ~/dev'
 
 alias gr='grep --color=auto'
 alias grep='grep --color=auto'
+
 # gp=git push
 alias gp='./.push*'
-
+alias gs='git status'
+alias gc='git commit'
+alias ga='git add -u'
 alias l='ls -la --color'
 
 alias m='make'
@@ -40,4 +43,4 @@ alias ,vf='vim ~/.vifm/vifmrc.vim'
 alias ,vt='vim ~/.tmux.conf'
 alias ,vv='vim ~/.vimrc'
 
-echo 'end of: $ALIASES'
+echo '    end   --- '$ALIASES

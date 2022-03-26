@@ -1,7 +1,7 @@
 #######################################
 ##    ~/.bashrc    ##
 #####################
-echo 'start of ~/.bashrc'
+echo 'start --- ~/.bashrc'
 
 # Turn Off Software Flow Control (XON/XOFF)
 # to fix keybindings in vim CTRL+s and CTRL+q
@@ -30,8 +30,9 @@ export VIMRC='~/.vimrc'
 #clear
 alias
 echo "exported variables:"
-echo "SHELL=$SHELL  TERM=$TERM  BASH_ENV=$BASH_ENV"
-echo "ALIASES=$ALIASES   BASRC=$BASHRC   VIMRC=$VIMRC   VIFMRC=$VIFMRC   TMUXCONF=$TMUXCONF"
+echo "SHELL  =$SHELL        TERM=$TERM  BASH_ENV=$BASH_ENV"
+echo "ALIASES=$ALIASES    BASRC=$BASHRC"
+echo "VIMRC  =$VIMRC         VIFMRC =$VIFMRC   TMUXCONF=$TMUXCONF"
 
-echo 'end of ~/.bashrc'
+echo 'end   --- ~/.bashrc'
 
