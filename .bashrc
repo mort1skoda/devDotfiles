@@ -24,6 +24,8 @@ export BASHRC='~/.bashrc'
 export VIFMRC='~/.vifm/vifmrc.vim'
 export TMUXCONF='~/.tmux.conf'
 export VIMRC='~/.vimrc'
+export EDITOR='vim'
+
 
 
 ####  Print variables info ####
@@ -33,6 +35,7 @@ echo "exported variables:"
 echo "SHELL  =$SHELL        TERM=$TERM  BASH_ENV=$BASH_ENV"
 echo "ALIASES=$ALIASES    BASRC=$BASHRC"
 echo "VIMRC  =$VIMRC         VIFMRC =$VIFMRC   TMUXCONF=$TMUXCONF"
+echo "EDITOR =$EDITOR"
 
 echo 'end   --- ~/.bashrc'
 
