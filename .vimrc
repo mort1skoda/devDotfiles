@@ -208,13 +208,17 @@ nnoremap Y y$:echo'Y = Yanked from cursor to end of line'<CR>
 nnoremap D d$
 nnoremap C c$
 
+" jump one right after Put
+nnoremap P Pl
+
 " Shift-x insert space, only x delete one character.
 nnoremap X i<space><esc>
 
 " Space to type :!  to enter shell comands.
 nnoremap <SPACE> :!
-nnoremap <TAB> :
-
+"inoremap <TAB> <SPACE><SPACE><SPACE><SPACE>
+"nnoremap <TAB> i<TAB><ESC>
+    
 " ctrl-x to search and replace.
 nnoremap <C-x> :%s/
 " ctrl-f find
@@ -237,7 +241,7 @@ nnoremap <Leader>e :Lexplore<CR>7<C-w><
 let @c = "I//---> \<Esc>j"
 " @u in normal mode to uncomment a line.
 let @u = "I\<Del>\<Del>\<Del>\<Del>\<Del>\<Del>\<Del>\<Esc>j"
-" @p to insert printf("
+	" @p to insert printf("
 let @p = "Iprintf(\""
 " @f to insert 'for(int i = 0; i < 10; i++){'
 let @f = "I\<TAB>for(int i = 0; i < 10; i++){"

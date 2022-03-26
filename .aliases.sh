@@ -9,7 +9,7 @@ alias ...='cd ../..'
 alias a='alias'
 alias .b='source ~/.bashrc'
 alias .h='cd ~ && ls -la --color'
-alias e='exit'
+alias q='exit'
 alias f='vifm ~ ~/dev'
 
 alias gr='grep --color=auto'

@@ -17,7 +17,7 @@ set -o vi
 PS1="\[\033[01;33m\]\w\[\033[00m\]\n"
 
 export SHELL=/bin/bash
-export TERM=screen-256color
+#export TERM=screen-256color
 export BASH=_ENV='~/.bash_aliases.sh'
 export ALIASES='~/.aliases.sh'
 export BASHRC='~/.bashrc'
