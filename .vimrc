@@ -241,7 +241,7 @@ nnoremap <Leader>e :Lexplore<CR>7<C-w><
 let @c = "I//---> \<Esc>j"
 " @u in normal mode to uncomment a line.
 let @u = "I\<Del>\<Del>\<Del>\<Del>\<Del>\<Del>\<Del>\<Esc>j"
-	" @p to insert printf("
+" @p to insert printf("
 let @p = "Iprintf(\""
 " @f to insert 'for(int i = 0; i < 10; i++){'
 let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
