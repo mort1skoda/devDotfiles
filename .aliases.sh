@@ -2,7 +2,7 @@
 ####    .aliases.sh    ####
 ###########################
 echo '    start --- '$ALIASES
-echo '        setting aliases...'
+echo '        setting aliases....'
 alias ..='cd ..'
 alias ...='cd ../..'
 
