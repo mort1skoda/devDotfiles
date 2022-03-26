@@ -7,6 +7,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 
 alias a='alias'
+alias c='clear && l'
 alias .b='source ~/.bashrc'
 alias .h='cd ~ && ls -la --color'
 alias q='exit'
