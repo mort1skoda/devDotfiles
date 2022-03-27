@@ -1,6 +1,10 @@
 ########################################
 ####    .aliases.sh    ####
 ###########################
+
+#Author:	Morten Håkestad
+#Updated:	2022 03 27
+
 echo '    start --- '$ALIASES
 echo '        setting aliases....'
 alias ..='cd ..'
