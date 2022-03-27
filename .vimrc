@@ -225,9 +225,13 @@ nnoremap <C-x> :%s/
 nnoremap <C-f> /
 
 
+" open vim integrated file explorer
 nnoremap <Leader>e :Lexplore<CR>7<C-w><
 
-
+" insert hash(#) comment
+nnoremap <Leader>hc 0i#<ESC>j
+" insert " comment
+nnoremap <Leader>ac I"<ESC>j
 
 
 
@@ -237,13 +241,13 @@ nnoremap <Leader>e :Lexplore<CR>7<C-w><
 "nnoremap <Leader>h <Esc>:r ~/c/00templates/func1.h<CR>ggdd:w<CR>
 "nnoremap <Leader>f <Esc>:r ~/c/00templates/func1.c<CR>ggdd:w<CR>
 
-" @c in normal mode to comment one line.
-let @c = "I//---> \<Esc>j"
-" @u in normal mode to uncomment a line.
-let @u = "I\<Del>\<Del>\<Del>\<Del>\<Del>\<Del>\<Del>\<Esc>j"
-" @p to insert printf("
+" @c comment C line
+let @c = "I// \<Esc>j"
+" @u uncomment C line
+let @u = "I\<Del>\<Del>\<Del>\<Esc>j"
+" @p printf("
 let @p = "Iprintf(\""
-" @f to insert 'for(int i = 0; i < 10; i++){'
+" @f for(int i = 0; i < 10; i++){
 let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
 "-----------------------------------------------
 

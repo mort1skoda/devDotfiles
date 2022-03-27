@@ -5,8 +5,10 @@
 #Author:	Morten Håkestad
 #Updated:	2022 03 27
 
-echo '    start --- '$ALIASES
-echo '        setting aliases....'
+#     p   b   a
+#     #   #   #
+echo '        >>>> begin '$ALIASES'>>>>'
+echo '            setting aliases....'
 
 # navigating the terminal
 alias ..='cd .. && ls -la --color'
@@ -14,6 +16,7 @@ alias ...='cd ../.. && ls -la --color'
 alias .r='cd / && ls -la --color'
 alias .h='cd ~ && ls -la --color'
 alias .d='cd ~/dev && ls -la --color'
+alias bl='bash --login'
 
 alias a='alias'
 alias c='clear && l'
@@ -54,6 +57,6 @@ alias ,vf='vim ~/.vifm/vifmrc.vim'
 alias ,vt='vim ~/.tmux.conf'
 alias ,vv='vim ~/.vimrc'
 
-echo '    end   --- '$ALIASES
+echo '        .... end  '$ALIASES' ...'
 
 
