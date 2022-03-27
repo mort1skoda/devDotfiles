@@ -7,24 +7,29 @@
 
 echo '    start --- '$ALIASES
 echo '        setting aliases....'
-alias ..='cd ..'
-alias ...='cd ../..'
+
+# navigating the terminal
+alias ..='cd .. && ls -la --color'
+alias ...='cd ../.. && ls -la --color'
+alias .r='cd / && ls -la --color'
+alias .h='cd ~ && ls -la --color'
+alias .d='cd ~/dev && ls -la --color'
 
 alias a='alias'
 alias c='clear && l'
 alias .b='source ~/.bashrc'
-alias .h='cd ~ && ls -la --color'
 alias q='exit'
 alias f='vifm ~ ~/dev'
 
 alias gr='grep --color=auto'
 alias grep='grep --color=auto'
 
-# gp=git push
+# git aliases
 alias gp='./.push*'
 alias gs='git status'
 alias gc='git commit'
 alias ga='git add -u'
+alias ,vp='vim .push*'
 
 alias l='ls -la --color'
 
@@ -50,3 +55,5 @@ alias ,vt='vim ~/.tmux.conf'
 alias ,vv='vim ~/.vimrc'
 
 echo '    end   --- '$ALIASES
+
+

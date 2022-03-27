@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #git add README.md
-#git add .a* .b* .c* .g* .l* .p* .t* .v* .z*
+git add .*
 #git rm .viminfo .bash_history
 git add -u
 update="Updated: "
