@@ -1,0 +1,46 @@
+#######################################
+######    ~/.tmuxTutorial.txt    ###### 
+#######################################
+
+
+#--------COMMANDLINE-----------
+tmux kill-session -t [give session no]
+
+aliases:
+tl	=	tmux list-sessions
+ta	=	tmux attach -t [give session name]
+
+
+ctrl-c		=	prefix
+
+alt     s	=	source ~/.tmux.conf
+alt     :	=	command-prompt
+
+
+#----------PANE----------------
+ctrl-c	v	=	split vert
+ctrl-c  h	=	split hori
+
+alt     h   =   go Left pane
+alt     l   =   go Rigth pane
+alt     j	=	go Down pane
+alt     k	=	go Up pane
+
+alt     m	=	resize-pane -L 2
+alt     -  	=	resize-pane -R 2
+alt     ,   =   resize-pane -D 2 
+alt     ,   =   resize-pane -D 2 
+
+
+#--------WINDOW----------------
+alt     c   =   new-window
+alt     n	=	next-window
+alt     p   =   previous-window
+
+ctrl-c	r	=	rename session
+ctrl-c  w   =   rename window
+
+ctrl-c  l   =   list-keys
+alt     d   =   detach-client
+
+

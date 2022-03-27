@@ -1,0 +1,37 @@
+.  = repeat last command
+
+ce = cw = change to end of word
+ciw = change inner word
+caw = change (outer) word, includes whitespace
+ct  = change to (give a char or symbol)
+C   = change to end of line
+
+dw = delete to start of the next word
+de = delete to end of current word
+diw = delete inner word
+daw = delete outer word, includes whitespace
+D   = delete to end of line
+
+yw
+ye
+yiw = yank inner word
+yaw
+Y   = yank to end of line
+
+
+C-s		=	write and source ~/.vimrc
+Leader = '-'
+-	v	vertical split
+-	\	horizontal split
+TAB		=	go to next pane
+
+
+-----------SHOW MAPPINGS-----------
+":nmap - Display normal mode maps
+":imap - Display insert mode maps
+":vmap - Display visual and select mode maps
+":smap - Display select mode maps
+":xmap - Display visual mode maps
+":cmap - Display command-line mode maps
+":omap - Display operator pending mode maps
+"
