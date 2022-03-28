@@ -3,7 +3,8 @@
 ce = cw = change to end of word
 ciw = change inner word
 caw = change (outer) word, includes whitespace
-ct  = change to (give a char or symbol)
+ct  = change upto given char
+ct  = change including given char
 C   = change to end of line
 
 dw = delete to start of the next word

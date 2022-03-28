@@ -18,7 +18,7 @@ alias .h='cd ~ && ls -la --color'
 alias .d='cd ~/dev && ls -la --color'
 alias bl='bash --login'
 
-alias a='alias'
+alias a='source ~/.aliases.sh && clear && alias'
 alias c='clear && l'
 alias .b='source ~/.bashrc'
 alias q='exit'
