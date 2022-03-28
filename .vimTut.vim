@@ -1,6 +1,6 @@
 """"""""""""""""""""""""""""""""""
-""""    ~/.vimTutorial.vim
-""""""""""""""""""""""""""""""
+""""    ~/.vimTut.txt
+"""""""""""""""""""""""""
 
 ff  =  toggle folds
 
@@ -80,7 +80,7 @@ C-h navigate to pane left
 
 
 Leader = ','
-,vv = vim ~/.vimrcv
+,vv = vim ~/.vimrcv  (check out ~/.vimrc for more macros)
 
 .   = repeat last command
 

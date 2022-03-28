@@ -2,8 +2,13 @@
 """"    ~/.vimrc    """"
 """"""""""""""""""""""""
 
+"ff  =  toggle folds
 
 " SETTINGS -----------------------------------------------------{{{
+
+" when using ,v  the new pane will be on the right side.
+" with respect to the pane you give the command from.
+set splitright
 
 " Expand aliases.
 let $BASH_ENV = "~/.bash_aliases.sh"
@@ -98,12 +103,27 @@ nnoremap l l:echo'-- NORMAL --   l-right'<CR>
 nnoremap <C-e> 2<C-e>:echo 'scroll dwn'<CR>
 nnoremap <C-y> 2<C-y>:echo 'scroll up'<CR>
 
-let mapleader = ","
+
+"""""""""""""""""""""""""""""""""""""
+""""  Macros using mapleader (,) 
+""""  See the fold named MAPLEADER
+"""""""""""""""""""""""""""""""""""""
+"let mapleader = ","
+"
+" open vim integrated file explorer
+"nnoremap <Leader>e :Lexplore<CR>7<C-w><
+" ,ch = leader comment hash
+"nnoremap <Leader>ch I#<ESC>j
+" ,ca = leader comment apostrophe
+"nnoremap <Leader>ca I"<ESC>j
+
 
 "--------PANES----------------------------------
 " ,v for vertical split ,h for horizonal split
-nnoremap <Leader>v :vs<CR>
-nnoremap <Leader>h :sp<CR>
+"""" Please see Leader fold.
+"nnoremap <Leader>v :vs<CR>
+"nnoremap <Leader>h :sp<CR>
+"
 " ctrl-hjkl navigate panes
 nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
 nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>
@@ -130,26 +150,21 @@ nnoremap <F5> :!make<CR>
 nnoremap <F6> :!make run<CR>
 nnoremap <F7> :!make dbg<CR>
 " ,mh ,mv ...
-nnoremap <Leader>mh :!make help<CR>
-nnoremap <Leader>mv :!make vars<CR>
-nnoremap <Leader>mc :!make clean<CR>
-nnoremap <Leader>mm :!make<CR>
-nnoremap <Leader>mr :!make run<CR>
-nnoremap <Leader>md :!make dbg<CR>
+"""" Please see MAOLEADER fold.
+"nnoremap <Leader>mh :!make help<CR>
+"nnoremap <Leader>mv :!make vars<CR>
+"nnoremap <Leader>mc :!make clean<CR>
+"nnoremap <Leader>mm :!make<CR>
+"nnoremap <Leader>mr :!make run<CR>
+"nnoremap <Leader>md :!make dbg<CR>
 "-----------------------------------------------
-" ,va ,vb ... edit dotfiles
-let $ALIASES = '~/.aliases.sh'
-let $BASHRC  = '~/.bashrc'
-let $VIFMRC  = '~/.vifm/vifmrc.vim' 
-let $TMUX    = '~/.tmux.conf'
-let $VIMRC   = '~/.vimrc'
-set splitright
-":set cursorline cursorcolumn<CR><ESC>
-nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
+
+"""" Please see MAPLEADER fold.
+"nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>
+"nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>
+"nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>
+"nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>
+"nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
 
 
 " ctrl-s write (save) and source ~/.vimrc
@@ -195,21 +210,8 @@ nnoremap <C-x> :%s/
 nnoremap <C-f> /
 
 
-" open vim integrated file explorer
-nnoremap <Leader>e :Lexplore<CR>7<C-w><
-
-" insert hash(#) comment
-nnoremap <Leader>hc 0i#<ESC>j
-" insert " comment
-nnoremap <Leader>ac I"<ESC>j
 
 
-
-
-"--------MACROS---------------------------------
-"nnoremap <Leader>t <ESC>:!PWD=$(pwd)<CR><CR>:r ~/c/00templates/main.c<CR>ggdd:w $PWD/main.c<CR>
-"nnoremap <Leader>h <Esc>:r ~/c/00templates/func1.h<CR>ggdd:w<CR>
-"nnoremap <Leader>f <Esc>:r ~/c/00templates/func1.c<CR>ggdd:w<CR>
 
 " @c comment C line
 let @c = "I// \<Esc>j"
@@ -222,12 +224,49 @@ let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
 "-----------------------------------------------
 
 
+" }}}
+
+
+" MAPLEADER (,) ---------------------------{{{
+
+let mapleader = ","
+
+" ,va ,vb ... edit dotfiles
+let $ALIASES = '~/.aliases.sh'
+let $BASHRC  = '~/.bashrc'
+let $VIFMRC  = '~/.vifm/vifmrc.vim' 
+let $TMUX    = '~/.tmux.conf'
+let $VIMRC   = '~/.vimrc'
+nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>
+
+" ,v for vertical split ,h for horizonal split
+nnoremap <Leader>v :vs<CR>
+nnoremap <Leader>h :sp<CR>
+
+" open vim integrated file explorer
+nnoremap <Leader>e :Lexplore<CR>7<C-w><
+
+" ,ch = leader comment hash
+nnoremap <Leader>ch I#<ESC>j
+" ,ca = leader comment apostrophe
+nnoremap <Leader>ac I"<ESC>j
+
+" ,mh ,mv ...
+nnoremap <Leader>mh :!make help<CR>
+nnoremap <Leader>mv :!make vars<CR>
+nnoremap <Leader>mc :!make clean<CR>
+nnoremap <Leader>mm :!make<CR>
+nnoremap <Leader>mr :!make run<CR>
+
 
 " }}}
 
 
 " SCRIPTS ------------------------------------------------------{{{
-"
+
 " This will enable code folding.
 " Use the marker method of folding.
 augroup filetype_vim
@@ -241,7 +280,6 @@ augroup cursor_off
 	autocmd WinLeave * set nocursorline nocursorcolumn
 	autocmd WinEnter * set cursorline cursorcolumn
 augroup END
-
 
 
 " }}}
@@ -275,4 +313,7 @@ set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
 set laststatus=2
 
 " }}}
+
+
+
 
