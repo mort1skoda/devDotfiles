@@ -2,45 +2,8 @@
 """"    ~/.vimrc    """"
 """"""""""""""""""""""""
 
-" cheatSheet---------------------------------Display insert mode maps-{{
 
-".  = repeat last command
-"
-"cw 	= change to end of word
-"ce		= change to end of word
-"ciw 	= change inner word
-"caw 	= change outer word, includes whitespace
-"ct  	= change to (given char or symbol)
-"C   	= change to end of line
-"
-"dw 	= delete to start of next word
-"de 	= delete to end of current word
-"diw 	= delete inner word
-"daw 	= delete outer word, includes whitespace
-
-"D   	= delete to end of line
-"
-"yw		= yank to start of next word
-"ye		= yank to end of current word
-"yiw 	= yank inner word
-"yaw	= yank outer word
-"Y		= yank to end of line
-"
-"-----------SHOW MAPPINGS-----------
-":nmap - Display normal mode maps
-":imap - Display insert mode maps
-":vmap - Display visual and select mode maps
-":smap - Display select mode maps
-":xmap - Display visual mode maps
-":cmap - Display command-line mode maps
-":omap - Display operator pending mode maps
-
-
-
-" }}}
-
-
-" SETTINGS -----------------------------------------------------{{
+" SETTINGS -----------------------------------------------------{{{
 
 " Expand aliases.
 let $BASH_ENV = "~/.bash_aliases.sh"
@@ -114,12 +77,17 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " }}}
 
 
-" MAPPINGS -----------------------------------------------------{{
+" MAPPINGS -----------------------------------------------------{{{
 
-nnoremap r r
-" go to end of line
-nnoremap å $:echo'å=$=go to end of line'<CR>
-nnoremap 0 0:echo'0=0=go to beginning of line'<CR>
+" toggle fold
+nnoremap ff za
+
+" make cw behave like dw and yw
+nnoremap cw dwi
+
+" å = go to end of line, 0=go to beginning of line.
+nnoremap å $:echo'å=go to end of line'<CR>
+nnoremap 0 0:echo'0=go to beginning of line'<CR>
 
 nnoremap h h:echo'-- NORMAL --   h-left'<CR>
 nnoremap j j:echo'-- NORMAL --   j-dwn'<CR>
@@ -258,7 +226,7 @@ let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
 " }}}
 
 
-" SCRIPTS ------------------------------------------------------{{
+" SCRIPTS ------------------------------------------------------{{{
 "
 " This will enable code folding.
 " Use the marker method of folding.
@@ -279,7 +247,7 @@ augroup END
 " }}}
 
 
-" PLUGINS ------------------------------------------------------{{
+" PLUGINS ------------------------------------------------------{{{
 
 "call plug#begin('~/.vim/plugged')
 
@@ -289,7 +257,7 @@ augroup END
 " }}}
 
 
-" STATUS LINE --------------------------------------------------{{
+" STATUS LINE --------------------------------------------------{{{
 
 " Clear status line when vimrc is reloaded.
 set statusline=
