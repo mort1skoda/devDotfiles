@@ -19,6 +19,7 @@ alt     :	=	command-prompt
 
 #----------PANE----------------
 ctrl-c	v	=	split vert
+alt     v   =   split vert
 ctrl-c  h	=	split hori
 
 alt     h   =   go Left pane
