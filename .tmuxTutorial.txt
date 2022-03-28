@@ -3,45 +3,44 @@
 #######################################
 
 
-#--------COMMANDLINE-----------
+#------------- COMMANDLINE ----
 tmux kill-session -t [give session no]
 
 aliases:
-tl	=	tmux list-sessions
-ta	=	tmux attach -t [give session name]
+tl              =    tmux list-sessions
+ta              =    tmux attach -t [give session name]
 
 
-ctrl-c		=	prefix
+#------------- BASICS ---------
+ctrl-c         =    send-prefix
+ctrl-c    r    =    rename-session
 
-alt     s	=	source ~/.tmux.conf
-alt     :	=	command-prompt
-
-
-#----------PANE----------------
-ctrl-c	v	=	split vert
-alt     v   =   split vert
-ctrl-c  h	=	split hori
-
-alt     h   =   go Left pane
-alt     l   =   go Rigth pane
-alt     j	=	go Down pane
-alt     k	=	go Up pane
-
-alt     m	=	resize-pane -L 2
-alt     -  	=	resize-pane -R 2
-alt     ,   =   resize-pane -D 2 
-alt     ,   =   resize-pane -D 2 
+ctrl-c    l    =    list-keys    (q to quit)
+   alt    s    =    source-file ~/.tmux.conf
+   alt    :    =    command-prompt
+   alt    d    =    detach-client
 
 
-#--------WINDOW----------------
-alt     c   =   new-window
-alt     n	=	next-window
-alt     p   =   previous-window
+#------------- PANE -----------
+ctrl-c    v    =    split vert
+   alt    v    =    split vert
+ctrl-c    h    =    split hori
 
-ctrl-c	r	=	rename session
-ctrl-c  w   =   rename window
+   alt    h    =    select-pane -L
+   alt    l    =    select-pane -R
+   alt    j    =    select-pane -D
+   alt    k    =    select-pane -U
 
-ctrl-c  l   =   list-keys
-alt     d   =   detach-client
+   alt    m    =    resize-pane -L 2
+   alt    -    =    resize-pane -R 2
+   alt    ,    =    resize-pane -D 2 
+   alt    .    =    resize-pane -U 2 
+
+
+#------------- WINDOW ---------
+   alt    c    =    new-window
+   alt    n    =    next-window
+   alt    p    =    previous-window
+ctrl-c    w    =    rename window
 
 
