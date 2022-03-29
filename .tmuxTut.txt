@@ -2,6 +2,7 @@
 ######    ~/.tmuxTut.txt 
 ############################
 
+# ff = toggle folds
 
 #------------- COMMANDLINE ----{{{
 
