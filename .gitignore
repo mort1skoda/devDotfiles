@@ -1,9 +1,12 @@
+dev
+dl
+hw
+
 .bash_history
 .fzf*
 .gdb_history
 .local
-dl
-dev
 .viminfo
-*_BU
+*BU
+BU*
 
