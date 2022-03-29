@@ -1,9 +1,11 @@
+#! /bin/bash
+
 ########################################
 ####    .aliases.sh    ####
 ###########################
 
 #Author:	Morten Håkestad
-#Updated:	2022 03 27
+#Updated:	2022 03 29
 
 #     p   b   a
 #     #   #   #
@@ -24,8 +26,9 @@ alias .b='source ~/.bashrc'
 alias q='exit'
 alias f='vifm ~ ~/dev'
 
-alias gr='grep --color=auto'
+alias g='grep --color=auto'
 alias grep='grep --color=auto'
+alias lg='ls -la --color | grep -i --color'
 
 # git aliases
 alias gp='./.push*'
@@ -34,7 +37,7 @@ alias gc='git commit'
 alias ga='git add -u'
 alias ,vp='vim .push*'
 
-alias l='ls -la --color'
+alias l='ls -la --color --group-directories-first'
 
 alias m='make'
 alias md='mkdir -p'
@@ -56,6 +59,8 @@ alias ,vb='vim ~/.bashrc && source ~/.bashrc'
 alias ,vf='vim ~/.vifm/vifmrc.vim'
 alias ,vt='vim ~/.tmux.conf'
 alias ,vv='vim ~/.vimrc'
+
+shopt -s expand_aliases
 
 echo '        .... end  '$ALIASES' ...'
 

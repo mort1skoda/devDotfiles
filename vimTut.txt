@@ -3,8 +3,10 @@
 """""""""""""""""""""""""
 
 ff  =  toggle folds
+.   = repeat last command
 
-" ----  Change Delete Yank ----------------------------------------{{{
+
+"-----  Change Delete Yank -----------------------{{{
 
 ce  = change to end   of current word 
 cw  = change to start of the next word
@@ -54,7 +56,7 @@ p
 " }}}
 
 
-" ----  Split window / resize pane ----------------------------------{{{
+"-----  Split window / resize pane ---------------{{{
 
 ,v	vertical split
 ,h	horizontal split
@@ -66,7 +68,7 @@ C-h navigate to pane left
 " }}}
 
 
-" ----  Show mappings -----------------------------------------------{{{
+"-----  Show mappings ----------------------------{{{
 
 ":nmap - Display normal mode maps
 ":imap - Display insert mode maps
@@ -79,14 +81,11 @@ C-h navigate to pane left
 " }}}
 
 
+"-----  Leader stuff -----------------------------{{{
+
 Leader = ','
 ,vv = vim ~/.vimrcv  (check out ~/.vimrc for more macros)
 
-.   = repeat last command
-
-
-"""""""""""""""""""
-""  end of file  ""
-"""""""""""""""""""
+"}}}
 
 

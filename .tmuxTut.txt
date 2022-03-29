@@ -1,17 +1,21 @@
 #######################################
-######    ~/.tmuxTutorial.txt    ###### 
-#######################################
+######    ~/.tmuxTut.txt 
+############################
 
 
-#------------- COMMANDLINE ----
+#------------- COMMANDLINE ----{{{
+
 tmux kill-session -t [give session no]
 
 aliases:
 tl              =    tmux list-sessions
 ta              =    tmux attach -t [give session name]
 
+#}}}
 
-#------------- BASICS ---------
+
+#------------- BASICS ---------{{{
+
 ctrl-c         =    send-prefix
 ctrl-c    r    =    rename-session
 
@@ -20,8 +24,11 @@ ctrl-c    l    =    list-keys    (q to quit)
    alt    :    =    command-prompt
    alt    d    =    detach-client
 
+#}}}
 
-#------------- PANE -----------
+
+#------------- PANE -----------{{{
+
 ctrl-c    v    =    split vert
    alt    v    =    split vert
 ctrl-c    h    =    split hori
@@ -36,11 +43,16 @@ ctrl-c    h    =    split hori
    alt    ,    =    resize-pane -D 2 
    alt    .    =    resize-pane -U 2 
 
+#}}}
 
-#------------- WINDOW ---------
+
+#------------- WINDOW ---------{{{
+
    alt    c    =    new-window
    alt    n    =    next-window
    alt    p    =    previous-window
 ctrl-c    w    =    rename window
+
+#}}}
 
 

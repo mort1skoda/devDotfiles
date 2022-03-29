@@ -6,13 +6,16 @@
 
 " SETTINGS -----------------------------------------------------{{{
 
+setlocal foldmethod=marker
+
 " when using ,v  the new pane will be on the right side.
 " with respect to the pane you give the command from.
 set splitright
 
 " Expand aliases.
-let $BASH_ENV = "~/.bash_aliases.sh"
-let $ZSH_ENV = "~/.bash_aliases"
+"let $BASH_ENV = "~/.bash_aliases.sh"
+let $BASH_ENV = "~/.aliases.sh"
+"let $ZSH_ENV = "~/.bash_aliases"
 
 " Block cursor in Normal mode, vertical cursor in Insert mode,
 " horizontal cursor in Replace mode
@@ -241,6 +244,7 @@ nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>
 nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>
 nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>
 nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>
+nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
 
 " ,v for vertical split ,h for horizonal split
 nnoremap <Leader>v :vs<CR>
