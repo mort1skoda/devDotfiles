@@ -1,7 +1,10 @@
 dev
 dl
 hw
+hardware
 test
+temp
+tmp
 .bash_history
 .fzf*
 .gdb_history
