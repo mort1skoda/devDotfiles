@@ -39,7 +39,14 @@ alias ,vp='vim .push*'
 
 alias l='ls -la --color --group-directories-first'
 
-alias m='make'
+#alias m='make'
+alias ,mc='make clean'
+alias ,mm='make all'
+alias ,mr='make run'
+alias ,md='make dbg'
+alias ,mh='make help'
+alias ,mv='make vars'
+
 alias md='mkdir -p'
 alias rd='rmdir -p'
 

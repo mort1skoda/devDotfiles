@@ -8,5 +8,6 @@ if [ "$SHLVL" = 1 ]; then
 
 fi
 
+gp
 echo '.... end   ~/:bash_logout ....'
 
