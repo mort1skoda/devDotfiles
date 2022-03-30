@@ -14,3 +14,4 @@ git commit -m "$msg"
 git push -u origin master
 git status
 
+

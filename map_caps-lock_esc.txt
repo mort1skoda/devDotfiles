@@ -1,4 +1,8 @@
 in windows 10
 download and run uncap.exe
+
 https://github.com/susam/uncap
+
+https://github.com/susam/uncap/releases/download/0.3.0/uncap.exe
+
 

@@ -12,35 +12,71 @@
 echo '        >>>> begin '$ALIASES'>>>>'
 echo '            setting aliases....'
 
-# navigating the terminal
+alias f='vifm ~ ~/dev'
+alias v='vim'
+alias sai='sudo apt install'
+alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
+
+# ff = toggle folds
+# use ag to grep in the .aliases.sh
+# example:
+# ag vim  will list all aliases that contains 'vim'
+
+# navigating the terminal ----------{{{
 alias ..='cd .. && ls -la --color'
 alias ...='cd ../.. && ls -la --color'
-alias .r='cd / && ls -la --color'
-alias .h='cd ~ && ls -la --color'
-alias .d='cd ~/dev && ls -la --color'
-alias bl='bash --login'
+alias cdr='cd / && ls -la --color'
+alias cdh='cd ~ && ls -la --color'
+alias cdd='cd ~/dev && ls -la --color'
 
 alias a='source ~/.aliases.sh && clear && alias'
-alias c='clear && l'
-alias .b='source ~/.bashrc'
-alias q='exit'
-alias f='vifm ~ ~/dev'
+alias .a='source ~/.aliases.sh'
 
-alias g='grep --color=auto'
-alias grep='grep --color=auto'
-alias lg='ls -la --color | grep -i --color'
+alias ag='alias | grep -i --color '
+alias .b='source ~/.bashrc'
+
 alias c='cat'
 
-# git aliases
-alias gp='./.push*'
+alias g='grep --color=auto'
+
+alias l='ls -la --color --group-directories-first'
+alias lg='ls -la --color | grep -i --color '
+
+alias md='mkdir -p'
+alias rd='rmdir -p'
+
+alias bl='bash --login'
+alias q='exit'
+
+#-----------------------------------}}}
+
+
+# git aliases ----------------------{{{
+alias gp='./.gitPush*'
 alias gs='git status'
 alias gc='git commit'
 alias ga='git add -u'
-alias ,vp='vim .push*'
+#-----------------------------------}}}
 
-alias l='ls -la --color --group-directories-first'
 
-#alias m='make'
+# tmux command line-----------------{{{
+
+alias tl='tmux ls'
+# ta=tmux attach -t [enter session-name from tl]
+alias ta='tmux a -t '
+
+#-----------------------------------}}}
+
+
+# leader type aliases --------------{{{
+
+alias ,ea='vim ~/.aliases.sh && source ~/.bashrc'
+alias ,eb='vim ~/.bashrc && source ~/.bashrc'
+alias ,ef='vim ~/.vifm/vifmrc.vim'
+alias ,eg='vim .gitPush*'
+alias ,et='vim ~/.tmux.conf'
+alias ,ev='vim ~/.vimrc'
+
 alias ,mc='make clean'
 alias ,mm='make all'
 alias ,mr='make run'
@@ -48,28 +84,10 @@ alias ,md='make dbg'
 alias ,mh='make help'
 alias ,mv='make vars'
 
-alias md='mkdir -p'
-alias rd='rmdir -p'
-
-alias sai='sudo apt install'
-alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
-
-# tl=tmux list-sessions
-alias tl='tmux ls'
-# ta=tmux attach -t [enter session-name from tl]
-alias ta='tmux a -t '
-
-alias v='vim'
-
-# make aliases same as <leader>va in vim ,va = vim ~/.aliases.sh
-alias ,va='vim ~/.aliases.sh && source ~/.bashrc'
-alias ,vb='vim ~/.bashrc && source ~/.bashrc'
-alias ,vf='vim ~/.vifm/vifmrc.vim'
-alias ,vt='vim ~/.tmux.conf'
-alias ,vv='vim ~/.vimrc'
+#-----------------------------------}}}
 
 shopt -s expand_aliases
 
 echo '        .... end  '$ALIASES' ...'
 
-###
+
