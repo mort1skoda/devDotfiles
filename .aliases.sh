@@ -5,7 +5,7 @@
 ###########################
 
 #Author:	Morten Håkestad
-#Updated:	2022 03 29
+#Updated:	2022 03 30
 
 #     p   b   a
 #     #   #   #
@@ -22,53 +22,62 @@ alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 # example:
 # ag vim  will list all aliases that contains 'vim'
 
-# navigating the terminal ----------{{{
+
+#------------- SHELL aliases ---------------{{{
+
+# navigate directories:
 alias ..='cd .. && ls -la --color'
 alias ...='cd ../.. && ls -la --color'
-alias cdr='cd / && ls -la --color'
-alias cdh='cd ~ && ls -la --color'
-alias cdd='cd ~/dev && ls -la --color'
+alias .r='cd / && ls -la --color'
+alias .h='cd ~ && ls -la --color'
+alias .d='cd ~/dev && ls -la --color'
 
-alias a='source ~/.aliases.sh && clear && alias'
-alias .a='source ~/.aliases.sh'
-
-alias ag='alias | grep -i --color '
-alias .b='source ~/.bashrc'
-
-alias c='cat'
-
-alias g='grep --color=auto'
-
+# list directories:
 alias l='ls -la --color --group-directories-first'
 alias lg='ls -la --color | grep -i --color '
 
+# work with directories:
 alias md='mkdir -p'
 alias rd='rmdir -p'
 
+# work with aliases:
+alias a='source ~/.aliases.sh && clear && alias'
+alias ag='alias | grep -i --color '
+
+# work with .bashrc
+alias sb='source ~/.bashrc'
 alias bl='bash --login'
+
+# shortcuts:
+alias c='cat'
+alias g='grep --color=auto'
+
+# quit or exit shell
 alias q='exit'
 
-#-----------------------------------}}}
+#---------------}}}
 
 
-# git aliases ----------------------{{{
+#------------  git aliases -----------{{{
+
 alias gp='./.gitPush*'
 alias gs='git status'
 alias gc='git commit'
 alias ga='git add -u'
-#-----------------------------------}}}
+
+#----------------}}}
 
 
-# tmux command line-----------------{{{
+#------------  tmux cli ------------{{{
 
 alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
 alias ta='tmux a -t '
 
-#-----------------------------------}}}
+#---------------}}}
 
 
-# leader type aliases --------------{{{
+#------------ , mapleader aliases -------------{{{
 
 alias ,ea='vim ~/.aliases.sh && source ~/.bashrc'
 alias ,eb='vim ~/.bashrc && source ~/.bashrc'
@@ -77,14 +86,15 @@ alias ,eg='vim .gitPush*'
 alias ,et='vim ~/.tmux.conf'
 alias ,ev='vim ~/.vimrc'
 
+alias ,mh='make help'
+alias ,mv='make vars'
 alias ,mc='make clean'
 alias ,mm='make all'
 alias ,mr='make run'
 alias ,md='make dbg'
-alias ,mh='make help'
-alias ,mv='make vars'
 
-#-----------------------------------}}}
+#--------------}}}
+
 
 shopt -s expand_aliases
 

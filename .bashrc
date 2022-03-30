@@ -18,6 +18,8 @@ set -o vi
 # minimal prompt
 PS1="\[\033[01;33m\]\w\[\033[00m\]\n"
 
+
+######### export ##########{{{
 export SHELL=/bin/bash
 # do NOT export TERM here, it fucks up tmux, it is set in .tmux.conf
 #export TERM=screen-256color
@@ -28,9 +30,10 @@ export VIFMRC='~/.vifm/vifmrc.vim'
 export TMUXCONF='~/.tmux.conf'
 export VIMRC='~/.vimrc'
 export EDITOR='vim'
+#############}}}
 
 
-####  Print variables info ####
+######### echo   ##########{{{
 #clear
 #alias
 #echo "exported variables:"
@@ -38,6 +41,8 @@ export EDITOR='vim'
 #echo "ALIASES=$ALIASES    BASRC=$BASHRC"
 #echo "VIMRC  =$VIMRC         VIFMRC =$VIFMRC   TMUXCONF=$TMUXCONF"
 #echo "EDITOR =$EDITOR"
+#############}}}
+
 
 echo '    .... end   ~/.bashrc ...'
 

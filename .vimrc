@@ -216,23 +216,18 @@ nnoremap <C-f> /
 
 
 
-" @c comment C line
-let @c = "I// \<Esc>j"
-" @u uncomment C line
-let @u = "I\<Del>\<Del>\<Del>\<Esc>j"
-" @p printf("
-let @p = "Iprintf(\""
-" @f for(int i = 0; i < 10; i++){
-let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
-"-----------------------------------------------
 
 
 " }}}
 
 
-" MAPLEADER (,) ---------------------------{{{
+"---------------- , mapleader MACROS -----------------{{{
 
 let mapleader = ","
+
+" ,vv for vertical split ,hh for horizonal split
+nnoremap <Leader>vv :vs<CR>
+nnoremap <Leader>hh :sp<CR>
 
 " ,va ,vb ... edit dotfiles
 let $ALIASES = '~/.aliases.sh'
@@ -240,33 +235,51 @@ let $BASHRC  = '~/.bashrc'
 let $VIFMRC  = '~/.vifm/vifmrc.vim' 
 let $TMUX    = '~/.tmux.conf'
 let $VIMRC   = '~/.vimrc'
-nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>
-nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
 
-" ,v for vertical split ,h for horizonal split
-nnoremap <Leader>v :vs<CR>
-nnoremap <Leader>h :sp<CR>
-
-" open vim integrated file explorer
-nnoremap <Leader>e :Lexplore<CR>7<C-w><
-
-" ,ch = leader comment hash
-nnoremap <Leader>ch I#<ESC>j
-" ,ca = leader comment apostrophe
-nnoremap <Leader>ac I"<ESC>j
+setlocal foldmethod=marker
+nnoremap <Leader>ea :vs $ALIASES<CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>eb :vs $BASHRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>ef :vs $VIFMRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>et :vs $TMUX   <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>ev :vs $VIMRC  <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
 
 " ,mh ,mv ...
 nnoremap <Leader>mh :!make help<CR>
 nnoremap <Leader>mv :!make vars<CR>
 nnoremap <Leader>mc :!make clean<CR>
-nnoremap <Leader>mm :!make<CR>
+nnoremap <Leader>mm :!make all<CR>
 nnoremap <Leader>mr :!make run<CR>
+nnoremap <Leader>md :!make dbg<CR>
 
+
+" open vim integrated file explorer
+nnoremap <Leader>ex :Lexplore<CR>7<C-w><
+
+" ,ch = leader comment hash
+nnoremap <Leader>ch I#<ESC>j
+" ,ca = leader comment apostrophe
+nnoremap <Leader>ca I"<ESC>j
+" ,cc = leader comment c source code
+noremap <Leader>cc I//<ESC>j
 
 " }}}
+
+
+"---------------- @ MACROS --------------{{{
+
+" @c comment C line
+let @c = "I// \<Esc>j"
+
+" @u uncomment C line
+let @u = "I\<Del>\<Del>\<Del>\<Esc>j"
+
+" @p printf("
+let @p = "Iprintf(\""
+
+" @f for(int i = 0; i < 10; i++){
+let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
+
+"-----------------}}}
 
 
 " SCRIPTS ------------------------------------------------------{{{
@@ -317,7 +330,5 @@ set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
 set laststatus=2
 
 " }}}
-
-
 
 
