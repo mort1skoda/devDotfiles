@@ -1,0 +1,4 @@
+keymaps 0-127
+keycode   1 = Escape
+keycode   58 = Escape
+
