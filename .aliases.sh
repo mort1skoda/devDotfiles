@@ -74,6 +74,8 @@ alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
 alias ta='tmux a -t '
 
+alias tm='tmux'
+
 #---------------}}}
 
 
@@ -82,7 +84,7 @@ alias ta='tmux a -t '
 alias ,ea='vim ~/.aliases.sh && source ~/.bashrc'
 alias ,eb='vim ~/.bashrc && source ~/.bashrc'
 alias ,ef='vim ~/.vifm/vifmrc.vim'
-alias ,eg='vim .gitPush*'
+alias ,eg='vim .gitPush*' # not inside vim, only from shell.
 alias ,et='vim ~/.tmux.conf'
 alias ,ev='vim ~/.vimrc'
 
