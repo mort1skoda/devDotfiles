@@ -29,7 +29,7 @@ alias f='vifm ~ ~/dev'
 alias g='grep --color=auto'
 alias grep='grep --color=auto'
 alias lg='ls -la --color | grep -i --color'
-alias cg='cat %1 | grep -i --color %2'
+alias c='cat'
 
 # git aliases
 alias gp='./.push*'
