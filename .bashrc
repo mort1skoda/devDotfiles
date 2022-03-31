@@ -43,6 +43,7 @@ export EDITOR='vim'
 #echo "EDITOR =$EDITOR"
 #############}}}
 
+git pull https://github.com/mort1skoda/dotfiles
 
 echo '    .... end   ~/.bashrc ...'
 
