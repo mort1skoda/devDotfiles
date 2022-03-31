@@ -8,7 +8,7 @@ if [ "$SHLVL" = 1 ]; then
 
 fi
 
-#echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
-#gp
+echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
+gp
 echo '.... end   ~/:bash_logout ....'
 
