@@ -72,10 +72,10 @@ alias q='exit'
 
 #------------  git aliases -----------{{{
 
-alias gp='./.gitPush*'
 alias gs='git status'
 alias ga='git add -u'
 alias gc='git commit'
+alias gp='./.gitPush*'
 
 #----------------}}}
 
@@ -93,7 +93,7 @@ alias tm='tmux'
 
 #------------ , mapleader aliases -------------{{{
 
-alias ,ea='vim ~/.aliases.sh && source ~/.bashrc'
+alias ,ea='vim ~/.aliases.sh && source ~/.aliases.sh'
 alias ,eb='vim ~/.bashrc && source ~/.bashrc'
 alias ,ef='vim ~/.vifm/vifmrc.vim'
 alias ,eg='vim .gitPush*' # not inside vim, only from shell.
