@@ -4,6 +4,10 @@
 
 echo '    >>>> begin ~/.bashrc >>>>'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4bb77e1a73d5cd6fdae4dedb07fe6f1e82d1b865
 ######### export ##########{{{
 export SHELL=/bin/bash
 # do NOT export TERM here, it fucks up tmux, it is set in .tmux.conf
@@ -38,6 +42,11 @@ if [ "$EUID" -eq 0 ]
 fi
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 4bb77e1a73d5cd6fdae4dedb07fe6f1e82d1b865
 ######### echo   ##########{{{
 #clear
 #alias
