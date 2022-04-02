@@ -7,7 +7,13 @@ echo '>>>> begin ~/.bash_logout >>>>'
     #[ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
 #fi
 
-echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
-gp
+if [ "$TMUX" == "" ]; then
+
+    echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
+    gp
+
+fi
+
 echo '.... end   ~/:bash_logout ....'
+
 

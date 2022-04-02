@@ -103,6 +103,6 @@ alias ,md='make dbg'
 
 shopt -s expand_aliases
 
-echo '        .... end  '$ALIASES' ...'
+echo '         .... end  '$ALIASES' ...'
 
 
