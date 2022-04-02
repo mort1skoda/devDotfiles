@@ -14,7 +14,7 @@ echo '            setting aliases....'
 
 alias f='vifm ~ ~/dev'
 alias v='vim'
-alias sai='sudo apt install'
+alias sai='sudo apt install -y '
 alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 
 # ff = toggle folds
