@@ -29,7 +29,8 @@ export BASHRC='~/.bashrc'
 export VIFMRC='~/.vifm/vifmrc.vim'
 export TMUXCONF='~/.tmux.conf'
 export VIMRC='~/.vimrc'
-export EDITOR='vim'
+#export EDITOR='vim'
+export EDITOR=/usr/bin/vim
 #############}}}
 
 
