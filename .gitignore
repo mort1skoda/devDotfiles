@@ -13,4 +13,6 @@ tmp
 .viminfo
 *BU
 BU*
+.lesshst
+.motd_shown
 
