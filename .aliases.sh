@@ -26,15 +26,15 @@ alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 #------------- SHELL aliases ---------------{{{
 
 # navigate directories:
-alias ..='cd .. && ls -la --color'
-alias ...='cd ../.. && ls -la --color'
-alias .r='cd / && ls -la --color'
-alias .h='cd ~ && ls -la --color'
-alias .d='cd ~/dev && ls -la --color'
+alias ..='cd .. && ls -la --color --group-directories-first'
+alias ...='cd ../.. && ls -la --color --group-directories-first'
+alias .r='cd / && ls -la --color --group-directories-first'
+alias .h='cd ~ && ls -la --color --group-directories-first'
+alias .d='cd ~/dev && ls -la --color --group-directories-first'
 
 # list directories:
 alias l='ls -la --color --group-directories-first'
-alias lg='ls -la --color | grep -i --color '
+alias lg='ls -la --color --group-directories-first | grep -i --color '
 
 # work with directories:
 alias md='mkdir -p'
