@@ -15,8 +15,13 @@ shopt -s expand_aliases
 # use vim keybindings in bash shell
 set -o vi
 
-# minimal prompt
-PS1="\[\033[01;33m\]\w\[\033[00m\]\n"
+# green prompt for regular user
+PS1="\[\033[01;32m\]\w\[\033[00m\]\n"
+
+# red prompt for root
+if [ "$EUID" -eq 0 ]
+    then PS1="\[\033[01;31m\]\w\[\033[00m\]\n"
+fi
 
 
 ######### export ##########{{{
@@ -44,7 +49,11 @@ export EDITOR=/usr/bin/vim
 #echo "EDITOR =$EDITOR"
 #############}}}
 
-git pull https://github.com/mort1skoda/dotfiles
+
+# only git pull if regular user
+if [ "$EUID" -ne 0 ]
+    then git pull https://github.com/mort1skoda/dotfiles
+fi
 
 echo '    .... end   ~/.bashrc ...'
 

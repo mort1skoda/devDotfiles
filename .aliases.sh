@@ -1,11 +1,11 @@
 #! /bin/bash
 
-########################################
-####    .aliases.sh    ####
-###########################
+############################################
+####    /home/m/.aliases.sh    ####
+###################################
 
 #Author:	Morten Håkestad
-#Updated:	2022 03 30
+#Updated:	2022 04 02
 
 #     p   b   a
 #     #   #   #
@@ -51,6 +51,9 @@ alias bl='bash --login'
 # shortcuts:
 alias c='cat'
 alias g='grep --color=auto'
+
+alias wa='whoami'
+
 
 # quit or exit shell
 alias q='exit'
