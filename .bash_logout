@@ -17,6 +17,9 @@ if [ "$TMUX" == "" ]; then
     ~/dev/c/00template/.gitPush.sh
     #cd ~
 
+    echo '----------------------------------> git push dev/c/getStr           !!!!!!!!!!!!!!!'
+    ~/dev/c/getStr/.gitPush.sh
+
 fi
 
 echo '.... end   ~/:bash_logout ....'
