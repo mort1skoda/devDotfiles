@@ -49,6 +49,7 @@ fi
 #############}}}
 
 
+#########    GIT PULL    ########{{{
 # only git pull if regular user
 if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
     pushd
@@ -64,6 +65,7 @@ if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
 
     popd 
 fi
+#}}}
 
 cd ~
 l
