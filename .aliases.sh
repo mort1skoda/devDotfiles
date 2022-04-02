@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#asdfasdf qwerqwer
+#asdfasdf qwerqwer asdf
 
 ############################################
 ####    /home/m/.aliases.sh    ####
