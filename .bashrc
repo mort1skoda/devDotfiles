@@ -51,11 +51,18 @@ fi
 
 # only git pull if regular user
 if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
+    pushd
+
+    cd ~
     git pull https://github.com/mort1skoda/dotfiles
 
     cd ~/dev/c/00template
     git pull https://github.com/mort1skoda/devCtemplate
-    
+
+    cd ~/dev/c/getStr
+    git pull https://github.com/mort1skoda/devCgetStr
+
+    popd 
 fi
 
 cd ~
