@@ -1,3 +1,4 @@
+.landscape
 dev
 dl
 hw
@@ -12,4 +13,7 @@ tmp
 .viminfo
 *BU
 BU*
+.lesshst
+.motd_shown
+.sudo_as_admin*
 
