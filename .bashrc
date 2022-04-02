@@ -52,7 +52,6 @@ fi
 #########    GIT PULL    ########{{{
 # only git pull if regular user
 if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
-    pushd
 
     cd ~
     git pull https://github.com/mort1skoda/dotfiles
@@ -63,7 +62,6 @@ if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
     cd ~/dev/c/getStr
     git pull https://github.com/mort1skoda/devCgetStr
 
-    popd 
 fi
 #}}}
 
