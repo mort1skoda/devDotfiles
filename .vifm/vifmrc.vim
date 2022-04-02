@@ -9,7 +9,7 @@
 colorscheme molokai
 
 " make it posible for aliases to function within vifm :!m r
-let $BASH_ENV = "~/.bash_aliases.sh"
+let $BASH_ENV = "~/.aliases.sh"
 set syscalls
 
 " show hidden files by default
