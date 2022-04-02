@@ -4,6 +4,21 @@
 
 echo '    >>>> begin ~/.bashrc >>>>'
 
+
+######### export ##########{{{
+export SHELL=/bin/bash
+# do NOT export TERM here, it fucks up tmux, it is set in .tmux.conf
+#export TERM=screen-256color
+export BASH=_ENV='~/.bash_aliases.sh'
+export ALIASES='~/.aliases.sh'
+export BASHRC='~/.bashrc'
+export VIFMRC='~/.vifm/vifmrc.vim'
+export TMUXCONF='~/.tmux.conf'
+export VIMRC='~/.vimrc'
+#export EDITOR='vim'
+export EDITOR=/usr/bin/vim
+#############}}}
+
 # Turn Off Software Flow Control (XON/XOFF)
 # to fix keybindings in vim CTRL+s and CTRL+q
 stty -ixon
@@ -24,19 +39,6 @@ if [ "$EUID" -eq 0 ]
 fi
 
 
-######### export ##########{{{
-export SHELL=/bin/bash
-# do NOT export TERM here, it fucks up tmux, it is set in .tmux.conf
-#export TERM=screen-256color
-export BASH=_ENV='~/.bash_aliases.sh'
-export ALIASES='~/.aliases.sh'
-export BASHRC='~/.bashrc'
-export VIFMRC='~/.vifm/vifmrc.vim'
-export TMUXCONF='~/.tmux.conf'
-export VIMRC='~/.vimrc'
-#export EDITOR='vim'
-export EDITOR=/usr/bin/vim
-#############}}}
 
 
 ######### echo   ##########{{{
