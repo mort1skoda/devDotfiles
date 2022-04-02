@@ -21,6 +21,8 @@ if [ "$TMUX" == "" ]; then
     cd ~/dev/c/getStr
     gp
 
+    cd ~
+
 fi
 
 echo '.... end   ~/:bash_logout ....'
