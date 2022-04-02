@@ -15,4 +15,5 @@ tmp
 BU*
 .lesshst
 .motd_shown
+.sudo_as_admin*
 
