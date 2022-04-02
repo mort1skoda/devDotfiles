@@ -56,8 +56,13 @@ alias bl='bash --login'
 alias c='cat'
 alias g='grep --color=auto'
 
+alias hg='cat .bash_history | grep -i '
+
+
 alias wa='whoami'
 
+
+alias wl='watch --color ls -la --color --group-directories-first'
 
 # quit or exit shell
 alias q='exit'

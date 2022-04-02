@@ -54,5 +54,8 @@ if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
     git pull https://github.com/mort1skoda/dotfiles
 fi
 
+cd ~
+l
+
 echo '    .... end   ~/.bashrc ...'
 
