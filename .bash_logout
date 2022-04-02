@@ -10,12 +10,12 @@ echo '>>>> begin ~/.bash_logout >>>>'
 if [ "$TMUX" == "" ]; then
 
     echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
-    gp
+    ~/.gitPushDotfiles.sh
 
     echo '----------------------------------> git push dev/c/template           !!!!!!!!!!!!!!!'
-    cd ~/dev/c/00template
+    #cd ~/dev/c/00template
     ~/dev/c/00template/.gitPush.sh
-    cd ~
+    #cd ~
 
 fi
 
