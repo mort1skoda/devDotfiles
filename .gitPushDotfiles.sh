@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo 'in .gitPushDotfiles.sh'
+
 git add --all
 git status
 update="Updated: "
