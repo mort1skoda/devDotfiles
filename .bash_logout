@@ -13,8 +13,8 @@ if [ "$TMUX" == "" ]; then
     gp
 
     echo '----------------------------------> git push dev/c/template           !!!!!!!!!!!!!!!'
-    cd /home/m/dev/c/00template
-    gp
+    cd ~/dev/c/00template
+    ~/dev/c/00template/.gitPush.sh
 
 fi
 
