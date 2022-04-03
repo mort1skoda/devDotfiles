@@ -4,6 +4,22 @@
 
 echo '    >>>> begin ~/.bashrc >>>>'
 
+#########    GIT PULL    ########{{{
+# only git pull if regular user
+if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
+
+    cd ~
+    git pull https://github.com/mort1skoda/dotfiles
+
+    #cd ~/dev/c/00template
+    #git pull https://github.com/mort1skoda/devCtemplate
+
+    #cd ~/dev/c/getStr
+    #git pull https://github.com/mort1skoda/devCgetStr
+
+fi
+#}}}
+
 ######### export ##########{{{
 export SHELL=/bin/bash
 # do NOT export TERM here, it fucks up tmux, it is set in .tmux.conf
@@ -37,7 +53,6 @@ if [ "$EUID" -eq 0 ]
     then PS1="\[\033[01;31m\]\w\[\033[00m\]\n"
 fi
 
-
 ######### echo   ##########{{{
 #clear
 #alias
@@ -48,25 +63,9 @@ fi
 #echo "EDITOR =$EDITOR"
 #############}}}
 
-
-#########    GIT PULL    ########{{{
-# only git pull if regular user
-if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
-
-    cd ~
-    git pull https://github.com/mort1skoda/dotfiles
-
-    #cd ~/dev/c/00template
-    #git pull https://github.com/mort1skoda/devCtemplate
-
-    #cd ~/dev/c/getStr
-    #git pull https://github.com/mort1skoda/devCgetStr
-
-fi
-#}}}
-
 cd ~
+echo
 ls --color
-
+echo
 echo '    .... end   ~/.bashrc ...'
 
