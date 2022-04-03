@@ -66,7 +66,7 @@ fi
 #}}}
 
 cd ~
-ls
+ls --color
 
 echo '    .... end   ~/.bashrc ...'
 
