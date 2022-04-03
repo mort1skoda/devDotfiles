@@ -12,5 +12,11 @@ echo $msg
 git commit -m "$msg"
 git push -u origin master
 git status
+exit
 
+
+
+#####    first time pull    #####
+git init
+git pull https://github.com/mort1skoda/dotfiles
 
