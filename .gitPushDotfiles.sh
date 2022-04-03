@@ -23,5 +23,5 @@ git remote add origin https://github.com/mort1skoda/dotfiles
 gs  =   git status
 git add --all
 git commit -m "first"
-git push
+git push -u origin master
 
