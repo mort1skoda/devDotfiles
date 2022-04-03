@@ -19,4 +19,9 @@ exit
 #####    first time pull    #####
 git init
 git pull https://github.com/mort1skoda/dotfiles
+git remote add origin https://github.com/mort1skoda/dotfiles
+gs  =   git status
+git add --all
+git commit -m "first"
+git push
 
