@@ -41,7 +41,7 @@ export EDITOR=/usr/bin/vim
 stty -ixon
 
 # source and expand aliases
-#source ~/.aliases.sh 
+source ~/.aliases.sh 
 shopt -s expand_aliases
 
 # use vim keybindings in bash shell
