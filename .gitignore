@@ -16,4 +16,7 @@ BU*
 .lesshst
 .motd_shown
 .sudo_as_admin*
+.gnu-emacs
+.inputrc
+.emacs
 
