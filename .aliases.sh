@@ -114,6 +114,9 @@ alias ,md='make dbg'
 
 shopt -s expand_aliases
 
+DISTRO=$(cat /etc/os-release | grep -i ubuntu)
+echo $DISTRO
+
 echo '         .... end  '$ALIASES' ...'
 
 
