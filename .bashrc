@@ -4,6 +4,8 @@
 
 echo '    >>>> begin ~/.bashrc >>>>'
 
+unalias -a
+
 #########    GIT PULL    ########{{{
 # only git pull if regular user
 if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
@@ -39,7 +41,7 @@ export EDITOR=/usr/bin/vim
 stty -ixon
 
 # source and expand aliases
-source ~/.aliases.sh 
+#source ~/.aliases.sh 
 shopt -s expand_aliases
 
 # use vim keybindings in bash shell

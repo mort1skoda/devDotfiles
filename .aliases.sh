@@ -18,8 +18,18 @@ alias f='vifm ~ ~/dev'
 alias v='vim'
 
 
-alias ins='sudo apt install -y '
-alias upd='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
+# check which distro
+DISTRO=$(cat /etc/os-release | grep -i suse )
+#echo $DISTRO
+if [ "$DISTRO" == "" ]; then
+    echo "debian"
+    alias ins='sudo apt install -y '
+    alias upd='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
+else
+    echo "suse"
+    alias ins='sudo zypper install'
+    alias upd='sudo zypper refresh && sudo zypper update'
+fi
 
 # ff = toggle folds
 # use ag to grep in the .aliases.sh
@@ -116,17 +126,6 @@ alias ,md='make dbg'
 
 
 shopt -s expand_aliases
-
-DISTRO=$(cat /etc/os-release | grep -i suse )
-echo $DISTRO
-
-if [ "$DISTRO" == "" ]; then
-    echo "debian"
-else
-    echo "suse"
-fi
- 
-
 
 echo '         .... end  '$ALIASES' ...'
 
