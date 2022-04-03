@@ -66,8 +66,7 @@ fi
 #}}}
 
 cd ~
-l
+ls
 
 echo '    .... end   ~/.bashrc ...'
 
-#asddafsff
