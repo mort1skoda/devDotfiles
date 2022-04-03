@@ -22,11 +22,11 @@ alias v='vim'
 DISTRO=$(cat /etc/os-release | grep -i suse )
 #echo $DISTRO
 if [ "$DISTRO" == "" ]; then
-    echo "debian"
+    echo "ubuntu/debian apt"
     alias ins='sudo apt install -y '
     alias upd='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 else
-    echo "suse"
+    echo "suse zypper"
     alias ins='sudo zypper install'
     alias upd='sudo zypper refresh && sudo zypper update'
 fi
