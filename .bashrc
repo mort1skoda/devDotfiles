@@ -56,11 +56,11 @@ if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
     cd ~
     git pull https://github.com/mort1skoda/dotfiles
 
-    cd ~/dev/c/00template
-    git pull https://github.com/mort1skoda/devCtemplate
+    #cd ~/dev/c/00template
+    #git pull https://github.com/mort1skoda/devCtemplate
 
-    cd ~/dev/c/getStr
-    git pull https://github.com/mort1skoda/devCgetStr
+    #cd ~/dev/c/getStr
+    #git pull https://github.com/mort1skoda/devCgetStr
 
 fi
 #}}}

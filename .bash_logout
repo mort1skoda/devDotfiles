@@ -13,13 +13,13 @@ if [ "$TMUX" == "" ]; then
     cd ~
     gp
 
-    echo '----------------------------------> git push dev/c/template           !!!!!!!!!!!!!!!'
-    cd ~/dev/c/00template
-    gp
-
-    echo '----------------------------------> git push dev/c/getStr           !!!!!!!!!!!!!!!'
-    cd ~/dev/c/getStr
-    gp
+    #echo '----------------------------------> git push dev/c/template           !!!!!!!!!!!!!!!'
+    #cd ~/dev/c/00template
+    #gp
+#
+    #echo '----------------------------------> git push dev/c/getStr           !!!!!!!!!!!!!!!'
+    #cd ~/dev/c/getStr
+    #gp
 
     cd ~
 
