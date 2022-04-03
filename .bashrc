@@ -70,4 +70,4 @@ l
 
 echo '    .... end   ~/.bashrc ...'
 
-
+#asdf
