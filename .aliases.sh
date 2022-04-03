@@ -16,8 +16,10 @@ echo '            setting aliases....'
 
 alias f='vifm ~ ~/dev'
 alias v='vim'
-alias sai='sudo apt install -y '
-alias sau='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
+
+
+alias ins='sudo apt install -y '
+alias upd='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
 
 # ff = toggle folds
 # use ag to grep in the .aliases.sh
@@ -50,7 +52,8 @@ alias rd='rmdir -p'
 alias a='source ~/.aliases.sh && clear && alias'
 alias ag='alias | grep -i --color '
 
-# work with .bashrc
+
+alias sa='source ~/.aliases.sh'
 alias sb='source ~/.bashrc'
 alias bl='bash --login'
 
@@ -114,8 +117,16 @@ alias ,md='make dbg'
 
 shopt -s expand_aliases
 
-DISTRO=$(cat /etc/os-release | grep -i ubuntu)
+DISTRO=$(cat /etc/os-release | grep -i suse )
 echo $DISTRO
+
+if [ "$DISTRO" == "" ]; then
+    echo "debian"
+else
+    echo "suse"
+fi
+ 
+
 
 echo '         .... end  '$ALIASES' ...'
 
