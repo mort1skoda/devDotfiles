@@ -65,7 +65,7 @@ fi
 
 cd ~
 echo
-ls -la --color
+ls  --color
 echo
 echo '    .... end   ~/.bashrc ...'
 
