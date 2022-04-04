@@ -1,7 +1,7 @@
 dl
 
 .bash_history
-.motd_showm
+.motd_shown
 .viminfo
 
 *.o
