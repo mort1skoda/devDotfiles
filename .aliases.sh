@@ -71,6 +71,7 @@ alias g='grep --color=auto'
 
 alias hg='cat .bash_history | grep -i '
 
+alias os='cat /etc/os-release'
 
 alias wa='whoami'
 
