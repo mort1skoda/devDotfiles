@@ -1,5 +1,7 @@
 dl
 hardware
+hw
 .viminfo
 *.o
+getStr
 
