@@ -6,6 +6,14 @@
 
 " SETTINGS -----------------------------------------------------{{{
 
+" Do not wrap lines. Allow long lines to extend as far as the line goes.
+"set nowrap
+
+set wrap
+set textwidth=80
+
+set spell spelllang=en_us
+
 setlocal foldmethod=marker
 
 " when using ,v  the new pane will be on the right side.
@@ -13,9 +21,7 @@ setlocal foldmethod=marker
 set splitright
 
 " Expand aliases.
-"let $BASH_ENV = "~/.bash_aliases.sh"
 let $BASH_ENV = "~/.aliases.sh"
-"let $ZSH_ENV = "~/.bash_aliases"
 
 " Block cursor in Normal mode, vertical cursor in Insert mode,
 " horizontal cursor in Replace mode
@@ -55,8 +61,6 @@ set expandtab
 set nobackup
 " Do not let cursor scroll below or above N number of lines when scrolling.
 set scrolloff=10
-" Do not wrap lines. Allow long lines to extend as far as the line goes.
-set nowrap
 " Incrementally highlight matching characters as you type.
 set incsearch
 " Ignore capital letters during search.
