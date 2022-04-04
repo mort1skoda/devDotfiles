@@ -3,7 +3,7 @@
 #####################
 
 echo '    >>>> begin ~/.bashrc >>>>'
-
+rm -vrf .sudo_as_admin*
 unalias -a
 
 #########    GIT PULL    ########{{{
