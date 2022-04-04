@@ -2,4 +2,5 @@ dl
 .viminfo
 *.o
 getStr
+.bash_history
 
