@@ -1,4 +1,4 @@
-### """  ~/.vimTut.txt  """
+### """  ~/.vimTut.md  """
 
 * ff  =  toggle folds
 * .   = repeat last command
