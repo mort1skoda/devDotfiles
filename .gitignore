@@ -1,6 +1,8 @@
 dl
 .viminfo
 *.o
-getStr
 .bash_history
+getStr
+crm
+
 
