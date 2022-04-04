@@ -8,11 +8,11 @@
 
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
 "set nowrap
-
 set wrap
 set textwidth=80
-
-set spell spelllang=en_us
+"set spell spelllang=en_us
+"Turn off spell
+set nospell
 
 setlocal foldmethod=marker
 

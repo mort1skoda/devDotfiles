@@ -5,6 +5,11 @@
 ff  =  toggle folds
 .   = repeat last command
 
+Turn on spell checking
+:set spell
+
+Turn off spell checking:
+:set nospell
 
 "-----  Change Delete Yank -----------------------{{{
 
@@ -87,4 +92,5 @@ Leader = ','
 ,vv = vim ~/.vimrcv  (check out ~/.vimrc for more macros)
 
 "}}}
+
 
