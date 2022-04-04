@@ -14,12 +14,14 @@
 ~MSle0~/qwer
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1649063925,,"q!"
+:wq!
+|2,0,1649063923,,"wq!"
 :wq
-|2,0,1649063870,,"wq"
+|2,0,1649063919,,"wq"
 :e ~/.vim/syntax/c.vim
 |2,0,1649031353,,"e ~/.vim/syntax/c.vim"
-:q!
-|2,0,1649030904,,"q!"
 :!l
 |2,0,1649030797,,"!l"
 :e ~/dev/c/00*/main.c
@@ -113,16 +115,16 @@
 |3,0,9,1,1,0,1649032541,"\"asdfasdf\""
 "c	CHAR	0
 	I// j
-|3,0,12,0,1,0,1649063860,"I// j"
+|3,0,12,0,1,0,1649063912,"I// j"
 "f	CHAR	0
 	I	for(int i = 0; i < 10; i++){
-|3,0,15,0,1,0,1649063860,"I	for(int i = 0; i < 10; i++){"
+|3,0,15,0,1,0,1649063912,"I	for(int i = 0; i < 10; i++){"
 "p	CHAR	0
 	Iprintf("
-|3,0,25,0,1,0,1649063860,"Iprintf(\""
+|3,0,25,0,1,0,1649063912,"Iprintf(\""
 "u	CHAR	0
 	I€kD€kD€kDj
-|3,0,30,0,1,0,1649063860,"I€kD€kD€kDj"
+|3,0,30,0,1,0,1649063912,"I€kD€kD€kDj"
 "-	CHAR	0
 	u
 |3,0,36,0,1,0,1649063257,"u"
@@ -152,12 +154,24 @@
 # Jumplist (newest first):
 -'  4  0  ~/.gitignore
 |4,39,4,0,1649063870,"~/.gitignore"
+-'  4  0  ~/.gitignore
+|4,39,4,0,1649063870,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063860,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1649063860,"~/.gitignore"
 -'  3  0  ~/dev/c/1testing/test.txt
 |4,39,3,0,1649063776,"~/dev/c/1testing/test.txt"
 -'  3  0  ~/dev/c/1testing/test.txt
 |4,39,3,0,1649063776,"~/dev/c/1testing/test.txt"
+-'  3  0  ~/dev/c/1testing/test.txt
+|4,39,3,0,1649063776,"~/dev/c/1testing/test.txt"
+-'  3  0  ~/dev/c/1testing/test.txt
+|4,39,3,0,1649063776,"~/dev/c/1testing/test.txt"
+-'  1  0  ~/dev/c/1testing/test.txt
+|4,39,1,0,1649063771,"~/dev/c/1testing/test.txt"
+-'  1  0  ~/dev/c/1testing/test.txt
+|4,39,1,0,1649063771,"~/dev/c/1testing/test.txt"
 -'  1  0  ~/dev/c/1testing/test.txt
 |4,39,1,0,1649063771,"~/dev/c/1testing/test.txt"
 -'  1  0  ~/dev/c/1testing/test.txt
@@ -168,6 +182,16 @@
 |4,39,3,0,1649063651,"~/.gitignore"
 -'  3  0  ~/.gitignore
 |4,39,3,0,1649063651,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063651,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063651,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063651,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063645,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063645,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1649063645,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -188,6 +212,38 @@
 |4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
 -'  27  0  ~/.gitPushDotfiles.sh
 |4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
 -'  1  0  ~/.gitPushDotfiles.sh
 |4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
 -'  1  0  ~/.gitPushDotfiles.sh
@@ -212,6 +268,22 @@
 |4,39,3,0,1649063536,"~/.gitignore"
 -'  3  0  ~/.gitignore
 |4,39,3,0,1649063536,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063536,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063536,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063536,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063536,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063499,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063499,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063499,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063499,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1649063499,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -276,80 +348,6 @@
 |4,39,90,22,1649063267,"~/.aliases.sh"
 -'  90  22  ~/.aliases.sh
 |4,39,90,22,1649063267,"~/.aliases.sh"
--'  90  22  ~/.aliases.sh
-|4,39,90,22,1649063267,"~/.aliases.sh"
--'  90  22  ~/.aliases.sh
-|4,39,90,22,1649063267,"~/.aliases.sh"
--'  90  22  ~/.aliases.sh
-|4,39,90,22,1649063267,"~/.aliases.sh"
--'  90  22  ~/.aliases.sh
-|4,39,90,22,1649063267,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  1  0  ~/.aliases.sh
-|4,39,1,0,1649063236,"~/.aliases.sh"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
 
