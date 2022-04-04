@@ -1,8 +1,11 @@
 dl
-.viminfo
-*.o
+
 .bash_history
-getStr
+.motd_showm
+.viminfo
+
+*.o
 crm
+getStr
 
 
