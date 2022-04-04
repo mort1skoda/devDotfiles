@@ -25,3 +25,15 @@ git add --all
 git commit -m "first"
 git push -u origin master
 
+#################################
+create a new repository on the command line
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mort1skoda/test.git
+git push -u origin master
+
+
