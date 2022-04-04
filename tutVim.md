@@ -1,15 +1,15 @@
-""""""""""""""""""""""""""""""""""
-""""    ~/.vimTut.txt
-"""""""""""""""""""""""""
+##""""""""""""""""""""""""""""""""""
+##""""    ~/.vimTut.txt
+##"""""""""""""""""""""""""
 
-ff  =  toggle folds
-.   = repeat last command
+* ff  =  toggle folds
+* .   = repeat last command
 
-Turn on spell checking
-:set spell
+* Turn on spell checking
+* :set spell
 
-Turn off spell checking:
-:set nospell
+* Turn off spell checking:
+* :set nospell
 
 "-----  Change Delete Yank -----------------------{{{
 
