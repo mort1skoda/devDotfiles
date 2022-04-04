@@ -69,5 +69,6 @@ cd ~
 echo
 ls -l  --color  --color --group-directories-first
 echo
+gs
 echo '    .... end   ~/.bashrc ...'
 
