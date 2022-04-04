@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1649063775,,"wq"
+|2,0,1649063870,,"wq"
 :e ~/.vim/syntax/c.vim
 |2,0,1649031353,,"e ~/.vim/syntax/c.vim"
 :q!
@@ -113,51 +113,61 @@
 |3,0,9,1,1,0,1649032541,"\"asdfasdf\""
 "c	CHAR	0
 	I// j
-|3,0,12,0,1,0,1649063771,"I// j"
+|3,0,12,0,1,0,1649063860,"I// j"
 "f	CHAR	0
 	I	for(int i = 0; i < 10; i++){
-|3,0,15,0,1,0,1649063771,"I	for(int i = 0; i < 10; i++){"
+|3,0,15,0,1,0,1649063860,"I	for(int i = 0; i < 10; i++){"
 "p	CHAR	0
 	Iprintf("
-|3,0,25,0,1,0,1649063771,"Iprintf(\""
+|3,0,25,0,1,0,1649063860,"Iprintf(\""
 "u	CHAR	0
 	I€kD€kD€kDj
-|3,0,30,0,1,0,1649063771,"I€kD€kD€kDj"
+|3,0,30,0,1,0,1649063860,"I€kD€kD€kDj"
 "-	CHAR	0
 	u
 |3,0,36,0,1,0,1649063257,"u"
 
 # File marks:
-'0  3  0  ~/dev/c/1testing/test.txt
-|4,48,3,0,1649063776,"~/dev/c/1testing/test.txt"
-'1  3  0  ~/.gitignore
-|4,49,3,0,1649063651,"~/.gitignore"
-'2  27  0  ~/.gitPushDotfiles.sh
-|4,50,27,0,1649063557,"~/.gitPushDotfiles.sh"
+'0  4  0  ~/.gitignore
+|4,48,4,0,1649063870,"~/.gitignore"
+'1  3  0  ~/dev/c/1testing/test.txt
+|4,49,3,0,1649063776,"~/dev/c/1testing/test.txt"
+'2  3  0  ~/.gitignore
+|4,50,3,0,1649063651,"~/.gitignore"
 '3  3  0  ~/.gitignore
-|4,51,3,0,1649063536,"~/.gitignore"
-'4  90  22  ~/.aliases.sh
-|4,52,90,22,1649063267,"~/.aliases.sh"
-'5  20  0  ~/.gitignore
-|4,53,20,0,1649063209,"~/.gitignore"
-'6  20  0  ~/.gitignore
-|4,54,20,0,1649063209,"~/.gitignore"
-'7  37  14  ~/.vim/syntax/c.vim
-|4,55,37,14,1649032764,"~/.vim/syntax/c.vim"
-'8  253  44  ~/.vim/syntax/c.vim
-|4,56,253,44,1649030904,"~/.vim/syntax/c.vim"
-'9  249  44  ~/.vim/syntax/c.vim
-|4,57,249,44,1649030904,"~/.vim/syntax/c.vim"
+|4,51,3,0,1649063651,"~/.gitignore"
+'4  27  0  ~/.gitPushDotfiles.sh
+|4,52,27,0,1649063557,"~/.gitPushDotfiles.sh"
+'5  3  0  ~/.gitignore
+|4,53,3,0,1649063536,"~/.gitignore"
+'6  3  0  ~/.gitignore
+|4,54,3,0,1649063536,"~/.gitignore"
+'7  90  22  ~/.aliases.sh
+|4,55,90,22,1649063267,"~/.aliases.sh"
+'8  20  0  ~/.gitignore
+|4,56,20,0,1649063209,"~/.gitignore"
+'9  20  0  ~/.gitignore
+|4,57,20,0,1649063209,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  4  0  ~/.gitignore
+|4,39,4,0,1649063870,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649063860,"~/.gitignore"
 -'  3  0  ~/dev/c/1testing/test.txt
 |4,39,3,0,1649063776,"~/dev/c/1testing/test.txt"
+-'  3  0  ~/dev/c/1testing/test.txt
+|4,39,3,0,1649063776,"~/dev/c/1testing/test.txt"
+-'  1  0  ~/dev/c/1testing/test.txt
+|4,39,1,0,1649063771,"~/dev/c/1testing/test.txt"
 -'  1  0  ~/dev/c/1testing/test.txt
 |4,39,1,0,1649063771,"~/dev/c/1testing/test.txt"
 -'  3  0  ~/.gitignore
 |4,39,3,0,1649063651,"~/.gitignore"
 -'  3  0  ~/.gitignore
 |4,39,3,0,1649063651,"~/.gitignore"
+-'  3  0  ~/.gitignore
+|4,39,3,0,1649063651,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1649063645,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -170,6 +180,22 @@
 |4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
 -'  27  0  ~/.gitPushDotfiles.sh
 |4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  27  0  ~/.gitPushDotfiles.sh
+|4,39,27,0,1649063557,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
+-'  1  0  ~/.gitPushDotfiles.sh
+|4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
 -'  1  0  ~/.gitPushDotfiles.sh
 |4,39,1,0,1649063543,"~/.gitPushDotfiles.sh"
 -'  1  0  ~/.gitPushDotfiles.sh
@@ -226,6 +252,70 @@
 |4,39,90,22,1649063267,"~/.aliases.sh"
 -'  90  22  ~/.aliases.sh
 |4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  90  22  ~/.aliases.sh
+|4,39,90,22,1649063267,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1649063236,"~/.aliases.sh"
 -'  1  0  ~/.aliases.sh
 |4,39,1,0,1649063236,"~/.aliases.sh"
 -'  1  0  ~/.aliases.sh
@@ -260,98 +350,17 @@
 |4,39,1,0,1649063236,"~/.aliases.sh"
 -'  20  0  ~/.gitignore
 |4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1649063209,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1649063176,"~/.gitignore"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
--'  37  14  ~/.vim/syntax/c.vim
-|4,39,37,14,1649032764,"~/.vim/syntax/c.vim"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1649063869	0
+	"	4	0
+	^	4	0
+	.	3	8
+	+	1	0
+	+	2	0
+	+	3	8
 
 > ~/dev/c/1testing/test.txt
 	*	1649063775	0
@@ -359,14 +368,6 @@
 	^	3	0
 	.	2	0
 	+	2	0
-
-> ~/.gitignore
-	*	1649063649	0
-	"	3	0
-	.	3	0
-	+	1	0
-	+	2	0
-	+	3	0
 
 > ~/.gitPushDotfiles.sh
 	*	1649063556	0
