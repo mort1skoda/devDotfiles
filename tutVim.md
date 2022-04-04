@@ -16,8 +16,8 @@ Turn off spell checking:
 ce  = change to end   of current word 
 cw  = change to start of the next word
 ciw = change inner word
-caw = change outer word, includes whitespace
-ct  = change upto given char
+caw = change outer word, includes white space
+ct  = change up to given char
 cf  = change including given char
 C   = change to end of line
 
@@ -25,8 +25,8 @@ C   = change to end of line
 de  = delete to end   of current word
 dw  = delete to start of the next word
 diw = delete inner word
-daw = delete outer word, includes whitespace
-dt  = delete upto given char
+daw = delete outer word, includes white space
+dt  = delete up to given char
 df  = delete including given char
 D   = delete to end of line
 
@@ -34,8 +34,8 @@ D   = delete to end of line
 ye  = yank   to end   of current word
 yw  = yank   to start of next word
 yiw = yank   inner word
-yaw = yank   outer word, includes whitespace
-yt  = yank   upto given char
+yaw = yank   outer word, includes white space
+yt  = yank   up to given char
 yf  = yank   including given char
 Y   = yank   to end of line
 
