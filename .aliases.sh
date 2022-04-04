@@ -43,6 +43,7 @@ alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd ~/dev && ls -la --color --group-directories-first'
+alias .c='cd ~/dev/c && ls -la --color --group-directories-first'
 
 # change between root and m:
 alias ur='su root && .h'
