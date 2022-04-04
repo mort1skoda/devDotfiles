@@ -112,7 +112,7 @@ alias tm='tmux'
 alias ,ea='vim ~/.aliases.sh && source ~/.aliases.sh'
 alias ,eb='vim ~/.bashrc && source ~/.bashrc'
 alias ,ef='vim ~/.vifm/vifmrc.vim'
-alias ,eg='vim .gitPush*' # not inside vim, only from shell.
+alias ,eg='vim gitPush*' # not inside vim, only from shell.
 alias ,et='vim ~/.tmux.conf'
 alias ,ev='vim ~/.vimrc'
 
