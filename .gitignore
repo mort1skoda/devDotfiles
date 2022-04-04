@@ -1,20 +1,3 @@
 dl
-hw
 hardware
-test
-temp
-tmp
-.bash_history
-.fzf*
-.gdb_history
-.local
-.viminfo
-*BU
-BU*
-.lesshst
-.motd_shown
-.sudo_as_admin*
-.gnu-emacs
-.inputrc
-.emacs
 
