@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 echo 'in .gitPushDotfiles.sh'
 
 git add --all
