@@ -21,6 +21,10 @@ if exists("c_autodoc")
   unlet b:current_syntax
 endif
 
+" My added keywords for typedefed pointer types:
+syn keyword	cInclude	int_p 
+
+
 " A bunch of useful C keywords
 syn keyword	cStatement	goto break return continue asm
 syn keyword	cLabel		case default
@@ -246,7 +250,7 @@ if exists("c_gnu")
   syn keyword	cStatement	__asm__
   syn keyword	cOperator	typeof __real__ __imag__
 endif
-syn keyword	cType		int long short char void
+syn keyword	cType		int long short char void 
 syn keyword	cType		signed unsigned float double
 if !exists("c_no_ansi") || exists("c_ansi_typedefs")
   syn keyword   cType		size_t ssize_t off_t wchar_t ptrdiff_t sig_atomic_t fpos_t
