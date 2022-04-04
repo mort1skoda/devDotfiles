@@ -93,7 +93,7 @@ alias q='exit'
 alias gs='git status'
 alias ga='git add --all'
 alias gc='git commit'
-alias gp='./gitPush*'
+alias gp='~/gitPush*'
 
 #----------------}}}
 
