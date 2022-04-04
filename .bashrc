@@ -10,7 +10,7 @@ unalias -a
 # only git pull if regular user
 if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
 
-    cd ~
+    #cd ~
     git pull https://github.com/mort1skoda/dotfiles
 
     #cd ~/dev/c/00template
