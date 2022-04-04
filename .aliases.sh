@@ -87,7 +87,7 @@ alias q='exit'
 #------------  git aliases -----------{{{
 
 alias gs='git status'
-alias ga='git add -u'
+alias ga='git add --all'
 alias gc='git commit'
 alias gp='./.gitPush*'
 
