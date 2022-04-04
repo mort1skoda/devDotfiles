@@ -79,6 +79,7 @@ alias os='cat /etc/os-release'
 
 alias wa='whoami'
 
+alias rm='ls'
 
 alias wl='watch --color ls -la --color --group-directories-first'
 
