@@ -44,6 +44,7 @@ alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd ~/dev && ls -la --color --group-directories-first'
 alias .c='cd ~/dev/c && ls -la --color --group-directories-first'
+alias cls='clear'
 
 # change between root and m:
 alias ur='su root && .h'
@@ -58,7 +59,7 @@ alias md='mkdir -p'
 alias rd='rmdir -p'
 
 # work with aliases:
-alias a='source ~/.aliases.sh && clear && alias'
+alias a='source ~/.aliases.sh && alias'
 alias ag='alias | grep -i --color '
 
 
