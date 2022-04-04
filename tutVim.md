@@ -1,6 +1,4 @@
-## """"""""""""""""""""""""""""""""""
-## """"    ~/.vimTut.txt
-## """""""""""""""""""""""""
+### """  ~/.vimTut.txt  """
 
 * ff  =  toggle folds
 * .   = repeat last command
