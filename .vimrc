@@ -226,7 +226,7 @@ nnoremap <C-f> /
 let mapleader = ","
 
 " ,vv for vertical split ,hh for horizonal split
-nnoremap <Leader>vv :vs<CR>
+nnoremap <Leader>vv :vs<CR>: source ~/.vimrc<CR>
 nnoremap <Leader>hh :sp<CR>
 
 " ,va ,vb ... edit dotfiles
