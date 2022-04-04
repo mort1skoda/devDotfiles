@@ -1,23 +1,11 @@
 # dotfiles
 
-my .dotfiles</br>
+gitPushDotfiles.sh
 
-test line</br>
+all the dotfiles in ~
 
-updated 2022-03-31 17:40
+dev directory
 
-updated on ubuntu 220331-1743
-
-ubuntu 1753
-
-ub 1754
-
-ub 1755
-
-de 1756
-
-ub 1757
-
-de 1758
+hw directory
 
 
