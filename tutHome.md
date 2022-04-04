@@ -1,6 +1,6 @@
 # Header
 
-This is a *document* written in us English with spell checker on in vim. OK, acid
+This is a *document* written in us English with spell **checker** on in vim. OK, acid
 add and ask call Morten so your name is Morten. This is a new line.
 Osvaldo aid  I am working on my typing skill, using vim as a plain text
 editor.  Aside Place your cursor over a word an type z= to get a and adds asap
