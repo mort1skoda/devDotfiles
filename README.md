@@ -1,11 +1,11 @@
 # dotfiles
 
-gitPushDotfiles.sh
+* gitPushDotfiles.sh
 
-all the dotfiles in ~
+* all the dotfiles in ~
 
-dev directory
+* dev directory
 
-hw directory
+* hw directory
 
 
