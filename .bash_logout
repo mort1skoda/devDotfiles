@@ -7,6 +7,8 @@ echo '>>>> begin ~/.bash_logout >>>>'
     #[ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
 #fi
 
+rm -rf .sudo_as_admin*
+
 if [ "$TMUX" == "" ]; then
 
     echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
