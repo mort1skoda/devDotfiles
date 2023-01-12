@@ -37,3 +37,5 @@ t/home/m/.local/share/vifm/Trash/000_test1.c
 	/home/m/dev/c/00template/test1.c
 t/home/m/.local/share/vifm/Trash/000_.tmux
 	/home/m/dev/tmux/gpakosz/.tmux
+t/home/m/.local/share/vifm/Trash/000_.aliases.sh.bu
+	/home/m/.aliases.sh.bu
