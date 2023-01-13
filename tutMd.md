@@ -1,3 +1,13 @@
+# header 1
+
+This is a test.  This is **bold** text.  This is *italic* text. This is normal
+text.
+
+Safest 
+
+## header 2
+
+
 # Header 1
 
 Sade asap asked refusals hello the is latest       i am trying to type in a
