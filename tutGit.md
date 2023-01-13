@@ -19,7 +19,7 @@ git config --global user.email "mort1skoda@gmail.com"
 
 Now your .gitconfig should look like this:<br/>
 [credential]<br/>
-    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe<br/>
+<space>    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe<br/>
 [User]<br/>
     email = mort1skoda@gmail.com<br/>
     name  = mort1skoda<br/>
