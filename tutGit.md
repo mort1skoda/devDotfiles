@@ -1,4 +1,4 @@
-# git tutorial
+# tiny git tut
 ## using WSL Ubuntu 20.04
 
 Install WSL:<br/>
