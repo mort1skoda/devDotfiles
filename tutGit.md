@@ -6,8 +6,7 @@ open Powershell (x86) as admin<br/>
 wsl --list --online<br/>
 wsl --install -d Ubuntu-20.04<br/>
 
-Install git for windows: https://git-scm.com/download/win
-
+Install git for windows: https://git-scm.com/download/win<br/>
 because we need: git-credential-manager.exe
 
 run this in bash shell in WSL ubuntu:<br/>
