@@ -1,14 +1,10 @@
-dl
-
 .bash_history
 .motd_shown
 .viminfo
+.sudo_as_admin_successful
 
-*.o
-crm
-getStr
-*test*
-*Test*
 download
-*lfs*
+lfs
+html
+tmp
 
