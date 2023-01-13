@@ -1,10 +1,11 @@
 # dotfiles
+## WSL Ubuntu 20.04
 
-* gitPushDotfiles.sh
+* ./pushHomeDevHw.sh
 
-* all the dotfiles in /home/m   (~)
+* push all the dotfiles in /home/m   (~)
 
-* WSL Ubuntu 20.04
+* including: WSL Ubuntu 20.04
 
 
 + PLUS :::
