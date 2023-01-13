@@ -7,7 +7,11 @@
 
 * push all the dotfiles in /home/m   (~)
 
-* including: WSL Ubuntu 20.04
+* also the folders: .config .landscape .local .vifm .vim
+
+exit
+
+ncluding: WSL Ubuntu 20.04
 
 ---
 
