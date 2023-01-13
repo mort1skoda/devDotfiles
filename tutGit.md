@@ -1,7 +1,8 @@
 # git tutorial
 ## using WSL Ubuntu 20.04
 
-Install WSL:
+Install WSL:\
+
 open Powershell (x86) as admin
 wsl --list --online
 wsl --install -d Ubuntu-20.04
