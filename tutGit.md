@@ -17,6 +17,10 @@ then run theese 2 lines in bash shell inside WSL Ubuntu:<br/>
 git config --globel user.name  "mort1skoda"<br/>
 git config --global user.email "mort1skoda@gmail.com"
 
-
-
+Now your .gitconfig should look like this:<br/>
+[credential]
+    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
+[User]
+    email = mort1skoda@gmail.com
+    name  = mort1skoda
 
