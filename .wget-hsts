@@ -2,3 +2,4 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 www.linuxfromscratch.org	0	0	1673612061	31536000
+github.com	0	1	1673621791	31536000
