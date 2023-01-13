@@ -96,6 +96,7 @@ alias gc='git commit'
 alias gp='git push'
 alias gr='git remote -v'
 alias gs='git status'
+alias gl='git log'
 
 #----------------}}}
 
