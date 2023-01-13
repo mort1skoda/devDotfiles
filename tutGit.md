@@ -13,7 +13,7 @@ run this in bash shell in WSL ubuntu:<br/>
 git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"<br/>
 This will create .gitconfig in your home directory
 
-then:<br/>
+then run theese 2 lines in bash shell inside WSL Ubuntu:<br/>
 git config --globel user.name  "mort1skoda"<br/>
 git config --global user.email "mort1skoda@gmail.com"
 
