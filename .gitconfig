@@ -1,14 +1,5 @@
-[user]
-	name = mort1skoda
-	email = mort1skoda@gmail.com
-
-
 [credential]
-    helper = /mnt/c/'Program Files'\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
-
-
-    #git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe"
-
-    #helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
-
-
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
+[user]
+	email = mort1skoda@gmail.com
+	name = mort1skoda

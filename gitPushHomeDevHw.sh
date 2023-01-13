@@ -1,6 +1,6 @@
 #!/bin/bash
  
-echo 'in .gitPushDotfiles.sh'
+echo 'START-->  gitPushHomeDevHw.sh <--'
 
 git add --all
 git status
@@ -12,6 +12,9 @@ echo $msg
 git commit -m "$msg"
 git push -u origin master
 git status
+
+echo 'END--->   gitPushHomeDevHw.sh <--'
+
 exit
 
 
