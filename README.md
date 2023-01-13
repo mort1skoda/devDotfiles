@@ -1,10 +1,9 @@
 # dotfiles
 ## WSL Ubuntu 20.04
 
-* ./gp.sh
-* there is a alias: gp
-* cat gp.sh to see how it is done.
-* shortcut: c gp**
+* ./gp.sh or use the alias gp
+* cat gp.sh to check how it is done.
+* alias for cat = c  [c gp**]
 
 
 * push all the dotfiles in /home/m   (~)
