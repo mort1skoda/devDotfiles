@@ -1,6 +1,6 @@
 #!/bin/bash
  
-echo '----------- START-->  gitPushHomeDevHw.sh <---------'
+echo '----****----****---- START-->  gitPushHomeDevHw.sh ----****----****----'
 git remote -v
 git add --all
 git status
@@ -11,13 +11,12 @@ echo $msg
 git commit -m "$msg"
 git push -u origin master
 git status
-echo '----------- END--->   gitPushHomeDevHw.sh <---------'
+echo '----****----****----- END--->  gitPushHomeDevHw.sh ----****----****----'
 
 exit
 
 
-
-#####    first time pull    #####
+#####-----    first time pull -----#####
 git init
 git pull https://github.com/mort1skoda/dotfiles
 git remote add origin https://github.com/mort1skoda/dotfiles
@@ -27,8 +26,7 @@ git commit -m "first"
 git push -u origin master
 
 
-
-#################################
+#####-----     new repo cli   -----#####
 create a new repository on the command line
 NB! first you must create a empty repo online.
 (NO README.md)  README.md is created on the command line.
