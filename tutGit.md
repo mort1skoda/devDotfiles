@@ -1,11 +1,10 @@
 # git tutorial
 ## using WSL Ubuntu 20.04
 
-Install WSL:\
-
-open Powershell (x86) as admin
-wsl --list --online
-wsl --install -d Ubuntu-20.04
+Install WSL:<br/>
+open Powershell (x86) as admin<br/>
+wsl --list --online<br/>
+wsl --install -d Ubuntu-20.04<br/>
 
 
 Install git for windows:
