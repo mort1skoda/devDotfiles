@@ -3,8 +3,9 @@
 .viminfo
 .sudo_as_admin_successful
 
+devC
+devHtml
+devLfs
 download
-lfs
-html
-tmp
+hardware
 

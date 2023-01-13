@@ -93,7 +93,7 @@ alias q='exit'
 
 alias ga='git add --all'
 alias gc='git commit'
-alias gp='git push'
+alias gp='./gp.sh'
 alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'

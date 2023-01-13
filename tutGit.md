@@ -25,3 +25,20 @@ Now your .gitconfig should look like this:<br/>
 &emsp; name  = mort1skoda<br/>
 
 
+##Create a new repository on the command line
+
+echo "# devLfs" >> README.md
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M master
+
+git remote add origin https://github.com/mort1skoda/devLfs.git
+
+git push -u origin master
+
+

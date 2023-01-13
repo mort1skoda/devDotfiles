@@ -2,6 +2,9 @@
  
 echo '----****----****---- START-->  gitPushHomeDevHw.sh ----****----****----'
 git remote -v
+gr
+exit
+
 git add --all
 git status
 update="Updated: "
