@@ -13,7 +13,7 @@ if [ "$TMUX" == "" ]; then
 
     echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
     cd ~
-    gp
+    ./gitPushHomeDevHw.sh
 
     #echo '----------------------------------> git push dev/c/template           !!!!!!!!!!!!!!!'
     #cd ~/dev/c/00template

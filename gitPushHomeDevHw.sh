@@ -1,19 +1,17 @@
 #!/bin/bash
  
-echo 'START-->  gitPushHomeDevHw.sh <--'
-
+echo '----------- START-->  gitPushHomeDevHw.sh <---------'
+git remote -v
 git add --all
 git status
 update="Updated: "
 datTim=$(date +'%y%m%d_%H%M')
 msg="$update$datTim"
 echo $msg
-
 git commit -m "$msg"
 git push -u origin master
 git status
-
-echo 'END--->   gitPushHomeDevHw.sh <--'
+echo '----------- END--->   gitPushHomeDevHw.sh <---------'
 
 exit
 
