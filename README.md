@@ -1,7 +1,11 @@
 # dotfiles
 ## WSL Ubuntu 20.04
 
-* ./pushHomeDevHw.sh
+* ./gp.sh
+* there is a alias: gp
+* cat gp.sh to see how it is done.
+* shortcut: c gp**
+
 
 * push all the dotfiles in /home/m   (~)
 
