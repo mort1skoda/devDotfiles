@@ -91,10 +91,11 @@ alias q='exit'
 
 #------------  git aliases -----------{{{
 
-alias gs='git status'
 alias ga='git add --all'
 alias gc='git commit'
-alias gp='~/gitPush*'
+alias gp='git push'
+alias gr='git remote -v'
+alias gs='git status'
 
 #----------------}}}
 

@@ -7,5 +7,6 @@ dl
 *.o
 crm
 getStr
-
+*test*
+*Test*
 
