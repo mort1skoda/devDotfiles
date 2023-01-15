@@ -97,6 +97,7 @@ alias gp='./gp.sh'
 alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'
+alias gcl='git clone'
 
 #----------------}}}
 
