@@ -44,8 +44,8 @@ alias ..='cd .. && ls -la --color --group-directories-first'
 alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
-alias .d='cd ~/dev && ls -la --color --group-directories-first'
-#alias .c='cd ~/dev/c && ls -la --color --group-directories-first'
+alias .d='cd /01data && ls -la --color --group-directories-first'
+
 alias cls='clear'
 
 # change between root and m:
@@ -97,6 +97,7 @@ alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'
 alias gcl='git clone'
+#mapleader,edit .gitignore in vim
 alias ,egi='v .gitignore'
 
 #----------------}}}
