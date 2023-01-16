@@ -1,6 +1,8 @@
 # dotfiles
 ## WSL Ubuntu 20.04
 
+location for userfiles: /01data/
+
 * ./gp.sh or use the alias gp
 * cat gp.sh to check how it is done.
 * alias for cat = c  [c gp.sh]
