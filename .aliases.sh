@@ -14,7 +14,7 @@
 echo '        >>>> begin '$ALIASES'>>>>'
 echo '            setting aliases....'
 
-alias f='vifm ~ ~/dev'
+alias f='vifm /home/m  /01data'
 alias v='vim'
 
 

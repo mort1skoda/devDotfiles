@@ -1,10 +1,18 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Marks:
+'D
+	/01data
+	devC
+1673825314
 'H
 	/home/m/
 	..
 1647508231
+'V
+	/01data
+	devC
+1673844253
 'a
 	/home/m/c/00templates
 	main.c
@@ -47,3 +55,5 @@ t/home/m/.local/share/vifm/Trash/000_hardware
 	/home/m/hardware
 t/home/m/.local/share/vifm/Trash/000_gp.sh.bkup
 	/01data/myTutorials/gp.sh.bkup
+t/home/m/.local/share/vifm/Trash/000_test.txt
+	/01data/myTutorials/test.txt
