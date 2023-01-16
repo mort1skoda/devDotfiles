@@ -16,6 +16,8 @@ set syscalls
 windo normal! zo
 " not suported:  let mapleader ","
 
+set confirm-=delete
+
 "}}}
 
 
@@ -32,7 +34,7 @@ nnoremap <TAB> :
 " ctrl-q = quit
 nnoremap <C-q> :q
 
-" ctrl-s = save and source ~/.vifm/vifmrc
+" ctrl-s = save and source ~/.vifm/vifmrc 
 nnoremap <C-s> <ESC>:source ~/.vifm/vifmrc<CR>
 cnoremap <C-s> <ESC>:source ~/.vifm/vifmrc<CR>
 

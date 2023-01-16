@@ -5,7 +5,9 @@
 ###################################
 
 #Author:	Morten Håkestad
-#Updated:	2022 04 04      2023 01 12
+#Updated:	2022 04 04
+#           2023 01 12
+#           2023 01 15
 
 #     p   b   a
 #     #   #   #
@@ -43,7 +45,7 @@ alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd ~/dev && ls -la --color --group-directories-first'
-alias .c='cd ~/dev/c && ls -la --color --group-directories-first'
+#alias .c='cd ~/dev/c && ls -la --color --group-directories-first'
 alias cls='clear'
 
 # change between root and m:
@@ -72,17 +74,14 @@ alias bl='bash --login'
 # shortcuts:
 alias c='cat'
 alias g='grep --color=auto'
-
 alias hg='cat .bash_history | grep -i '
-
 alias os='cat /etc/os-release'
-
 alias wa='whoami'
-
 alias rm='ls'
-
+#Watch List Diretory:
 alias wl='watch --color ls -la --color --group-directories-first'
-
+#alias 
+alias sd='sudo'
 # quit or exit shell
 alias q='exit'
 
