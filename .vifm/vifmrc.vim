@@ -34,7 +34,7 @@ nnoremap <TAB> :
 " ctrl-q = quit
 nnoremap <C-q> :q
 
-" ctrl-s = save and source ~/.vifm/vifmrc 
+" ctrl-s = source ~/.vifm/vifmrc 
 nnoremap <C-s> <ESC>:source ~/.vifm/vifmrc<CR>
 cnoremap <C-s> <ESC>:source ~/.vifm/vifmrc<CR>
 

@@ -91,6 +91,8 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " MAPPINGS -----------------------------------------------------{{{
 
+
+
 " toggle fold
 nnoremap ff za
 
@@ -157,7 +159,7 @@ nnoremap <F5> :!make<CR>
 nnoremap <F6> :!make run<CR>
 nnoremap <F7> :!make dbg<CR>
 " ,mh ,mv ...
-"""" Please see MAOLEADER fold.
+"""" Please see MAPLEADER fold.
 "nnoremap <Leader>mh :!make help<CR>
 "nnoremap <Leader>mv :!make vars<CR>
 "nnoremap <Leader>mc :!make clean<CR>
@@ -196,12 +198,21 @@ nnoremap o o<esc>
 nnoremap O O<esc>
 
 " Y,D,C = Yank, Delete, Change from cursor to the end of line.
-nnoremap Y y$:echo'Y = Yanked from cursor to end of line'<CR>
-nnoremap D d$
-nnoremap C c$
+nnoremap Y y$:echo'-Normal mode- Y = Yanke from cursor to end of line'<CR>
+nnoremap yf yf:echo'-Normal mode- yf = yank include given character'<cr>
 
-" jump one right after Put
-nnoremap P Pl
+nnoremap D d$:echo'D = Delete from cursor to end of line'<cr>
+nnoremap C c$
+nnoremap dd dd:echo'dd delete line'<cr>
+
+" P = Paste used in after yank or delete 
+nnoremap P Pl:echo'P = Paste abow'<cr>
+nnoremap p p:echo'p = paste below'<cr>
+
+
+nnoremap dd dd:echo'dd delete line'<cr>
+nnoremap dd dd:echo'dd delete line'<cr>
+nnoremap dd dd:echo'dd delete line'<cr>
 
 " Shift-x insert space, only x delete one character.
 nnoremap X i<space><esc>
@@ -209,20 +220,20 @@ nnoremap X i<space><esc>
 " Space to type :!  to enter shell comands.
 nnoremap <SPACE> :!
 "inoremap <TAB> <SPACE><SPACE><SPACE><SPACE>
-"nnoremap <TAB> i<TAB><ESC>
+nnoremap <TAB> :
     
 " ctrl-x to search and replace.
 nnoremap <C-x> :%s/
 " ctrl-f find
 nnoremap <C-f> /
 
-
-
-
+inoremap <esc> <esc>:echo'-- NORMAL --'<cr>
+nnoremap <esc> <esc>:echo'-- NORMAL --'<cr>
 
 
 
 " }}}
+
 
 
 "---------------- , mapleader MACROS -----------------{{{
