@@ -37,7 +37,7 @@ set noswapfile
 filetype on
 " Enable plugins and load plugin for the detected file type.
 filetype plugin on
-" Load an indent file for the detected file type.
+" Load and indent file for the detected file type.
 filetype indent on
 " Turn syntax highlighting on.
 syntax on
@@ -60,7 +60,7 @@ set expandtab
 " Do not save backup files.
 set nobackup
 " Do not let cursor scroll below or above N number of lines when scrolling.
-set scrolloff=10
+set scrolloff=16
 " Incrementally highlight matching characters as you type.
 set incsearch
 " Ignore capital letters during search.
@@ -91,6 +91,9 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " --- MAPPINGS ---------------------------------------------------------{{{
 
+" from Normal mode you can type q followed by enter to quit without saving
+nnoremap q :q
+
 " toggle fold
 nnoremap ff za
 
@@ -104,8 +107,8 @@ nnoremap k k:echo'-- NORMAL --   k-up'<CR>
 nnoremap l l:echo'-- NORMAL --   l-right'<CR>
 
 " speed up scrolling
-nnoremap <C-e> 2<C-e>:echo 'scroll dwn'<CR>
-nnoremap <C-y> 2<C-y>:echo 'scroll up'<CR>
+nnoremap <C-e> 4<C-e>:echo 'scroll dwn'<CR>
+nnoremap <C-y> 4<C-y>:echo 'scroll up'<CR>
 
 
 """""""""""""""""""""""""""""""""""""
@@ -126,8 +129,8 @@ nnoremap <C-y> 2<C-y>:echo 'scroll up'<CR>
 let mapleader = ","
 
 " ,vv for vertical split ,hh for horizonal split
-nnoremap <Leader>vv :vs<CR>: source ~/.vimrc<CR>
-nnoremap <Leader>hh :sp<CR>
+nnoremap <Leader>v :vs<CR>: source ~/.vimrc<CR>
+nnoremap <Leader>h :sp<CR>: source ~/.vimrc<cr>
 "
 " ctrl-hjkl navigate panes
 nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
@@ -244,13 +247,11 @@ nnoremap <TAB> :
 nnoremap <C-f> /
 
 
-
-
-nnoremap <esc> <esc>:echo'Normal -> Normal esc = back to normal mode'<cr>
+"-------------------------- ESC mapping ------------------------------------
+"nnoremap <esc> <esc>:echo'Normal -> Normal esc = back to normal mode'<cr>
 inoremap <esc> <esc>l:echo'Insert -> Normal esc = back to normal mode'<cr>
-vnoremap <esc> <esc>:echo'Visual -> Normal esc = back to normal mode'<cr>'
-cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'
-
+"vnoremap <esc> <esc>:echo'Visual -> Normal esc = back to normal mode'<cr>'
+"cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'
 
 "------------------------------------ end mappings ---------------------------}}}
 
