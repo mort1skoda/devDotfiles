@@ -3,40 +3,40 @@
 ####    /home/m/.aliases.sh    ####
 ###################################
 
+#- header --------------------------------------------------------{{{
+
 #Author:	Morten Håkestad
 #Updated:	2022 04 04
 #           2023 01 12
 #           2023 01 15
 #           2023 01 17
-
+#
+# This script file is called from .bashrc
+#
 # ff = toggle folds
-# use ag to grep in the .aliases.sh
+# use ag to grep in the list of aliases
+# use cag to grep in the file .aliases.sh
 # example:
-# ag vim  will list all aliases that contains 'vim'
-#     p   b   a
-#     #   #   #
+# ag vim   will list all aliases that contains 'vim'
+# cag vim   will list all accourences of 'vim' in the whole file .aliases.sh
 
-echo '        >>>> begin '$ALIASES'>>>>'
-echo '            setting aliases....'
+echo '....|.... begin ' $ALIASES ' ....|....'
+
+#-----------------------------------------------------------------}}}
+
+
+#- aliases --------------------------------------------------------{{{
 
 # start programs
 alias f='vifm /home/m  /01data'
 alias v='vim'
 
-
-
-
-#------------- SHELL aliases ---------------{{{
-
 # navigate directories:
-#alias /='cd / && ls -la --color --group-directories-first'
 alias ..='cd .. && ls -la --color --group-directories-first'
 alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd /01data && ls -la --color --group-directories-first'
-
-alias cd='cd ~ && ls -la --color --group-directories-first'
 
 alias cls='clear'
 
@@ -65,6 +65,7 @@ alias ag='alias | grep -i --color '
 
 alias sa='source ~/.aliases.sh'
 alias sb='source ~/.bashrc'
+
 alias bl='bash --login'
 
 # shortcuts:
@@ -148,8 +149,11 @@ alias ,md='make dbg'
 
 #------------------------------------------------------------------------}}}
 
-shopt -s expand_aliases
+#- footer --------------------------------------------------------{{{
 
-echo '         .... end  '$ALIASES' ...'
+shopt -s expand_aliases
+echo '....|.... end ' $ALIASES '....|....'
+
+#----------------------------------------------------------------}}}
 
 
