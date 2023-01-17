@@ -102,10 +102,10 @@ alias q='exit'
 
 alias ga='git add --all'
 alias gc='git clone'
-#alias gco='git commit'
+alias gco='git commit'
 #git push:
 alias gp='./gp.sh'
-# gpl git pull
+alias gpl='git pull'
 alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'
