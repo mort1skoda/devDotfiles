@@ -185,6 +185,9 @@ inoremap <C-s> <ESC>:w<CR>l:source $VIMRC<CR>:echo'Insert->Normal C-s = Save.  S
 vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Visual->Normal C-s = Save.  Saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
 "cnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Change->Normal C-s = Save.  Saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
 
+:w<CR>:
+:w<CR>:
+:w<CR>
 
 
 
@@ -196,38 +199,34 @@ vnoremap <c-q> <ESC>:wq
 cnoremap <c-q> <ESC>:wq
 
 
-nnoremap u u:echo'Normal u = undo last change'<cr>
+nnoremap u u:echo'Norm - u = undo last change'<cr>
 
 " U: Undo latest changes to one line. This command is unique because it will
 " create a new entry instead of reverting back to an old entry. This means you
 " can actually press u to undo the changes done with U.
 
 
-nnoremap o o<esc>:echo'Normal o = Open line below'<cr>
-nnoremap O O<esc>:echo'Normal O = Open line abowe'<cr>
+nnoremap o o<esc>:echo'o = Open line below'<cr>
+nnoremap O O<esc>:echo'O = Open line abowe'<cr>
 
 " Y,D,C = Yank, Delete, Change from cursor to the end of line.
-nnoremap Y  y$:echo'Normal  Y=Yank from cursor to end of line'<CR>
-nnoremap yw yw:echo'Normal yw=yank word'<cr>
-nnoremap yy yy:echo'Normal yy=yank the whole line'<cr>
-nnoremap yt yt
-nnoremap yf yf
-"NB! yt and yf can not have an echo statment after them.
+nnoremap Y y$:echo'-Normal mode- Y = Yanke from cursor to end of line'<CR>
+nnoremap yf yf:echo'-Normal mode- yf = yank including given character'<cr>
 
-nnoremap D  d$:echo'Normal  D=Delete from cursor to end of line'<cr>
-nnoremap dw dw:echo'Normal dw=delete word'<cr>
-nnoremap dd dd:echo'Normal dd=delete line'<cr>
-nnoremap df df
-nnoremap dt dt
-"NB! dt and df can not have an echo statment after them.
+nnoremap D d$:echo'D = Delete from cursor to end of line'<cr>
+nnoremap df df:echo'df = delete from cursor including given character'<cr>
+nnoremap C c$:echo'C = change from cursor to end of line'<cr>
 
-nnoremap C c$
-":echo'C = change from cursor to end of line'<cr>
+nnoremap dd dd:echo'dd delete line'<cr>
 
-" P = Paste, used after yank or delete 
+" P = Paste used in after yank or delete 
 nnoremap P P:echo'P = Paste abowe'<cr>
 nnoremap p p:echo'p = paste below'<cr>
 
+nnoremap p fter fte at cursor p:echo'p = past esc Paste after cursorbeloo
+
+nnoremap dd dd:echo'Normal dd delete line'<cr>
+nnoremap dd dd:echo'Normal dd delet  line'<cr>
 
 " Shift-x insert space, only x delete one character.
 nnoremap X i<space><esc>
@@ -242,11 +241,7 @@ nnoremap <C-x> :%s/
 " ctrl-f find
 nnoremap <C-f> /
 
-
-
-
-nnoremap <esc> <esc>:echo'Normal -> Normal esc = back to normal mode'<cr>
-
+nnoremap <esc> <esc>:w<CR>:echo'Normal -> Normal esc = back to normal mode'<cr>
 inoremap <esc> <esc>l:echo'Insert -> Normal esc = back to normal mode'<cr>
 
 

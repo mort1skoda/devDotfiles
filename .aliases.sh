@@ -1,5 +1,4 @@
 #! /bin/bash
-#-iiii-------------TEST
 ############################################
 ####    /home/m/.aliases.sh    ####
 ###################################
@@ -8,6 +7,7 @@
 #Updated:	2022 04 04
 #           2023 01 12
 #           2023 01 15
+#           2023 01 17
 
 #     p   b   a
 #     #   #   #
@@ -47,6 +47,9 @@ alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd /01data && ls -la --color --group-directories-first'
 
 alias cls='clear'
+
+alias cag='source ~/.aliases.sh && cat ~/.aliases.sh | grep -i --color '
+
 
 # change between root and m:
 alias ur='su root && .h'
@@ -99,17 +102,23 @@ alias gl='git log'
 alias gcl='git clone'
 #mapleader,edit .gitignore in vim
 alias ,egi='v .gitignore'
+alias ,egp='vim gitPush*' # not inside vim, only from shell.
 
 #----------------}}}
 
 
-#------------  tmux cli ------------{{{
+#------------  tmux aliases ------------{{{
 
+# tm = tmux, start a new tmux session
+alias tm='tmux'
+# tl = tmux list
 alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
 alias ta='tmux a -t '
 
-alias tm='tmux'
+
+alias ,et='vim ~/.tmux.conf'
+alias ,ev='vim ~/.vimrc'
 
 #---------------}}}
 
@@ -119,7 +128,7 @@ alias tm='tmux'
 alias ,ea='vim ~/.aliases.sh && source ~/.aliases.sh'
 alias ,eb='vim ~/.bashrc && source ~/.bashrc'
 alias ,ef='vim ~/.vifm/vifmrc.vim'
-alias ,eg='vim gitPush*' # not inside vim, only from shell.
+
 alias ,et='vim ~/.tmux.conf'
 alias ,ev='vim ~/.vimrc'
 
