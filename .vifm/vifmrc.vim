@@ -21,7 +21,7 @@ set confirm-=delete
 "}}}
 
 
-" ////////////// MAPPINGS //////////////////{{{
+"- mappings -------------------------------------------------------{{{
 
 " Try to make them as close to vim as possible:
 
@@ -33,6 +33,8 @@ nnoremap <TAB> :
 
 " ctrl-q = quit
 nnoremap <C-q> :q
+nnoremap q :q
+
 
 " ctrl-s = source ~/.vifm/vifmrc 
 nnoremap <C-s> <ESC>:source ~/.vifm/vifmrc<CR>
@@ -45,7 +47,7 @@ nnoremap <C-h> <C-w><C-w>
 "ctrl-w v = split vertical 
 "ctrl-w s = split horizontal
 "ctrl-w o = one pane only
-"}}}
+"------------------------------------------------------------------}}}
 
 
 " ////////////// RENAMING //////////////////{{{

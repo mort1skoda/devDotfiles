@@ -31,40 +31,40 @@ echo '....|.... begin ' $ALIASES ' ....|....'
 alias f='vifm /home/m  /01data'
 alias v='vim'
 
-# navigate directories:
+# change directory:
 alias ..='cd .. && ls -la --color --group-directories-first'
 alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd /01data && ls -la --color --group-directories-first'
 
+# clear screan:
 alias cls='clear'
 
 # cat .aliasesh.sh | grep -i <token>
 alias cag='source ~/.aliases.sh && cat ~/.aliases.sh | grep -i --color '
 
-
-# change between root and m:
-alias ur='su root && .h'
+# ur = su root 
+alias ur='su root && cd /root && ls -la'
 #alias um='su m && cd ~ && ls -la --color --group-directories-first'
 
-# list directories:
+# directories:
 alias l='ls -la --color --group-directories-first'
 alias ll='ls -l --color --group-directories-first'
 alias ls='ls --color --group-directories-first'
 alias lg='ls -la --color --group-directories-first | grep -i --color '
-
-# work with directories:
 alias md='mkdir -p'
 alias rd='rmdir -p'
 
-# work with aliases:
+# aliases:
 alias a='source ~/.aliases.sh && alias'
 alias ag='alias | grep -i --color '
 
 
-alias sa='source ~/.aliases.sh'
-alias sb='source ~/.bashrc'
+# source profile, bashrc, aliases 
+alias sp='source ~/.profile'
+#alias sa='source ~/.aliases.sh'
+#alias sb='source ~/.bashrc'
 
 alias bl='bash --login'
 
@@ -79,17 +79,31 @@ alias rm='ls'
 alias wl='watch --color ls -la --color --group-directories-first'
 #alias 
 alias sd='sudo'
+
+
+# mapleader  edit  file
+#     ,      vim   a=alias b=bash f=vifm p=profile v=vim
+alias ,ea='vim ~/.aliases.sh && source ~/.aliases.sh'
+alias ,eb='vim ~/.bashrc && source ~/.bashrc'
+alias ,ef='vim ~/.vifm/vifmrc.vim'
+alias ,ep='vim ~/.profile'
+alias ,ev='vim ~/.vimrc'
+
+
+
+
 # quit or exit shell
 alias q='exit'
 
-#---------------}}}
+#------------------------------------------------------------------}}}
 
 
-#------------  git aliases -----------{{{
+#- git aliases ----------------------------------------------------{{{
 
 alias ga='git add --all'
 alias gc='git commit'
 alias gp='./gp.sh'
+# gpl git pull
 alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'
@@ -99,7 +113,7 @@ alias gcl='git clone'
 alias ,egi='v .gitignore'
 alias ,egp='vim gp.sh' # not inside vim, only from shell.
 
-#----------------}}}
+#------------------------------------------------------------------}}}
 
 
 #------------  tmux aliases ------------{{{
@@ -116,13 +130,8 @@ alias ,et='vim ~/.tmux.conf'
 #---------------}}}
 
 
-#------------ , mapleader aliases -------------{{{
+#- make aliases ---------------------------------------------------{{{
 
-alias ,ea='vim ~/.aliases.sh && source ~/.aliases.sh'
-alias ,eb='vim ~/.bashrc && source ~/.bashrc'
-alias ,ef='vim ~/.vifm/vifmrc.vim'
-
-alias ,ev='vim ~/.vimrc'
 
 alias ,mh='make help'
 alias ,mv='make vars'
@@ -131,10 +140,11 @@ alias ,mm='make all'
 alias ,mr='make run'
 alias ,md='make dbg'
 
-#--------------}}}
+#------------------------------------------------------------------}}}
 
 
-#------------------- check distro ---------------------------------------{{{
+#- check distro ---------------------------------------------------{{{
+
 #DISTRO=$(cat /etc/os-release | grep -i suse )
 #echo $DISTRO
 #if [ "$DISTRO" == "" ]; then
@@ -147,7 +157,8 @@ alias ,md='make dbg'
     #alias upd='sudo zypper refresh && sudo zypper update'
 #fi
 
-#------------------------------------------------------------------------}}}
+#------------------------------------------------------------------}}}
+
 
 #- footer --------------------------------------------------------{{{
 
