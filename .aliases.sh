@@ -101,13 +101,14 @@ alias q='exit'
 #- git aliases ----------------------------------------------------{{{
 
 alias ga='git add --all'
-alias gc='git commit'
+alias gc='git clone'
+#alias gco='git commit'
+#git push:
 alias gp='./gp.sh'
 # gpl git pull
 alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'
-alias gcl='git clone'
 
 # mapleader = , pronounced edit
 alias ,egi='v .gitignore'
