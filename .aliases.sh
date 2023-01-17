@@ -9,45 +9,38 @@
 #           2023 01 15
 #           2023 01 17
 
-#     p   b   a
-#     #   #   #
-echo '        >>>> begin '$ALIASES'>>>>'
-echo '            setting aliases....'
-
-alias f='vifm /home/m  /01data'
-alias v='vim'
-
-
-# check which distro
-DISTRO=$(cat /etc/os-release | grep -i suse )
-#echo $DISTRO
-if [ "$DISTRO" == "" ]; then
-    echo "ubuntu/debian apt"
-    alias ins='sudo apt install -y '
-    alias upd='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
-else
-    echo "suse zypper"
-    alias ins='sudo zypper install'
-    alias upd='sudo zypper refresh && sudo zypper update'
-fi
-
 # ff = toggle folds
 # use ag to grep in the .aliases.sh
 # example:
 # ag vim  will list all aliases that contains 'vim'
+#     p   b   a
+#     #   #   #
+
+echo '        >>>> begin '$ALIASES'>>>>'
+echo '            setting aliases....'
+
+# start programs
+alias f='vifm /home/m  /01data'
+alias v='vim'
+
+
 
 
 #------------- SHELL aliases ---------------{{{
 
 # navigate directories:
+#alias /='cd / && ls -la --color --group-directories-first'
 alias ..='cd .. && ls -la --color --group-directories-first'
 alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd /01data && ls -la --color --group-directories-first'
 
+alias cd='cd ~ && ls -la --color --group-directories-first'
+
 alias cls='clear'
 
+# cat .aliasesh.sh | grep -i <token>
 alias cag='source ~/.aliases.sh && cat ~/.aliases.sh | grep -i --color '
 
 
@@ -100,9 +93,10 @@ alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'
 alias gcl='git clone'
-#mapleader,edit .gitignore in vim
+
+# mapleader = , pronounced edit
 alias ,egi='v .gitignore'
-alias ,egp='vim gitPush*' # not inside vim, only from shell.
+alias ,egp='vim gp.sh' # not inside vim, only from shell.
 
 #----------------}}}
 
@@ -116,9 +110,7 @@ alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
 alias ta='tmux a -t '
 
-
 alias ,et='vim ~/.tmux.conf'
-alias ,ev='vim ~/.vimrc'
 
 #---------------}}}
 
@@ -129,7 +121,6 @@ alias ,ea='vim ~/.aliases.sh && source ~/.aliases.sh'
 alias ,eb='vim ~/.bashrc && source ~/.bashrc'
 alias ,ef='vim ~/.vifm/vifmrc.vim'
 
-alias ,et='vim ~/.tmux.conf'
 alias ,ev='vim ~/.vimrc'
 
 alias ,mh='make help'
@@ -141,6 +132,21 @@ alias ,md='make dbg'
 
 #--------------}}}
 
+
+#------------------- check distro ---------------------------------------{{{
+#DISTRO=$(cat /etc/os-release | grep -i suse )
+#echo $DISTRO
+#if [ "$DISTRO" == "" ]; then
+    #echo "ubuntu/debian apt"
+    #alias ins='sudo apt install -y '
+    #alias upd='sudo apt update && sudo apt upgrade -y && sudo apt autoremove'
+#else
+    #echo "suse zypper"
+    #alias ins='sudo zypper install'
+    #alias upd='sudo zypper refresh && sudo zypper update'
+#fi
+
+#------------------------------------------------------------------------}}}
 
 shopt -s expand_aliases
 

@@ -4,12 +4,12 @@
 
 "ff  =  toggle folds
 
-" SETTINGS -----------------------------------------------------{{{
+" - SETTINGS -----------------------------------------------------{{{
 
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
-"set nowrap
-set wrap
-set textwidth=80
+set nowrap
+"set wrap
+"set textwidth=80
 "set spell spelllang=en_us
 "Turn off spell
 set nospell
@@ -89,15 +89,10 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " }}}
 
 
-" MAPPINGS -----------------------------------------------------{{{
-
-
+" --- MAPPINGS ---------------------------------------------------------{{{
 
 " toggle fold
 nnoremap ff za
-
-" make cw behave like dw and yw
-nnoremap cw dwi
 
 " å = go to end of line, 0=go to beginning of line.
 nnoremap å $:echo'å=go to end of line'<CR>
@@ -128,10 +123,11 @@ nnoremap <C-y> 2<C-y>:echo 'scroll up'<CR>
 
 
 "--------PANES----------------------------------
-" ,v for vertical split ,h for horizonal split
-"""" Please see Leader fold.
-"nnoremap <Leader>v :vs<CR>
-"nnoremap <Leader>h :sp<CR>
+let mapleader = ","
+
+" ,vv for vertical split ,hh for horizonal split
+nnoremap <Leader>vv :vs<CR>: source ~/.vimrc<CR>
+nnoremap <Leader>hh :sp<CR>
 "
 " ctrl-hjkl navigate panes
 nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
@@ -139,8 +135,8 @@ nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>
 nnoremap <C-j> <C-w>j:echo 'nav pane dwn:' expand('%:p')<CR>
 nnoremap <C-k> <C-w>k:echo 'nav pane up:' expand('%:p')<CR>
 " Resize panes: SHIFT-L and SHIFT-H
-nnoremap <S-L> 2<c-w>>:echo 'Resize pane SHIFT-L=>'<CR>
-nnoremap <S-H> 2<c-w><:echo 'Resize pane SHIFT-H=<'<CR>
+nnoremap <S-L> 2<c-w><:echo 'Resize pane SHIFT-L=>'<CR>
+nnoremap <S-H> 2<c-w>>:echo 'Resize pane SHIFT-H=<'<CR>
 nnoremap <S-J> <c-w>+:echo 'Resize pane SHIFT-J=dwn'<CR>
 nnoremap <S-K> <c-w>-:echo 'Resize pane SHIFT-K=up'<CR>
 "-----------------------------------------------
@@ -221,16 +217,21 @@ nnoremap df df
 nnoremap dt dt
 "NB! dt and df can not have an echo statment after them.
 
+" make cw behave like dw and yw
+"nnoremap cw dwi
+
 nnoremap C c$
 ":echo'C = change from cursor to end of line'<cr>
 
 " P = Paste, used after yank or delete 
-nnoremap P P:echo'P = Paste abowe'<cr>
-nnoremap p p:echo'p = paste below'<cr>
-
+nnoremap P P:echo'P = Paste line abowe / Paste token at cursor'<cr>
+nnoremap p p:echo'p = paste line below / paste token after cursor'<cr>
 
 " Shift-x insert space, only x delete one character.
-nnoremap X i<space><esc>
+nnoremap X i<space><esc>:echo'Normal X=insert space'<esc>
+nnoremap x x:echo'Normal x=delete one char.'<esc>
+
+"h jh   kj  k
 
 " Space to type :!  to enter shell comands.
 nnoremap <SPACE> :!
@@ -238,7 +239,7 @@ nnoremap <SPACE> :!
 nnoremap <TAB> :
     
 " ctrl-x to search and replace.
-nnoremap <C-x> :%s/
+"nnoremap <C-x> :%s/
 " ctrl-f find
 nnoremap <C-f> /
 
@@ -246,21 +247,16 @@ nnoremap <C-f> /
 
 
 nnoremap <esc> <esc>:echo'Normal -> Normal esc = back to normal mode'<cr>
-
 inoremap <esc> <esc>l:echo'Insert -> Normal esc = back to normal mode'<cr>
+vnoremap <esc> <esc>:echo'Visual -> Normal esc = back to normal mode'<cr>'
+cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'
 
 
-" }}}
+"------------------------------------ end mappings ---------------------------}}}
 
 
+" ----- , mapleader MACROS -----------------{{{
 
-"---------------- , mapleader MACROS -----------------{{{
-
-let mapleader = ","
-
-" ,vv for vertical split ,hh for horizonal split
-nnoremap <Leader>vv :vs<CR>: source ~/.vimrc<CR>
-nnoremap <Leader>hh :sp<CR>
 
 " ,va ,vb ... edit dotfiles
 let $ALIASES = '~/.aliases.sh'
@@ -293,15 +289,15 @@ nnoremap <Leader>ch I#<ESC>j
 " ,ca = leader comment apostrophe
 nnoremap <Leader>ca I"<ESC>j
 " ,cc = leader comment c source code
-noremap <Leader>cc I//<ESC>j
+nnoremap <Leader>cc I//<ESC>j
 
 " }}}
 
 
-"---------------- @ MACROS --------------{{{
+" ------- @ MACROS -----------------{{{
 
 " @c comment C line
-let @c = "I// \<Esc>j"
+let @c="I// \<Esc>j"
 
 " @u uncomment C line
 let @u = "I\<Del>\<Del>\<Del>\<Esc>j"
@@ -310,12 +306,12 @@ let @u = "I\<Del>\<Del>\<Del>\<Esc>j"
 let @p = "Iprintf(\""
 
 " @f for(int i = 0; i < 10; i++){
-let @f = "I\<TAB>for(int i = 0; i < 10; i++){"
+let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"
 
-"-----------------}}}
+"-------------------------------------------}}}
 
 
-" SCRIPTS ------------------------------------------------------{{{
+" --------- SCRIPTS ------------------------------------------------------{{{
 
 " This will enable code folding.
 " Use the marker method of folding.
@@ -335,7 +331,7 @@ augroup END
 " }}}
 
 
-" PLUGINS ------------------------------------------------------{{{
+" ----------- PLUGINS ------------------------------------------------------{{{
 
 "call plug#begin('~/.vim/plugged')
 
@@ -345,7 +341,7 @@ augroup END
 " }}}
 
 
-" STATUS LINE --------------------------------------------------{{{
+" ------------- STATUS LINE --------------------------------------------------{{{
 
 " Clear status line when vimrc is reloaded.
 set statusline=
@@ -358,6 +354,7 @@ set statusline+=%=
 
  " Status line right side.
 set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
+set statusline+=\ Date\ and\ time
 
 " Show the status on the second to last line.
 set laststatus=2
