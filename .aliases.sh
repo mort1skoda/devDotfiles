@@ -44,9 +44,7 @@ alias cls='clear'
 # cat .aliasesh.sh | grep -i <token>
 alias cag='source ~/.aliases.sh && cat ~/.aliases.sh | grep -i --color '
 
-# ur = su root 
-alias ur='su root && cd /root && ls -la'
-#alias um='su m && cd ~ && ls -la --color --group-directories-first'
+# su  =  su root  by default in bash. 
 
 # directories:
 alias l='ls -la --color --group-directories-first'
@@ -117,7 +115,7 @@ alias ,egp='vim gp.sh' # not inside vim, only from shell.
 #------------------------------------------------------------------}}}
 
 
-#------------  tmux aliases ------------{{{
+#- tmux aliases ---------------------------------------------------{{{
 
 # tm = tmux, start a new tmux session
 alias tm='tmux'
@@ -125,10 +123,10 @@ alias tm='tmux'
 alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
 alias ta='tmux a -t '
-
+# ,et = edit .tmux.conf
 alias ,et='vim ~/.tmux.conf'
 
-#---------------}}}
+#------------------------------------------------------------------}}}
 
 
 #- make aliases ---------------------------------------------------{{{
