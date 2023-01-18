@@ -1,18 +1,21 @@
 #!/bin/bash
 
-echo '----****----****---- START-->  gitPushHomeDevHw.sh ----****----****----'
-git status
+echo '------------------------------------->>>> gitPush.sh ------START!!---------------'
+echo
+#git status
 git add --all
 git status
 DATE=$(date +'%Y-%m-%d %H:%M:%S %aday')
 git commit -m "$DATE"
 git branch -M master
 git push -u origin master
-echo '----****----****----- END--->  gitPushHomeDevHw.sh ----****----****----'
+git status
+echo
+echo '------------------------------------->>>> gitPush.sh ------FINISH!---------------'
 exit
 
 
-
+#- More information ------------------------------------------------------------------------------{{{
 #####-----    first time pull -----#####
 git init
 git pull https://github.com/mort1skoda/dotfiles
@@ -35,6 +38,6 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/mort1skoda/test.git
 git push -u origin master
-
+#-------------------------------------------------------------------------------}}}
 
 

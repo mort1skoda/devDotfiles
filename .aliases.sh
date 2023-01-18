@@ -117,7 +117,7 @@ alias gl='git log'
 
 # mapleader = , pronounced edit
 alias ,egi='v .gitignore'
-alias ,egp='vim gitiPush.sh'
+alias ,egp='vim gitPush.sh'
 
 #------------------------------------------------------------------}}}
 
