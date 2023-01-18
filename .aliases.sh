@@ -6,12 +6,8 @@
 #- header --------------------------------------------------------{{{
 
 #Author:	Morten Håkestad
-#Updated:	2022 04 04
-#           2023 01 12
-#           2023 01 15
-#           2023 01 17
 #
-# This script file is called from .bashrc
+# This script file is source by .bashrc
 #
 # ff = toggle folds
 # use ag to grep in the list of aliases
