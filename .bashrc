@@ -33,7 +33,8 @@ export EDITOR=/usr/bin/vim
 
 # git -----------------------------------------------------{{{
 
-git pull
+git pull https://github.com/mort1skoda/dot-wsl-Ubuntu20.04.git
+
 
 # only git pull if regular user
 #if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
