@@ -20,7 +20,8 @@
 # ag vim   will list all aliases that contains 'vim'
 # cag vim   will list all accourences of 'vim' in the whole file .aliases.sh
 
-echo '....|.... begin ' $ALIASES ' ....|....'
+echo '        3... begin ' $ALIASES ' ............'
+echo
 
 #-----------------------------------------------------------------}}}
 
@@ -37,6 +38,10 @@ alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd /01data && ls -la --color --group-directories-first'
+# windows c:\
+alias .wc='cd /mnt/c && ls -la --color --group-directories-first'
+# windows d:\
+alias .wd='cd /mnt/d && ls -la --color --group-directories-first'
 
 # clear screan:
 alias cls='clear'
@@ -61,8 +66,8 @@ alias ag='alias | grep -i --color '
 
 # source profile, bashrc, aliases 
 alias sp='source ~/.profile'
-#alias sa='source ~/.aliases.sh'
-#alias sb='source ~/.bashrc'
+alias sb='source ~/.bashrc'
+alias sa='source ~/.aliases.sh'
 
 alias bl='bash --login'
 
@@ -81,16 +86,18 @@ alias sd='sudo'
 
 # mapleader  edit  file
 #     ,      vim   a=alias b=bash f=vifm p=profile v=vim
+# linux:
 alias ,ea='vim ~/.aliases.sh && source ~/.aliases.sh'
 alias ,eb='vim ~/.bashrc && source ~/.bashrc'
 alias ,ef='vim ~/.vifm/vifmrc.vim'
 alias ,ep='vim ~/.profile'
 alias ,ev='vim ~/.vimrc'
 
+# windows:
+alias ,eahk='vim /mnt/c/Users/Monica/Documents/AutoHotKey/myHotKeys.ahk'
 
 
-
-# quit or exit shell
+# quit or exit shell.  same as quiting vim (whitout save)
 alias q='exit'
 
 #------------------------------------------------------------------}}}
@@ -162,7 +169,10 @@ alias ,md='make dbg'
 #- footer --------------------------------------------------------{{{
 
 shopt -s expand_aliases
-echo '....|.... end ' $ALIASES '....|....'
+echo '             shopt -s expand_aliases'
+echo '             .aliases.sh is sourced'
+echo
+echo '        3... end   ' $ALIASES ' ............'
 
 #----------------------------------------------------------------}}}
 

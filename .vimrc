@@ -93,6 +93,12 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
+" ctrl-q write and quit
+" in normal, insert, visual and command mode.
+nnoremap <c-q> :wq
+inoremap <c-q> <ESC>:wq
+vnoremap <c-q> <ESC>:wq
+cnoremap <c-q> <ESC>:wq
 
 " toggle fold
 nnoremap ff za
@@ -111,27 +117,13 @@ nnoremap <C-e> 4<C-e>:echo 'scroll dwn'<CR>
 nnoremap <C-y> 4<C-y>:echo 'scroll up'<CR>
 
 
-"""""""""""""""""""""""""""""""""""""
-""""  Macros using mapleader (,) 
-""""  See the fold named MAPLEADER
-"""""""""""""""""""""""""""""""""""""
-"let mapleader = ","
+"- panes -------------------------------------{{{
 "
-" open vim integrated file explorer
-"nnoremap <Leader>e :Lexplore<CR>7<C-w><
-" ,ch = leader comment hash
-"nnoremap <Leader>ch I#<ESC>j
-" ,ca = leader comment apostrophe
-"nnoremap <Leader>ca I"<ESC>j
-
-
-"--------PANES----------------------------------
 let mapleader = ","
-
+"
 " ,vv for vertical split ,hh for horizonal split
 nnoremap <Leader>v :vs<CR>: source ~/.vimrc<CR>
 nnoremap <Leader>h :sp<CR>: source ~/.vimrc<cr>
-"
 " ctrl-hjkl navigate panes
 nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
 nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>
@@ -142,12 +134,15 @@ nnoremap <S-L> 2<c-w><:echo 'Resize pane SHIFT-L=>'<CR>
 nnoremap <S-H> 2<c-w>>:echo 'Resize pane SHIFT-H=<'<CR>
 nnoremap <S-J> <c-w>+:echo 'Resize pane SHIFT-J=dwn'<CR>
 nnoremap <S-K> <c-w>-:echo 'Resize pane SHIFT-K=up'<CR>
-"-----------------------------------------------
+"
 " move cursor in insert mode with shift hjkl
 "inoremap <S-L> <ESC>lli
 "inoremap <S-H> <ESC>i
 "inoremap <S-J> <ESC>jli
 "inoremap <S-K> <ESC>kli
+"
+"---------------------------------------------}}}
+
 
 "-------- C COMPILATION using Makefile ---------
 " F2 F3 ...
@@ -177,22 +172,16 @@ nnoremap <F7> :!make dbg<CR>
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
-nnoremap <C-s>      :w<CR>:source $VIMRC<CR>:echo'Normal->Normal C-s = Save.  Saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
+nnoremap <C-s> :w<CR>:source $VIMRC<CR>:echo'ctrl-s save'$VIMRC ' sourced:'$VIMRC<CR>
 " NB!!! ::: Do NOT remove the l after <CR> ::: !!!
 " It adjusts the position of the coursor!!
-inoremap <C-s> <ESC>:w<CR>l:source $VIMRC<CR>:echo'Insert->Normal C-s = Save.  Saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
-vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Visual->Normal C-s = Save.  Saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
-"cnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Change->Normal C-s = Save.  Saved:'expand('%:p')'  -   sourced:'$VIMRC<CR>
+inoremap <C-s> <ESC>:w<CR>l:source $VIMRC<CR>:echo'Insert->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
+vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Visual->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
+"cnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Change->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
 
 
 
 
-" ctrl-q write and quit
-" in normal, insert, visual and command mode.
-nnoremap <c-q> :wq
-inoremap <c-q> <ESC>:wq
-vnoremap <c-q> <ESC>:wq
-cnoremap <c-q> <ESC>:wq
 
 
 nnoremap u u:echo'Normal u = undo last change'<cr>
@@ -242,7 +231,7 @@ nnoremap <SPACE> :!
 nnoremap <TAB> :
     
 " ctrl-x to search and replace.
-"nnoremap <C-x> :%s/
+nnoremap <C-x> :%s/
 " ctrl-f find
 nnoremap <C-f> /
 
@@ -344,11 +333,14 @@ augroup END
 
 " ------------- STATUS LINE --------------------------------------------------{{{
 
+" Show the status on the second to last line.
+set laststatus=2
+
 " Clear status line when vimrc is reloaded.
 set statusline=
 
 " Status line left side.
-set statusline+=\ %F\ %M\ %Y\ %R
+set statusline+=%F
 
 " Use a divider to separate the left side from the right side.
 set statusline+=%=
@@ -357,8 +349,6 @@ set statusline+=%=
 set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
 set statusline+=\ Date\ and\ time
 
-" Show the status on the second to last line.
-set laststatus=2
 
 " }}}
 

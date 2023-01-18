@@ -8,8 +8,8 @@
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
 
-echo '1111.... start ~/.profile ....1111'
-
+echo '1... start ~/.profile '
+echo
 
 # if running bash:  -n means if length of string is not 0
 if [ -n "$BASH_VERSION" ]; then
@@ -26,6 +26,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+echo
+echo '1... end   ~/.profile '
 
-echo '........ end   ~/.profile ........'
 
