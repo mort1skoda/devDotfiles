@@ -11,9 +11,10 @@ rm -rf .sudo_as_admin*
 
 if [ "$TMUX" == "" ]; then
 
-    echo '-------------------------------> git push dotfiles before quiting !!!!!!!!!!!!!!!!!!!!'
+    echo '-----------------> git push dotfiles before quiting !!!!!!!!!'
+    echo
     cd ~
-    ~/./gp.sh
+    gp
 
     #echo '----------------------------------> git push dev/c/template           !!!!!!!!!!!!!!!'
     #cd ~/dev/c/00template
@@ -23,8 +24,8 @@ if [ "$TMUX" == "" ]; then
     #cd ~/dev/c/getStr
     #gp
 
-    cd ~
-
+    echo
+    echo '-----------------> git push dotfiles READY!!        !!!!!!!!!'
 fi
 
 echo '.... end   ~/:bash_logout ....'

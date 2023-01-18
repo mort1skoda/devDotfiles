@@ -32,6 +32,9 @@ export EDITOR=/usr/bin/vim
 
 
 # git -----------------------------------------------------{{{
+
+git pull
+
 # only git pull if regular user
 #if [ "$EUID" -ne 0 ] && [ "$TMUX" == "" ]; then
 
@@ -45,7 +48,7 @@ export EDITOR=/usr/bin/vim
     #git pull https://github.com/mort1skoda/devCgetStr
 
 #fi
-###########################################################}}}
+#---------------------------------------------------------}}}
 
 
 #  prompt -------------------------------------------------------{{{
