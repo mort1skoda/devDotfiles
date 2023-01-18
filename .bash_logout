@@ -3,11 +3,10 @@
 # when leaving the console clear the screen to increase privacy
 echo '>>>> begin ~/.bash_logout >>>>'
 
-#if [ "$SHLVL" = 1 ]; then
+if [ "$SHLVL" = 1 ]; then
+    echo '$SHLVL = '$SHLVL
     #[ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-#fi
-
-rm -rf .sudo_as_admin*
+fi
 
 if [ "$TMUX" == "" ]; then
 
