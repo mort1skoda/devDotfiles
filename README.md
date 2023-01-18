@@ -1,29 +1,21 @@
 # dotfiles
 ## WSL Ubuntu 20.04
 
-location for userfiles: /01data/
+### wslUbuntu2004dotfiles
 
-* ./gp.sh or use the alias gp
-* cat gp.sh to check how it is done.
-* alias for cat = c  [c gp.sh]
-
+* location for userfiles: /01data/
+* ./gitPush.sh or use the alias gp
+* cat gitPush.sh to see how it is done.
+* alias for cat = c  [c gitPush.sh]
 * push all the dotfiles in /home/m   (~)
-
-* also the folders: .config .landscape .local .vifm .vim
-
-exit
-
-ncluding: WSL Ubuntu 20.04
+* including the folders: .config .landscape .local .vifm .vim
 
 ---
 
-2023-01-13 18:34 Friday: 
+* Remember to check out:
+* /0data/devC
+* .... 
+devHtml devLfs   they have their own gitPush inside each folder.
 
-devC devHtml devLfs  has its own gp inside each folder.
 
-asdfasdf
-
-dfhdfhgdf
-
-qwerqwer
 
