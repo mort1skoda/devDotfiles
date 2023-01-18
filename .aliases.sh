@@ -108,16 +108,16 @@ alias q='exit'
 alias ga='git add --all'
 alias gc='git clone'
 alias gco='git commit'
-#git push:
-alias gp='./gp.sh'
+ alias gp='./gitPush.sh'
 alias gpl='git pull'
+alias gpu='git push'
 alias gr='git remote -v'
 alias gs='git status'
 alias gl='git log'
 
 # mapleader = , pronounced edit
 alias ,egi='v .gitignore'
-alias ,egp='vim gp.sh' # not inside vim, only from shell.
+alias ,egp='vim gitiPush.sh'
 
 #------------------------------------------------------------------}}}
 
