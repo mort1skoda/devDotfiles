@@ -2,7 +2,18 @@
 """"    ~/.vimrc    """"
 """"""""""""""""""""""""
 
-"ff  =  toggle folds
+" Author: Morten Håkestad <mort1skoda@gmail.com>
+" Github: https://github.com/mort1skoda/dot-wsl-Ubuntu20.04.git
+
+"--- folds -------------------{{{
+setlocal foldmethod=marker
+" ff = toogle one folder
+nnoremap ff za
+" fc = folder close all
+nnoremap fc zm
+" fo = folder open all
+nnoremap fo zr
+"-----------------------------}}}
 
 " - SETTINGS -----------------------------------------------------{{{
 
@@ -87,7 +98,6 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " }}}
-
 
 " --- MAPPINGS ---------------------------------------------------------{{{
 
@@ -244,7 +254,6 @@ inoremap <esc> <esc>l:echo'Insert -> Normal esc = back to normal mode'<cr>
 
 "------------------------------------ end mappings ---------------------------}}}
 
-
 " ----- , mapleader MACROS -----------------{{{
 
 
@@ -283,7 +292,6 @@ nnoremap <Leader>cc I//<ESC>j
 
 " }}}
 
-
 " ------- @ MACROS -----------------{{{
 
 " @c comment C line
@@ -299,7 +307,6 @@ let @p = "Iprintf(\""
 let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"
 
 "-------------------------------------------}}}
-
 
 " --------- SCRIPTS ------------------------------------------------------{{{
 
@@ -320,36 +327,20 @@ augroup END
 
 " }}}
 
-
-" ----------- PLUGINS ------------------------------------------------------{{{
+"--- plugins ---{{{
 
 "call plug#begin('~/.vim/plugged')
 
 
 "call plug#end()
 
-" }}}
+"---------------}}}
 
-
-" ------------- STATUS LINE --------------------------------------------------{{{
-
-" Show the status on the second to last line.
+"--- statusline ---{{{
 set laststatus=2
-
-" Clear status line when vimrc is reloaded.
 set statusline=
-
-" Status line left side.
 set statusline+=%F
-
-" Use a divider to separate the left side from the right side.
 set statusline+=%=
-
- " Status line right side.
-set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
-set statusline+=\ Date\ and\ time
-
-
-" }}}
-
+set statusline+=row:%l\ col:%c\ percent:%p%%
+"------------------}}}
 
