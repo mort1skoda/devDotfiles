@@ -1,10 +1,12 @@
-# dotfiles
+# wslUbuntu
 ## WSL Ubuntu 20.04
+### repo for /home/m
+#### basically all . files / settings
 
-### wslUbuntu2004dotfiles
+* git pull https://github.com/mort1skod/wslUbuntu.git
+* git remote -v
 
-* location for userfiles: /01data/
-* ./gitPush.sh or use the alias gp
+* ./gitPush.sh   /   alias gp
 * cat gitPush.sh to see how it is done.
 * alias for cat = c  [c gitPush.sh]
 * push all the dotfiles in /home/m   (~)
@@ -12,10 +14,10 @@
 
 ---
 
-* Remember to check out:
-* /0data/devC
-* .... 
-devHtml devLfs   they have their own gitPush inside each folder.
+* userworkdata: /dat
+Like: devC devHtml devLfs.  
+they have their own gitPush inside each folder.
 
+---
 
 
