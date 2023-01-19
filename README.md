@@ -1,7 +1,7 @@
 # wslUbuntu
 ## WSL Ubuntu 20.04
-### repo for /home/m
-#### basically all . files / settings
+### . files for your /home/<usrname>
+#### 'dotfiles' for headless linux
 
 * git pull https://github.com/mort1skod/wslUbuntu.git
 * git remote -v
