@@ -3,7 +3,7 @@
 ### ~/.files (& .folders)
 #### /home/user/.files 
 ##### aka: dotfiles
-###### for:
+##### for:
 * bash
 * aliases
 * vim 
